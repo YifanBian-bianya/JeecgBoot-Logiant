@@ -38,6 +38,35 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
+
+            <plugin>
+                <!-- https://gitee.com/roseboy/classfinal -->
+                <groupId>net.roseboy</groupId>
+                <artifactId>classfinal-maven-plugin</artifactId>
+                <version>1.2.1</version>
+                <configuration>
+                    <password>000000</password>
+                    <packages>org.jeecg,org.jeecgframework</packages>
+                    <excludes>org.spring</excludes>
+                    <cfgfiles>application-dev.yml</cfgfiles>
+                    <libjars>
+                        jeecg-boot-base-core-3.7.2.jar,
+                        jeecg-boot-common-3.7.2.jar,
+                        jeecg-boot-starter-chatgpt-3.7.2.jar,
+                        jeecg-module-demo-3.7.2.jar,
+                        jeecg-system-biz-3.7.2.jar,
+                        jeecg-system-local-api-3.7.2.jar
+                    </libjars>
+                </configuration>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>classFinal</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
         </plugins>
     </build>
 
