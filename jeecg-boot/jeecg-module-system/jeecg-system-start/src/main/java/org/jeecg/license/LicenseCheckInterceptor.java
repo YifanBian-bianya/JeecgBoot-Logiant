@@ -3,6 +3,7 @@ package org.jeecg.license;
 import com.alibaba.fastjson.JSON;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.jeecg.common.api.vo.Result;
 import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
 
 import javax.servlet.http.HttpServletRequest;
@@ -30,12 +31,18 @@ public class LicenseCheckInterceptor extends HandlerInterceptorAdapter{
         if(verifyResult){
             return true;
         }else{
-            response.setCharacterEncoding("utf-8");
-            Map<String,String> result = new HashMap<>(1);
-            result.put("result","您的证书无效，请核查服务器是否取得授权或重新申请证书！");
+            // 证书无效，拦截请求并返回错误信息
 
+            // 设置响应内容类型为 JSON
+            response.setContentType("application/json;charset=UTF-8");
+
+            // 创建返回的错误信息，使用 Result 类来封装
+            Result<Map<String, String>> result = Result.error("您的证书无效，请核查服务器是否取得授权或重新申请证书！", null);
+
+            // 返回 JSON 格式的响应
             response.getWriter().write(JSON.toJSONString(result));
 
+            // 返回 false，阻止请求继续
             return false;
         }
     }
