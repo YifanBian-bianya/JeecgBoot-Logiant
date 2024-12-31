@@ -2,6 +2,7 @@ package org.jeecg.license;
 
 import de.schlichtherle.license.LicenseManager;
 import de.schlichtherle.license.LicenseParam;
+import org.jeecg.modules.license.CustomLicenseManager;
 
 /**
  * de.schlichtherle.license.LicenseManager的单例

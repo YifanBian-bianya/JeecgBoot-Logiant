@@ -1,4 +1,4 @@
-package org.jeecg.license;
+package org.jeecg.modules.license;
 
 import de.schlichtherle.license.*;
 import de.schlichtherle.xml.GenericCertificate;

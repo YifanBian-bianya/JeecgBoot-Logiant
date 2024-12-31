@@ -36,6 +36,12 @@
             <artifactId>truelicense-core</artifactId>
             <version>1.33</version>
         </dependency>
+
+        <dependency>
+            <groupId>org.jeecgframework.boot</groupId>
+            <artifactId>jeecg-module-license</artifactId>
+            <version>${jeecgboot.version}</version>
+        </dependency>
     </dependencies>
 
     <build>

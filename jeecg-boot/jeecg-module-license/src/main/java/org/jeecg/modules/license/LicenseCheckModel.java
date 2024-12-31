@@ -1,4 +1,4 @@
-package org.jeecg.license;
+package org.jeecg.modules.license;
 
 import java.io.Serializable;
 import java.util.List;
