@@ -1,14 +1,12 @@
-package cn.zifangsky.config;
+package org.jeecg.config.license;
 
-import cn.zifangsky.license.LicenseCheckInterceptor;
+import org.jeecg.license.LicenseCheckInterceptor;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
-import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 /**
  * Web相关配置
-
  */
 @Configuration
 public class WebMvcConfig implements WebMvcConfigurer {

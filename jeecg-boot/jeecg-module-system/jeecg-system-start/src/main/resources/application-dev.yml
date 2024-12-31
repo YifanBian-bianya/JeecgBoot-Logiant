@@ -343,3 +343,10 @@ justauth:
     type: default
     prefix: 'demo::'
     timeout: 1h
+
+license:
+  subject: license_demo
+  publicAlias: publicCert
+  storePass: public_password1234
+  licensePath: C:/Users/26232/Desktop/logiant/jeecg-boot/license.lic
+  publicKeysStorePath: C:/Users/26232/Desktop/logiant/jeecg-boot/publicCerts.keystore
