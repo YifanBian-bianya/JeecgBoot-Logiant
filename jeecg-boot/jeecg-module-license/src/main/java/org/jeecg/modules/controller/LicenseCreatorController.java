@@ -8,7 +8,13 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.client.RestTemplate;
 
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+import java.util.Base64;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -24,10 +30,25 @@ import java.util.Map;
 public class LicenseCreatorController {
 
     /**
-     * 证书生成路径
+     * 证书默认生成路径
      */
-    @Value("${license.licensePath}")
-    private String licensePath;
+    @Value("${license.licenseGeneratePath}")
+    private String licenseGeneratePath;
+
+    @Value("${license.storePass}")
+    private String storePassword;
+
+    @Value("${license.defaultSubject}")
+    private String licenseSubject;
+
+    @Value("${license.privateAlias}")
+    private String licensePrivateAlias;
+
+    @Value("${license.privateKeysStorePath}")
+    private String licensePrivateKeysStorePath;
+
+    @Value("${license.keyPass}")
+    private String licenseKeyPass;
 
     /**
      * 获取服务器硬件信息
@@ -87,21 +108,87 @@ public class LicenseCreatorController {
      */
     @RequestMapping(value = "/generateLicense",produces = {MediaType.APPLICATION_JSON_UTF8_VALUE})
     public Map<String,Object> generateLicense(@RequestBody(required = true) LicenseCreatorParam param) {
-        Map<String,Object> resultMap = new HashMap<>(2);
+        Map<String,Object> resultMap = new HashMap<>(3);
 
         if(StringUtils.isBlank(param.getLicensePath())){
-            param.setLicensePath(licensePath);
+            param.setLicensePath(licenseGeneratePath);
         }
+
+        if(StringUtils.isBlank(param.getStorePass())){
+            param.setStorePass(storePassword);
+        }
+
+        if(StringUtils.isBlank(param.getSubject())){
+            param.setSubject(licenseSubject);
+        }
+
+        if(StringUtils.isBlank(param.getPrivateAlias())){
+            param.setPrivateAlias(licensePrivateAlias);
+        }
+
+        if(StringUtils.isBlank(param.getPrivateKeysStorePath())){
+            param.setPrivateKeysStorePath(licensePrivateKeysStorePath);
+        }
+
+        if(StringUtils.isBlank(param.getKeyPass())){
+            param.setKeyPass(licenseKeyPass);
+        }
+
+        if(param.getIssuedTime() == null){
+            // 获取当前时间
+            LocalDateTime currentTime = LocalDateTime.now();
+            // 定义时间格式
+            DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
+            // 格式化时间
+            String formattedTime = currentTime.format(formatter);
+            // 自动设置 issuedTime
+            param.setIssuedTime(java.sql.Timestamp.valueOf(formattedTime));
+        }
+
+        String osName = System.getProperty("os.name").toLowerCase();
+        AbstractServerInfos abstractServerInfos = null;
+
+        //根据不同操作系统类型选择不同的数据获取方法
+        if (osName.startsWith("windows")) {
+            abstractServerInfos = new WindowsServerInfos();
+        } else if (osName.startsWith("linux")) {
+            abstractServerInfos = new LinuxServerInfos();
+        }else{//其他服务器类型
+            abstractServerInfos = new LinuxServerInfos();
+        }
+
+        if (abstractServerInfos.getServerInfos() == null || abstractServerInfos.getServerInfos().getIpAddress() == null || abstractServerInfos.getServerInfos().getIpAddress().isEmpty()) {
+            resultMap.put("result", "error");
+            resultMap.put("msg", "无法获取服务器信息！");
+            return resultMap;
+        }
+
+        // 将服务器信息放入请求的 LicenseCreatorParam 中
+        param.setLicenseCheckModel(abstractServerInfos.getServerInfos());
 
         LicenseCreator licenseCreator = new LicenseCreator(param);
         boolean result = licenseCreator.generateLicense();
 
-        if(result){
-            resultMap.put("result","ok");
-            resultMap.put("msg",param);
-        }else{
-            resultMap.put("result","error");
-            resultMap.put("msg","证书文件生成失败！");
+        if (result) {
+            try {
+                // 将生成的许可证文件读取为字节数组
+                byte[] licenseBytes = Files.readAllBytes(Paths.get(param.getLicensePath()));
+
+                // 对许可证文件进行 Base64 编码，生成授权码
+                String licenseCode = Base64.getEncoder().encodeToString(licenseBytes);
+
+                resultMap.put("result", "ok");
+                resultMap.put("msg", "证书文件生成成功！");
+                resultMap.put("param", param);
+                resultMap.put("licenseCode", licenseCode); // 返回生成的授权码
+
+            } catch (Exception e) {
+                resultMap.put("result", "error");
+                resultMap.put("msg", "证书生成成功，但读取文件失败：" + e.getMessage());
+            }
+        } else {
+            resultMap.put("result", "error");
+            resultMap.put("msg", "证书文件生成失败！");
         }
 
         return resultMap;

@@ -6,9 +6,11 @@ import org.apache.logging.log4j.Logger;
 import org.jeecg.modules.license.CustomKeyStoreParam;
 
 import java.io.File;
+import java.io.FileOutputStream;
 import java.text.DateFormat;
 import java.text.MessageFormat;
 import java.text.SimpleDateFormat;
+import java.util.Base64;
 import java.util.prefs.Preferences;
 
 /**
@@ -43,6 +45,66 @@ public class LicenseVerify {
         }
 
         return result;
+    }
+
+    /**
+     * 使用授权码安装证书
+     *
+     * @param licenseCode 授权码 (Base64 编码的 License)
+     * @return LicenseContent 证书内容
+     */
+    public synchronized LicenseContent installWithLicenseCode(String licenseCode) {
+        LicenseContent result = null;
+        LicenseVerifyParam param = new LicenseVerifyParam("","","","","",licenseCode);
+        try {
+            // 将 Base64 授权码解码为文件路径
+            String tempFilePath = decodeLicenseCodeToFile(licenseCode);
+
+            if (tempFilePath != null) {
+                logger.info("授权码成功转换为临时证书文件: " + tempFilePath);
+
+                // 使用生成的临时文件安装证书
+                param.setLicensePath(tempFilePath);
+                result = install(param);
+
+                // 删除临时文件
+                new File(tempFilePath).delete();
+                logger.info("安装完成后删除临时证书文件: {}", tempFilePath);
+            } else {
+                logger.error("授权码转换为文件失败！");
+            }
+        } catch (Exception e) {
+            logger.error("使用授权码安装证书失败！", e);
+        }
+
+        return result;
+    }
+
+    /**
+     * 将 Base64 授权码解码为证书文件
+     *
+     * @param licenseCode Base64 授权码
+     * @return 解码后生成的临时文件路径
+     */
+    private String decodeLicenseCodeToFile(String licenseCode) {
+        try {
+            // 解码 Base64 授权码
+            byte[] decodedBytes = Base64.getDecoder().decode(licenseCode);
+
+            // 创建临时文件
+            File tempFile = File.createTempFile("license", ".lic");
+
+            // 写入解码后的字节内容到临时文件
+            try (FileOutputStream fos = new FileOutputStream(tempFile)) {
+                fos.write(decodedBytes);
+                fos.flush();
+            }
+
+            return tempFile.getAbsolutePath();
+        } catch (Exception e) {
+            logger.error("解码授权码为文件失败！", e);
+            return null;
+        }
     }
 
     /**

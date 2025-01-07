@@ -35,7 +35,7 @@ public class LicenseCheckListener implements ApplicationListener<ContextRefreshe
     private String storePass;
 
     /**
-     * 证书生成路径
+     * 证书路径
      */
     @Value("${license.licensePath}")
     private String licensePath;

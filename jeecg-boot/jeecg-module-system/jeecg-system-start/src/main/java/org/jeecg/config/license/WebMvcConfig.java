@@ -15,6 +15,8 @@ public class WebMvcConfig implements WebMvcConfigurer {
      */
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
-        registry.addInterceptor(new LicenseCheckInterceptor()).addPathPatterns("/**") ;
+        registry.addInterceptor(new LicenseCheckInterceptor())
+                .addPathPatterns("/**")
+                .excludePathPatterns("/license","/license/**");
     }
 }

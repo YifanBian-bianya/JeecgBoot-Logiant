@@ -34,16 +34,22 @@ public class LicenseVerifyParam {
      */
     private String publicKeysStorePath;
 
+    /**
+     * 公钥别称
+     */
+    private String licenseCode;
+
     public LicenseVerifyParam() {
 
     }
 
-    public LicenseVerifyParam(String subject, String publicAlias, String storePass, String licensePath, String publicKeysStorePath) {
+    public LicenseVerifyParam(String subject, String publicAlias, String storePass, String licensePath, String publicKeysStorePath, String licenseCode) {
         this.subject = subject;
         this.publicAlias = publicAlias;
         this.storePass = storePass;
         this.licensePath = licensePath;
         this.publicKeysStorePath = publicKeysStorePath;
+        this.licenseCode = licenseCode;
     }
 
     public String getSubject() {
@@ -85,6 +91,10 @@ public class LicenseVerifyParam {
     public void setPublicKeysStorePath(String publicKeysStorePath) {
         this.publicKeysStorePath = publicKeysStorePath;
     }
+
+    public String getLicenseCode() {return licenseCode;}
+
+    public void setLicenseCode(String licenseCode) {this.licenseCode = licenseCode;}
 
     @Override
     public String toString() {
