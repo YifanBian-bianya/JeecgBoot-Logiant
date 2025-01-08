@@ -1,10 +1,8 @@
 package org.jeecg.license;
 
-import lombok.var;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.jeecg.license.LicenseVerify;
-import org.jeecg.license.LicenseVerifyParam;
+import org.jeecg.modules.license.LicenseCreatorParam;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
 
@@ -58,5 +56,11 @@ public class LicenseController {
         return response;
     }
 
-
+    @PostMapping(value = "/requestLicense", produces = MediaType.APPLICATION_JSON_VALUE)
+    public Map<String, Object> requestLicense(@RequestBody(required = true) LicenseCreatorParam param) throws Exception {
+        Map<String, Object> response = new HashMap<>();
+        LicenseClient licenseClient = new LicenseClient();
+        response.put("message", licenseClient.sendRequest(param));
+        return response;
+    }
 }

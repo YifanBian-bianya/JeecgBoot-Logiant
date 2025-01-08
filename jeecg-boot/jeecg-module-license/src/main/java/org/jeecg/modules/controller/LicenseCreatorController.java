@@ -1,5 +1,6 @@
 package org.jeecg.modules.controller;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.commons.lang3.StringUtils;
 import org.jeecg.modules.license.*;
 import org.springframework.beans.factory.annotation.Value;
@@ -8,13 +9,18 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.client.RestTemplate;
 
+import javax.crypto.Cipher;
+import javax.crypto.KeyGenerator;
+import javax.crypto.SecretKey;
+import javax.crypto.spec.SecretKeySpec;
 import java.nio.file.Files;
 import java.nio.file.Paths;
+import java.security.SecureRandom;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Base64;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -49,6 +55,8 @@ public class LicenseCreatorController {
 
     @Value("${license.keyPass}")
     private String licenseKeyPass;
+
+    private static final String AES_KEY = "your_secure_key"; // 固定的AES密钥
 
     /**
      * 获取服务器硬件信息
@@ -192,6 +200,101 @@ public class LicenseCreatorController {
         }
 
         return resultMap;
+    }
+
+    @RequestMapping("/encryptGenerateRequest")
+    public Map<String,Object> EncryptGenerateRequest(@RequestBody String encryptedRequest) {
+        Map<String,Object> resultMap = new HashMap<>(3);
+        try {
+            // 解密请求体
+            LicenseCreatorParam decryptedData = decryptAES(encryptedRequest);
+
+            // 获取请求时间戳
+            Date requestTimestamp = decryptedData.getLicenseCheckModel().getTimestamp();
+
+            // 校验时间戳是否超过3分钟
+            if (requestTimestamp == null) {
+                resultMap.put("result", "error");
+                resultMap.put("msg", "请求时间戳为空！");
+                return resultMap;
+            }
+
+            // 当前时间
+            Date currentTime = new Date();
+
+            // 计算时间差（毫秒）
+            long timeDifference = currentTime.getTime() - requestTimestamp.getTime();
+
+            // 超过3分钟（3分钟 = 3 * 60 * 1000 毫秒）
+            if (timeDifference > 3 * 60 * 1000 || timeDifference < 0) {
+                resultMap.put("result", "error");
+                resultMap.put("msg", "请求已过期或时间不合法！");
+                return resultMap;
+            }
+
+
+            //添加服务端才有的的私钥字段
+            decryptedData.setSubject(licenseSubject);
+            decryptedData.setKeyPass(licenseKeyPass);
+            decryptedData.setPrivateAlias(licensePrivateAlias);
+            decryptedData.setLicensePath(licenseGeneratePath);
+            decryptedData.setPrivateKeysStorePath(licensePrivateKeysStorePath);
+            decryptedData.setStorePass(storePassword);
+
+            System.out.println("完整的请求体：" + decryptedData);
+
+            LicenseCreator licenseCreator = new LicenseCreator(decryptedData);
+            boolean result = licenseCreator.generateLicense();
+
+            if (result) {
+                try {
+                    // 将生成的许可证文件读取为字节数组
+                    byte[] licenseBytes = Files.readAllBytes(Paths.get(decryptedData.getLicensePath()));
+
+                    // 对许可证文件进行 Base64 编码，生成授权码
+                    String licenseCode = Base64.getEncoder().encodeToString(licenseBytes);
+
+                    resultMap.put("result", "ok");
+                    resultMap.put("msg", "证书文件生成成功！");
+                    resultMap.put("param", decryptedData.toString());
+                    resultMap.put("licenseCode", licenseCode); // 返回生成的授权码
+
+                } catch (Exception e) {
+                    resultMap.put("result", "error");
+                    resultMap.put("msg", "证书生成成功，但读取文件失败：" + e.getMessage());
+                }
+            } else {
+                resultMap.put("result", "error");
+                resultMap.put("msg", "证书文件生成失败！");
+            }
+
+            return resultMap;
+
+        } catch (Exception e) {
+            e.printStackTrace();
+            resultMap.put("result", e.getMessage());
+            return resultMap;
+        }
+    }
+
+    // AES 解密方法
+    private static LicenseCreatorParam decryptAES(String encryptedData) throws Exception {
+        KeyGenerator keyGen = KeyGenerator.getInstance("AES");
+        SecureRandom secureRandom = SecureRandom.getInstance("SHA1PRNG");
+        secureRandom.setSeed(LicenseCreatorController.AES_KEY.getBytes());
+        keyGen.init(128, secureRandom);
+        SecretKey secretKey = keyGen.generateKey();
+        byte[] enCodeFormat = secretKey.getEncoded();
+        SecretKeySpec keySpec = new SecretKeySpec(enCodeFormat, "AES");
+
+        Cipher cipher = Cipher.getInstance("AES");
+        cipher.init(Cipher.DECRYPT_MODE, keySpec);
+        byte[] decryptedData = cipher.doFinal(Base64.getDecoder().decode(encryptedData));
+        String json = new String(decryptedData, "UTF-8");
+
+        // 使用 Jackson 将 JSON 映射为 LicenseCreatorParam 对象
+        ObjectMapper objectMapper = new ObjectMapper();
+        return objectMapper.readValue(json, LicenseCreatorParam.class);
     }
 
 }

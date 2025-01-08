@@ -1,6 +1,9 @@
 package org.jeecg.modules.license;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
+
 import java.io.Serializable;
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -28,6 +31,12 @@ public class LicenseCheckModel implements Serializable{
      * 可被允许的主板序列号
      */
     private String mainBoardSerial;
+
+    /**
+     * 请求发起时间
+     */
+    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss", timezone = "GMT+8")
+    private Date timestamp;
 
     public List<String> getIpAddress() {
         return ipAddress;
@@ -61,6 +70,14 @@ public class LicenseCheckModel implements Serializable{
         this.mainBoardSerial = mainBoardSerial;
     }
 
+    public Date getTimestamp() {
+        return timestamp;
+    }
+
+    public void setTimestamp(Date timestamp) {
+        this.timestamp = timestamp;
+    }
+
     @Override
     public String toString() {
         return "LicenseCheckModel{" +
@@ -68,6 +85,7 @@ public class LicenseCheckModel implements Serializable{
                 ", macAddress=" + macAddress +
                 ", cpuSerial='" + cpuSerial + '\'' +
                 ", mainBoardSerial='" + mainBoardSerial + '\'' +
+                ", timestamp=" + timestamp +
                 '}';
     }
 }
