@@ -2,7 +2,10 @@ package org.jeecg.modules.controller;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.commons.lang3.StringUtils;
+import org.jeecg.modules.entity.LicenseHistory;
 import org.jeecg.modules.license.*;
+import org.jeecg.modules.service.ILicenseHistoryService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -55,6 +58,13 @@ public class LicenseCreatorController {
 
     @Value("${license.keyPass}")
     private String licenseKeyPass;
+
+    private final ILicenseHistoryService licenseHistoryService;
+
+    @Autowired
+    public LicenseCreatorController(ILicenseHistoryService licenseHistoryService) {
+        this.licenseHistoryService = licenseHistoryService;
+    }
 
     private static final String AES_KEY = "your_secure_key"; // 固定的AES密钥
 
@@ -243,6 +253,16 @@ public class LicenseCreatorController {
 
             System.out.println("完整的请求体：" + decryptedData);
 
+            LicenseHistory history = new LicenseHistory();
+            history.setLicenseType("某类型");
+            history.setProjectName(decryptedData.getSubject());
+            history.setMacAddress(decryptedData.getLicenseCheckModel().getMacAddress().toString());
+            history.setIssuedTime(decryptedData.getIssuedTime());
+            history.setExpiryTime(decryptedData.getExpiryTime());
+            history.setPrivateKeyName(decryptedData.getPrivateAlias());
+            history.setOperator(decryptedData.getConsumerType());
+            history.setOperationTime(decryptedData.getLicenseCheckModel().getTimestamp());
+
             LicenseCreator licenseCreator = new LicenseCreator(decryptedData);
             boolean result = licenseCreator.generateLicense();
 
@@ -253,6 +273,7 @@ public class LicenseCreatorController {
 
                     // 对许可证文件进行 Base64 编码，生成授权码
                     String licenseCode = Base64.getEncoder().encodeToString(licenseBytes);
+                    history.setLicenseCode(licenseCode);
 
                     resultMap.put("result", "ok");
                     resultMap.put("msg", "证书文件生成成功！");
@@ -268,6 +289,7 @@ public class LicenseCreatorController {
                 resultMap.put("msg", "证书文件生成失败！");
             }
 
+            licenseHistoryService.save(history);
             return resultMap;
 
         } catch (Exception e) {

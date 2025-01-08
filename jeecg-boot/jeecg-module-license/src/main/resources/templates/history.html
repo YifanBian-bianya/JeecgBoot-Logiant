@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>历史授权记录</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid #ccc;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+        .detail-container {
+            margin-top: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+        .detail-container h3 {
+            margin: 0 0 10px 0;
+        }
+        button {
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #f0f0f0;
+        }
+    </style>
+</head>
+<body>
+<h1>历史授权记录</h1>
+
+<table id="historyTable">
+    <thead>
+    <tr>
+        <th>授权类型</th>
+        <th>项目简称</th>
+        <th>MAC地址/用户名</th>
+        <th>有效开始日期</th>
+        <th>有效截至日期</th>
+        <th>私钥名称</th>
+        <th>操作人</th>
+        <th>操作日期</th>
+        <th>操作</th>
+    </tr>
+    </thead>
+    <tbody id="historyTableBody">
+    <!-- 动态加载记录 -->
+    </tbody>
+</table>
+
+<div id="detailContainer" class="detail-container" style="display: none;">
+    <h3>授权详情</h3>
+    <p><strong>授权码：</strong> <span id="licenseCode"></span></p>
+</div>
+
+<script>
+    // 定义后端 API 地址
+    const API_BASE_URL = 'http://localhost:7000/license/history';
+
+    // 获取授权记录列表
+    async function fetchHistoryList() {
+        try {
+            const response = await fetch(`${API_BASE_URL}/list`);
+            if (!response.ok) {
+                throw new Error('获取历史记录失败！');
+            }
+            const records = await response.json();
+            renderHistoryTable(records);
+        } catch (error) {
+            console.error('Error:', error.message);
+        }
+    }
+
+    // 渲染记录表格
+    function renderHistoryTable(records) {
+        const tableBody = document.getElementById('historyTableBody');
+        tableBody.innerHTML = ''; // 清空现有内容
+
+        records.forEach((record) => {
+            const row = document.createElement('tr');
+
+            // 填充每一列
+            row.innerHTML = `
+          <td>${record.licenseType}</td>
+          <td>${record.projectName}</td>
+          <td>${record.macAddress || record.username}</td>
+          <td>${new Date(record.issuedTime).toLocaleString()}</td>
+          <td>${new Date(record.expiryTime).toLocaleString()}</td>
+          <td>${record.privateKeyName}</td>
+          <td>${record.operator}</td>
+          <td>${new Date(record.operationTime).toLocaleString()}</td>
+          <td><button onclick="viewDetail(${record.id})">查看详情</button></td>
+        `;
+
+            tableBody.appendChild(row);
+        });
+    }
+
+    // 查看详情
+    async function viewDetail(id) {
+        try {
+            const response = await fetch(`${API_BASE_URL}/detail/${id}`);
+            if (!response.ok) {
+                throw new Error('获取授权详情失败！');
+            }
+            const record = await response.json();
+            showDetail(record);
+        } catch (error) {
+            console.error('Error:', error.message);
+        }
+    }
+
+    // 显示详情
+    function showDetail(record) {
+        const detailContainer = document.getElementById('detailContainer');
+        const licenseCodeElement = document.getElementById('licenseCode');
+
+        licenseCodeElement.textContent = record.licenseCode; // 显示授权码
+        detailContainer.style.display = 'block'; // 显示详情容器
+    }
+
+    // 初始化页面
+    fetchHistoryList();
+</script>
+</body>
+</html>
