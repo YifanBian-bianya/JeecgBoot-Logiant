@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>logiant-visual</artifactId>
+        <groupId>com.logiant</groupId>
+        <version>1.0.0</version>
+    </parent>
+
+    <modelVersion>4.0.0</modelVersion>
+    <packaging>pom</packaging>
+    <artifactId>logiant-cloud-test</artifactId>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.logiant</groupId>
+            <artifactId>logiant-base-core</artifactId>
+        </dependency>
+    </dependencies>
+
+    <modules>
+        <module>logiant-cloud-test-shardingsphere</module>
+        <module>logiant-cloud-test-more</module>
+        <module>logiant-cloud-test-rabbitmq</module>
+        <module>logiant-cloud-test-seata</module>
+        <module>logiant-cloud-test-rocketmq</module>
+    </modules>
+</project>

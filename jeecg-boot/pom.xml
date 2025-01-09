@@ -1,10 +1,10 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>org.jeecgframework.boot</groupId>
-  <artifactId>jeecg-boot-parent</artifactId>
-  <version>3.7.2</version>
+  <groupId>com.logiant</groupId>
+  <artifactId>logiant-parent</artifactId>
+  <version>1.0.0</version>
   <packaging>pom</packaging>
-  <name>JEECG BOOT ${project.version}</name>
+  <name>LOGIANT BOOT ${project.version}</name>
 
 	<developers>
 		<developer>
@@ -28,7 +28,8 @@
 	</parent>
 
 	<properties>
-		<jeecgboot.version>3.7.2</jeecgboot.version>
+		<jeecg.version>3.7.2</jeecg.version>
+		<logiant.version>1.0.0</logiant.version>
 		<java.version>1.8</java.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
@@ -82,9 +83,11 @@
 	</properties>
 
 	<modules>
-        <module>jeecg-boot-base-core</module>
-        <module>jeecg-module-demo</module>
-        <module>jeecg-module-system</module>
+        <module>logiant-base-core</module>
+		<module>logiant-module-license-core</module>
+		<module>logiant-module-license</module>
+        <module>logiant-module-demo</module>
+        <module>logiant-module-portal</module>
     </modules>
 
 	<repositories>
@@ -179,70 +182,70 @@
 
 			<!-- system 模块-->
 			<dependency>
-				<groupId>org.jeecgframework.boot</groupId>
-				<artifactId>jeecg-system-biz</artifactId>
-				<version>${jeecgboot.version}</version>
+				<groupId>com.logiant</groupId>
+				<artifactId>logiant-portal-biz</artifactId>
+				<version>${logiant.version}</version>
 			</dependency>
 
 			<!-- jeecg tools -->
 			<dependency>
 				<groupId>org.jeecgframework.boot</groupId>
 				<artifactId>jeecg-boot-common</artifactId>
-				<version>${jeecgboot.version}</version>
+				<version>${jeecg.version}</version>
 			</dependency>
 			<!-- jeecg core -->
 			<dependency>
-				<groupId>org.jeecgframework.boot</groupId>
-				<artifactId>jeecg-boot-base-core</artifactId>
-				<version>${jeecgboot.version}</version>
+				<groupId>com.logiant</groupId>
+				<artifactId>logiant-base-core</artifactId>
+				<version>${logiant.version}</version>
 			</dependency>
 			<!-- system 单体 api -->
 			<dependency>
-				<groupId>org.jeecgframework.boot</groupId>
-				<artifactId>jeecg-system-local-api</artifactId>
-				<version>${jeecgboot.version}</version>
+				<groupId>com.logiant</groupId>
+				<artifactId>logiant-portal-local-api</artifactId>
+				<version>${logiant.version}</version>
 			</dependency>
 			<!-- system 微服务 api -->
 			<dependency>
-				<groupId>org.jeecgframework.boot</groupId>
-				<artifactId>jeecg-system-cloud-api</artifactId>
-				<version>${jeecgboot.version}</version>
+				<groupId>com.logiant</groupId>
+				<artifactId>logiant-portal-cloud-api</artifactId>
+				<version>${logiant.version}</version>
 			</dependency>
 
             <!--微服务启动依赖-->
             <dependency>
                 <groupId>org.jeecgframework.boot</groupId>
                 <artifactId>jeecg-boot-starter-cloud</artifactId>
-                <version>${jeecgboot.version}</version>
+                <version>${jeecg.version}</version>
             </dependency>
 			<!--xxl-job定时任务-->
 			<dependency>
 				<groupId>org.jeecgframework.boot</groupId>
 				<artifactId>jeecg-boot-starter-job</artifactId>
-				<version>${jeecgboot.version}</version>
+				<version>${jeecg.version}</version>
 			</dependency>
 			<!--redis分布式锁-->
 			<dependency>
 				<groupId>org.jeecgframework.boot</groupId>
 				<artifactId>jeecg-boot-starter-lock</artifactId>
-				<version>${jeecgboot.version}</version>
+				<version>${jeecg.version}</version>
 			</dependency>
 			<!--rabbitmq消息队列-->
 			<dependency>
 				<groupId>org.jeecgframework.boot</groupId>
 				<artifactId>jeecg-boot-starter-rabbitmq</artifactId>
-				<version>${jeecgboot.version}</version>
+				<version>${jeecg.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>org.jeecgframework.boot</groupId>
 				<artifactId>jeecg-boot-starter-rocketmq</artifactId>
-				<version>${jeecgboot.version}</version>
+				<version>${jeecg.version}</version>
 			</dependency>
 			<!--分库分表shardingsphere-->
 			<dependency>
 				<groupId>org.jeecgframework.boot</groupId>
 				<artifactId>jeecg-boot-starter-shardingsphere</artifactId>
-				<version>${jeecgboot.version}</version>
+				<version>${jeecg.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>org.hibernate</groupId>
@@ -265,7 +268,7 @@
 			<dependency>
 				<groupId>org.jeecgframework.boot</groupId>
 				<artifactId>jeecg-boot-starter-mongon</artifactId>
-				<version>${jeecgboot.version}</version>
+				<version>${jeecg.version}</version>
 			</dependency>
 
 			<!-- 七牛云SDK -->
@@ -418,7 +421,7 @@
 			<dependency>
 				<groupId>org.jeecgframework.boot</groupId>
 				<artifactId>jeecg-boot-starter-chatgpt</artifactId>
-				<version>${jeecgboot.version}</version>
+				<version>${jeecg.version}</version>
 			</dependency>
 			<!--flyway 支持 mysql5.7+、MariaDB10.3.16-->
 			<!--mysql5.6，需要把版本号改成5.2.1-->
@@ -575,7 +578,7 @@
 			<id>SpringCloud</id>
 			<modules>
 				<!-- 微服务模块 -->
-				<module>jeecg-server-cloud</module>
+				<module>logiant-server-cloud</module>
 			</modules>
 		</profile>
     </profiles>

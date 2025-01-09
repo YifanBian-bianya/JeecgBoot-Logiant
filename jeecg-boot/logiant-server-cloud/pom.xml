@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>logiant-parent</artifactId>
+        <groupId>com.logiant</groupId>
+        <version>1.0.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>logiant-server-cloud</artifactId>
+    <packaging>pom</packaging>
+    <name>LOGIANT SERVER CLOUD</name>
+    
+    <modules>
+        <module>logiant-cloud-gateway</module>
+        <module>logiant-cloud-nacos</module>
+        <module>logiant-system-cloud-start</module>
+        <module>logiant-demo-cloud-start</module>
+        
+        <!-- 监控和测试例子 -->
+        <module>logiant-visual</module>
+    </modules>
+
+</project>
