@@ -1,11 +1,11 @@
-package org.jeecg.modules.system.test;
+package com.logiant.modules.system.test;
 
 import com.alibaba.fastjson.JSONObject;
-import org.jeecg.JeecgSystemApplication;
-import org.jeecg.common.constant.CommonConstant;
-import org.jeecg.common.system.util.JwtUtil;
+import com.logiant.JeecgSystemApplication;
+import com.logiant.common.constant.CommonConstant;
+import com.logiant.common.system.util.JwtUtil;
 import org.jeecg.common.util.RedisUtil;
-import org.jeecg.common.util.RestUtil;
+import com.logiant.common.util.RestUtil;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,4 +1,4 @@
-package org.jeecg.modules.system.model;
+package com.logiant.modules.system.model;
 
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;

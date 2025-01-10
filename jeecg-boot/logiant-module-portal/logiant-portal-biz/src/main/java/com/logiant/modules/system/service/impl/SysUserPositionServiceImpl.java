@@ -1,16 +1,16 @@
-package org.jeecg.modules.system.service.impl;
+package com.logiant.modules.system.service.impl;
 
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import org.jeecg.common.constant.SymbolConstant;
-import org.jeecg.common.exception.JeecgBootException;
-import org.jeecg.common.util.oConvertUtils;
-import org.jeecg.modules.system.entity.SysPosition;
-import org.jeecg.modules.system.entity.SysUser;
-import org.jeecg.modules.system.entity.SysUserPosition;
-import org.jeecg.modules.system.mapper.SysUserMapper;
-import org.jeecg.modules.system.mapper.SysUserPositionMapper;
-import org.jeecg.modules.system.service.ISysUserPositionService;
+import com.logiant.common.constant.SymbolConstant;
+import com.logiant.common.exception.JeecgBootException;
+import com.logiant.common.util.oConvertUtils;
+import com.logiant.modules.system.entity.SysPosition;
+import com.logiant.modules.system.entity.SysUser;
+import com.logiant.modules.system.entity.SysUserPosition;
+import com.logiant.modules.system.mapper.SysUserMapper;
+import com.logiant.modules.system.mapper.SysUserPositionMapper;
+import com.logiant.modules.system.service.ISysUserPositionService;
 import org.springframework.stereotype.Service;
 
 import java.util.*;

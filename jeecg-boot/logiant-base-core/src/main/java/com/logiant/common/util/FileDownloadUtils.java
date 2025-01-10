@@ -1,8 +1,8 @@
-package org.jeecg.common.util;
+package com.logiant.common.util;
 
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.io.FilenameUtils;
-import org.jeecg.common.exception.JeecgBootException;
+import com.logiant.common.exception.JeecgBootException;
 
 import javax.servlet.http.HttpServletResponse;
 import java.io.*;

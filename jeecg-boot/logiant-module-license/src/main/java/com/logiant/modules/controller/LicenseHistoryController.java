@@ -1,7 +1,7 @@
-package org.jeecg.modules.controller;
+package com.logiant.modules.controller;
 
-import org.jeecg.modules.entity.LicenseHistory;
-import org.jeecg.modules.service.LicenseHistoryService;
+import com.logiant.modules.entity.LicenseHistory;
+import com.logiant.modules.service.LicenseHistoryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

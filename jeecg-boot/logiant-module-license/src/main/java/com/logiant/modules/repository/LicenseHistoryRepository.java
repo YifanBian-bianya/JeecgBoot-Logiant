@@ -1,6 +1,6 @@
-package org.jeecg.modules.repository;
+package com.logiant.modules.repository;
 
-import org.jeecg.modules.entity.LicenseHistory;
+import com.logiant.modules.entity.LicenseHistory;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

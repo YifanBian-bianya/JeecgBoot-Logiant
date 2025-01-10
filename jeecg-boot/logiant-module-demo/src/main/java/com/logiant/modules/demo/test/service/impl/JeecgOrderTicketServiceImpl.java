@@ -1,10 +1,10 @@
-package org.jeecg.modules.demo.test.service.impl;
+package com.logiant.modules.demo.test.service.impl;
 
 import java.util.List;
 
-import org.jeecg.modules.demo.test.entity.JeecgOrderTicket;
-import org.jeecg.modules.demo.test.mapper.JeecgOrderTicketMapper;
-import org.jeecg.modules.demo.test.service.IJeecgOrderTicketService;
+import com.logiant.modules.demo.test.entity.JeecgOrderTicket;
+import com.logiant.modules.demo.test.mapper.JeecgOrderTicketMapper;
+import com.logiant.modules.demo.test.service.IJeecgOrderTicketService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

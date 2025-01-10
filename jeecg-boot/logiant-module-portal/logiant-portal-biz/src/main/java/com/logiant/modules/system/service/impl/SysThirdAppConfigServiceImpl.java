@@ -1,11 +1,11 @@
-package org.jeecg.modules.system.service.impl;
+package com.logiant.modules.system.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import lombok.extern.slf4j.Slf4j;
-import org.jeecg.modules.system.entity.SysThirdAppConfig;
-import org.jeecg.modules.system.mapper.SysThirdAppConfigMapper;
-import org.jeecg.modules.system.service.ISysThirdAppConfigService;
+import com.logiant.modules.system.entity.SysThirdAppConfig;
+import com.logiant.modules.system.mapper.SysThirdAppConfigMapper;
+import com.logiant.modules.system.service.ISysThirdAppConfigService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

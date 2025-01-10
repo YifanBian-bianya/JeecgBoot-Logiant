@@ -1,8 +1,8 @@
-package org.jeecg.modules.quartz.entity;
+package com.logiant.modules.quartz.entity;
 
 import java.io.Serializable;
 
-import org.jeecg.common.aspect.annotation.Dict;
+import com.logiant.common.aspect.annotation.Dict;
 import org.jeecgframework.poi.excel.annotation.Excel;
 import org.springframework.format.annotation.DateTimeFormat;
 

@@ -1,4 +1,4 @@
-package org.jeecg.config.shiro.filters;
+package com.logiant.config.shiro.filters;
 
 import lombok.extern.slf4j.Slf4j;
 import org.apache.shiro.spring.web.ShiroFilterFactoryBean;

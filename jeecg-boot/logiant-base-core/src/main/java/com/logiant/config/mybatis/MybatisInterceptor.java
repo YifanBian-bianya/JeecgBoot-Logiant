@@ -1,4 +1,4 @@
-package org.jeecg.config.mybatis;
+package com.logiant.config.mybatis;
 
 import lombok.extern.slf4j.Slf4j;
 import org.apache.ibatis.binding.MapperMethod.ParamMap;
@@ -8,11 +8,11 @@ import org.apache.ibatis.mapping.SqlCommandType;
 import org.apache.ibatis.plugin.*;
 import org.apache.shiro.SecurityUtils;
 import org.jeecg.common.config.TenantContext;
-import org.jeecg.common.constant.TenantConstant;
-import org.jeecg.common.system.vo.LoginUser;
-import org.jeecg.common.util.SpringContextUtils;
-import org.jeecg.common.util.TokenUtils;
-import org.jeecg.common.util.oConvertUtils;
+import com.logiant.common.constant.TenantConstant;
+import com.logiant.common.system.vo.LoginUser;
+import com.logiant.common.util.SpringContextUtils;
+import com.logiant.common.util.TokenUtils;
+import com.logiant.common.util.oConvertUtils;
 import org.springframework.stereotype.Component;
 
 import java.lang.reflect.Field;

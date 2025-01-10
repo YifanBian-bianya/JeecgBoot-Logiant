@@ -1,9 +1,9 @@
-package org.jeecg.license;
+package com.logiant.license;
 
 import de.schlichtherle.license.*;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.jeecg.modules.license.CustomKeyStoreParam;
+import com.logiant.modules.license.CustomKeyStoreParam;
 
 import java.io.File;
 import java.io.FileOutputStream;

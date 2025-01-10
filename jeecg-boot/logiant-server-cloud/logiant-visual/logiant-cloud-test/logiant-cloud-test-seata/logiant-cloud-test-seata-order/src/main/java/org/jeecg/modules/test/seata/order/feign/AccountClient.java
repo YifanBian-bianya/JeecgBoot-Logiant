@@ -1,4 +1,4 @@
-package org.jeecg.modules.test.seata.order.feign;
+package com.logiant.modules.test.seata.order.feign;
 
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.PostMapping;

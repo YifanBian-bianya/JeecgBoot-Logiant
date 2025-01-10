@@ -1,7 +1,7 @@
-package org.jeecg.common.util;
+package com.logiant.common.util;
 
 import cn.hutool.core.date.DateUtil;
-import org.jeecg.common.constant.enums.DateRangeEnum;
+import com.logiant.common.constant.enums.DateRangeEnum;
 
 import java.util.Calendar;
 import java.util.Date;

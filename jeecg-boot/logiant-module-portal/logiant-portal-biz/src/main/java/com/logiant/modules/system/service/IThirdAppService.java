@@ -1,7 +1,7 @@
-package org.jeecg.modules.system.service;
+package com.logiant.modules.system.service;
 
-import org.jeecg.common.api.dto.message.MessageDTO;
-import org.jeecg.modules.system.vo.thirdapp.SyncInfoVo;
+import com.logiant.common.api.dto.message.MessageDTO;
+import com.logiant.modules.system.vo.thirdapp.SyncInfoVo;
 
 import java.util.List;
 

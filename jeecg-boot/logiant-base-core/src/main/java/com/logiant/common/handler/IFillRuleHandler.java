@@ -1,4 +1,4 @@
-package org.jeecg.common.handler;
+package com.logiant.common.handler;
 
 import com.alibaba.fastjson.JSONObject;
 

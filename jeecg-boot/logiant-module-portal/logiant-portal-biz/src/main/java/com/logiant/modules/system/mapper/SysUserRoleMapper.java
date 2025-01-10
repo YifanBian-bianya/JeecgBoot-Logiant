@@ -1,9 +1,9 @@
-package org.jeecg.modules.system.mapper;
+package com.logiant.modules.system.mapper;
 
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
-import org.jeecg.modules.system.entity.SysUserRole;
+import com.logiant.modules.system.entity.SysUserRole;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**

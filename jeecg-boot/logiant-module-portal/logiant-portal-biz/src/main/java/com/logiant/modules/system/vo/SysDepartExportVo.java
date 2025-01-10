@@ -1,7 +1,7 @@
-package org.jeecg.modules.system.vo;
+package com.logiant.modules.system.vo;
 
 import lombok.Data;
-import org.jeecg.common.aspect.annotation.Dict;
+import com.logiant.common.aspect.annotation.Dict;
 import org.jeecgframework.poi.excel.annotation.Excel;
 
 @Data

@@ -1,4 +1,4 @@
-package org.jeecg.modules.message.handle.enums;
+package com.logiant.modules.message.handle.enums;
 
 /**
  * 推送状态枚举

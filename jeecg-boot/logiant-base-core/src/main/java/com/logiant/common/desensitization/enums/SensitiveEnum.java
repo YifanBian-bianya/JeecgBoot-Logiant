@@ -1,4 +1,4 @@
-package org.jeecg.common.desensitization.enums;
+package com.logiant.common.desensitization.enums;
 
 /**
  * 敏感字段信息类型

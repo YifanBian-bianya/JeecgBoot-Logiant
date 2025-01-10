@@ -1,10 +1,10 @@
-package org.jeecg.modules.system.model;
+package com.logiant.modules.system.model;
 
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
-import org.jeecg.modules.system.entity.SysPermission;
+import com.logiant.modules.system.entity.SysPermission;
 
 /**
  * @Description: 菜单树，封装树结构

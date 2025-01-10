@@ -1,4 +1,4 @@
-package org.jeecg.config.mybatis;
+package com.logiant.config.mybatis;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,11 +7,11 @@ import cn.hutool.core.util.ObjectUtil;
 import com.baomidou.mybatisplus.extension.plugins.inner.DynamicTableNameInnerInterceptor;
 import com.baomidou.mybatisplus.extension.plugins.inner.OptimisticLockerInnerInterceptor;
 import org.jeecg.common.config.TenantContext;
-import org.jeecg.common.constant.CommonConstant;
-import org.jeecg.common.constant.TenantConstant;
-import org.jeecg.common.util.SpringContextUtils;
-import org.jeecg.common.util.TokenUtils;
-import org.jeecg.common.util.oConvertUtils;
+import com.logiant.common.constant.CommonConstant;
+import com.logiant.common.constant.TenantConstant;
+import com.logiant.common.util.SpringContextUtils;
+import com.logiant.common.util.TokenUtils;
+import com.logiant.common.util.oConvertUtils;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

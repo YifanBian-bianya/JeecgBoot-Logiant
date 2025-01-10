@@ -1,8 +1,8 @@
-package org.jeecg.license;
+package com.logiant.license;
 
 import de.schlichtherle.license.LicenseManager;
 import de.schlichtherle.license.LicenseParam;
-import org.jeecg.modules.license.CustomLicenseManager;
+import com.logiant.modules.license.CustomLicenseManager;
 
 /**
  * de.schlichtherle.license.LicenseManager的单例

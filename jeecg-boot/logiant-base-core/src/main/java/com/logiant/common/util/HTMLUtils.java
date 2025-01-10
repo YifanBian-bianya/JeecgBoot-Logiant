@@ -1,4 +1,4 @@
-package org.jeecg.common.util;
+package com.logiant.common.util;
 
 import org.apache.commons.lang3.StringUtils;
 import org.commonmark.node.Node;

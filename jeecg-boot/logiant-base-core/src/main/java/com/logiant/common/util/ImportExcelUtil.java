@@ -1,10 +1,10 @@
-package org.jeecg.common.util;
+package com.logiant.common.util;
 
 import com.alibaba.fastjson.JSONObject;
 import com.baomidou.mybatisplus.extension.service.IService;
 import lombok.extern.slf4j.Slf4j;
-import org.jeecg.common.api.vo.Result;
-import org.jeecg.common.constant.CommonConstant;
+import com.logiant.common.api.vo.Result;
+import com.logiant.common.constant.CommonConstant;
 
 import java.io.File;
 import java.io.IOException;

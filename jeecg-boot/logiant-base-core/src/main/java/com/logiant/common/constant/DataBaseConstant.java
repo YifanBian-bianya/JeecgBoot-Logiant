@@ -1,4 +1,4 @@
-package org.jeecg.common.constant;
+package com.logiant.common.constant;
 /**
  * 数据库上下文常量
  * @author: jeecg-boot

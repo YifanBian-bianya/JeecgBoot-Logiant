@@ -1,4 +1,4 @@
-package org.jeecg.modules.license;
+package com.logiant.modules.license;
 
 import java.net.InetAddress;
 import java.util.List;

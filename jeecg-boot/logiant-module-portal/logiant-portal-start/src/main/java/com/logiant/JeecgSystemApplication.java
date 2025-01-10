@@ -1,7 +1,7 @@
-package org.jeecg;
+package com.logiant;
 
 import lombok.extern.slf4j.Slf4j;
-import org.jeecg.common.util.oConvertUtils;
+import com.logiant.common.util.oConvertUtils;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;

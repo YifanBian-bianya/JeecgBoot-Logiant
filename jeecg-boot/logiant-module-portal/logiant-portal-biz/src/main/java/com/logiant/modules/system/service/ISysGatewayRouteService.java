@@ -1,8 +1,8 @@
-package org.jeecg.modules.system.service;
+package com.logiant.modules.system.service;
 
 import com.alibaba.fastjson.JSONObject;
 import com.baomidou.mybatisplus.extension.service.IService;
-import org.jeecg.modules.system.entity.SysGatewayRoute;
+import com.logiant.modules.system.entity.SysGatewayRoute;
 
 import java.util.List;
 

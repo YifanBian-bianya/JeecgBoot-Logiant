@@ -1,4 +1,4 @@
-package org.jeecg.config.flyway;
+package com.logiant.config.flyway;
 
 import com.baomidou.dynamic.datasource.DynamicRoutingDataSource;
 import lombok.extern.slf4j.Slf4j;

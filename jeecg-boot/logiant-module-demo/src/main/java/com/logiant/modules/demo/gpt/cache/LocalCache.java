@@ -1,4 +1,4 @@
-package org.jeecg.modules.demo.gpt.cache;
+package com.logiant.modules.demo.gpt.cache;
 
 import cn.hutool.cache.CacheUtil;
 import cn.hutool.cache.impl.TimedCache;

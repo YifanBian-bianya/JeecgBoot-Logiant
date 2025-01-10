@@ -1,4 +1,4 @@
-package org.jeecg.modules.monitor.service.impl;
+package com.logiant.modules.monitor.service.impl;
 
 import java.util.*;
 
@@ -8,10 +8,10 @@ import cn.hutool.core.date.DateUtil;
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
 import com.google.common.collect.Maps;
-import org.jeecg.common.util.oConvertUtils;
-import org.jeecg.modules.monitor.domain.RedisInfo;
-import org.jeecg.modules.monitor.exception.RedisConnectException;
-import org.jeecg.modules.monitor.service.RedisService;
+import com.logiant.common.util.oConvertUtils;
+import com.logiant.modules.monitor.domain.RedisInfo;
+import com.logiant.modules.monitor.exception.RedisConnectException;
+import com.logiant.modules.monitor.service.RedisService;
 import org.springframework.cglib.beans.BeanMap;
 import org.springframework.data.redis.connection.RedisConnectionFactory;
 import org.springframework.scheduling.annotation.Scheduled;

@@ -1,7 +1,7 @@
-package org.jeecg.common.util;
+package com.logiant.common.util;
 
 import com.alibaba.fastjson.JSONObject;
-import org.jeecg.common.api.vo.Result;
+import com.logiant.common.api.vo.Result;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpMethod;
 import org.springframework.http.MediaType;

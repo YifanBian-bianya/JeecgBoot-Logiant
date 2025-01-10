@@ -1,4 +1,4 @@
-package org.jeecg.common.aspect;
+package com.logiant.common.aspect;
 
 /**
  * @Author scott

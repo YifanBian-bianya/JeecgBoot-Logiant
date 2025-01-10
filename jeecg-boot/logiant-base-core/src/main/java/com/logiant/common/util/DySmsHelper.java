@@ -1,4 +1,4 @@
-package org.jeecg.common.util;
+package com.logiant.common.util;
 
 import cn.hutool.core.collection.CollectionUtil;
 import com.alibaba.fastjson.JSONObject;
@@ -10,9 +10,9 @@ import com.aliyuncs.exceptions.ClientException;
 import com.aliyuncs.profile.DefaultProfile;
 import com.aliyuncs.profile.IClientProfile;
 import org.apache.commons.lang3.StringUtils;
-import org.jeecg.common.constant.enums.DySmsEnum;
-import org.jeecg.config.JeecgSmsTemplateConfig;
-import org.jeecg.config.StaticConfig;
+import com.logiant.common.constant.enums.DySmsEnum;
+import com.logiant.config.JeecgSmsTemplateConfig;
+import com.logiant.config.StaticConfig;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

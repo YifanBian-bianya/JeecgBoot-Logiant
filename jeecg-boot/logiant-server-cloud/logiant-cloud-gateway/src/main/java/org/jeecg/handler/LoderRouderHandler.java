@@ -1,10 +1,10 @@
-package org.jeecg.handler;
+package com.logiant.handler;
 
 import lombok.extern.slf4j.Slf4j;
 import org.jeecg.common.base.BaseMap;
-import org.jeecg.common.constant.GlobalConstants;
+import com.logiant.common.constant.GlobalConstants;
 import org.jeecg.common.modules.redis.listener.JeecgRedisListener;
-import org.jeecg.loader.DynamicRouteLoader;
+import com.logiant.loader.DynamicRouteLoader;
 import org.springframework.stereotype.Component;
 
 import javax.annotation.Resource;

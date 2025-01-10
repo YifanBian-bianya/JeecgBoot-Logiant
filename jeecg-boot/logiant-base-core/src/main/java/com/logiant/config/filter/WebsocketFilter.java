@@ -1,11 +1,11 @@
-package org.jeecg.config.filter;
+package com.logiant.config.filter;
 
 import lombok.extern.slf4j.Slf4j;
-import org.jeecg.common.api.CommonAPI;
+import com.logiant.common.api.CommonAPI;
+import com.logiant.common.util.SpringContextUtils;
+import com.logiant.common.util.TokenUtils;
+import com.logiant.common.util.oConvertUtils;
 import org.jeecg.common.util.RedisUtil;
-import org.jeecg.common.util.SpringContextUtils;
-import org.jeecg.common.util.TokenUtils;
-import org.jeecg.common.util.oConvertUtils;
 
 import javax.servlet.*;
 import javax.servlet.http.HttpServletRequest;

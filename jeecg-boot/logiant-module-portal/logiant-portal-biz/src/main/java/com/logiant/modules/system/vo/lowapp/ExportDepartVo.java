@@ -1,4 +1,4 @@
-package org.jeecg.modules.system.vo.lowapp;
+package com.logiant.modules.system.vo.lowapp;
 
 import lombok.Data;
 import org.jeecgframework.poi.excel.annotation.Excel;

@@ -1,9 +1,9 @@
-package org.jeecg.modules.system.mapper;
+package com.logiant.modules.system.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import org.apache.ibatis.annotations.Param;
-import org.jeecg.modules.system.entity.SysThirdAccount;
-import org.jeecg.modules.system.vo.thirdapp.JwUserDepartVo;
+import com.logiant.modules.system.entity.SysThirdAccount;
+import com.logiant.modules.system.vo.thirdapp.JwUserDepartVo;
 
 import java.util.List;
 

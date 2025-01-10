@@ -1,15 +1,15 @@
 //
-//package org.jeecg.modules.demo.xxljob;
+//package com.logiant.modules.demo.xxljob;
 //
 //import com.xxl.job.core.biz.model.ReturnT;
 //import com.xxl.job.core.handler.annotation.XxlJob;
 //import lombok.extern.slf4j.Slf4j;
 //import org.jeecg.common.config.mqtoken.UserTokenContext;
-//import org.jeecg.common.constant.CommonConstant;
-//import org.jeecg.common.system.api.ISysBaseAPI;
-//import org.jeecg.common.system.util.JwtUtil;
+//import com.logiant.common.constant.CommonConstant;
+//import com.logiant.common.system.api.ISysBaseAPI;
+//import com.logiant.common.system.util.JwtUtil;
 //import org.jeecg.common.util.RedisUtil;
-//import org.jeecg.common.util.SpringContextUtils;
+//import com.logiant.common.util.SpringContextUtils;
 //import org.springframework.beans.factory.annotation.Autowired;
 //import org.springframework.stereotype.Component;
 //

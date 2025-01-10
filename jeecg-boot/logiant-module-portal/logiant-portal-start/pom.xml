@@ -58,7 +58,7 @@
                 <version>1.2.1</version>
                 <configuration>
                     <password>000000</password>
-                    <packages>org.jeecg,org.jeecgframework</packages>
+                    <packages>org.jeecg,org.jeecgframework,com.logiant</packages>
                     <excludes>org.spring</excludes>
                     <cfgfiles>application-dev.yml</cfgfiles>
                     <libjars>

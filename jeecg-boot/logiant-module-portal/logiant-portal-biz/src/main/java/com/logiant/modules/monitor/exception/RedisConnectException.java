@@ -1,4 +1,4 @@
-package org.jeecg.modules.monitor.exception;
+package com.logiant.modules.monitor.exception;
 
 /**
  * Redis 连接异常

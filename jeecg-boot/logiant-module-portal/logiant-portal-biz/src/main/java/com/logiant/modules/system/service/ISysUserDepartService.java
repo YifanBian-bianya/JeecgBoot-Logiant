@@ -1,12 +1,12 @@
-package org.jeecg.modules.system.service;
+package com.logiant.modules.system.service;
 
 
 import java.util.List;
 
 import com.baomidou.mybatisplus.core.metadata.IPage;
-import org.jeecg.modules.system.entity.SysUser;
-import org.jeecg.modules.system.entity.SysUserDepart;
-import org.jeecg.modules.system.model.DepartIdModel;
+import com.logiant.modules.system.entity.SysUser;
+import com.logiant.modules.system.entity.SysUserDepart;
+import com.logiant.modules.system.model.DepartIdModel;
 
 
 import com.baomidou.mybatisplus.extension.service.IService;

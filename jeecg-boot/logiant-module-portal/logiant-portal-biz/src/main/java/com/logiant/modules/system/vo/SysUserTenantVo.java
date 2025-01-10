@@ -1,7 +1,7 @@
-package org.jeecg.modules.system.vo;
+package com.logiant.modules.system.vo;
 
 import lombok.Data;
-import org.jeecg.common.aspect.annotation.Dict;
+import com.logiant.common.aspect.annotation.Dict;
 
 /**
  * @Description: 用户租户类(用户数据租户数据)

@@ -1,4 +1,4 @@
-package org.jeecg.loader;
+package com.logiant.loader;
 
 import cn.hutool.core.util.ArrayUtil;
 import cn.hutool.core.util.ObjectUtil;
@@ -16,12 +16,12 @@ import org.apache.commons.lang3.StringUtils;
 import org.jeecg.common.base.BaseMap;
 import org.jeecg.common.constant.CacheConstant;
 import org.jeecg.common.util.RedisUtil;
-import org.jeecg.config.GatewayRoutersConfig;
-import org.jeecg.config.RouterDataType;
-import org.jeecg.loader.repository.DynamicRouteService;
-import org.jeecg.loader.repository.MyInMemoryRouteDefinitionRepository;
-import org.jeecg.loader.vo.MyRouteDefinition;
-import org.jeecg.loader.vo.PredicatesVo;
+import com.logiant.config.GatewayRoutersConfig;
+import com.logiant.config.RouterDataType;
+import com.logiant.loader.repository.DynamicRouteService;
+import com.logiant.loader.repository.MyInMemoryRouteDefinitionRepository;
+import com.logiant.loader.vo.MyRouteDefinition;
+import com.logiant.loader.vo.PredicatesVo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.cloud.gateway.event.RefreshRoutesEvent;

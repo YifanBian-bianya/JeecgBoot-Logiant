@@ -1,7 +1,7 @@
-package org.jeecg.common.constant.enums;
+package com.logiant.common.constant.enums;
 
-import org.jeecg.common.system.annotation.EnumDict;
-import org.jeecg.common.system.vo.DictModel;
+import com.logiant.common.system.annotation.EnumDict;
+import com.logiant.common.system.vo.DictModel;
 
 import java.util.ArrayList;
 import java.util.List;

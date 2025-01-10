@@ -1,4 +1,4 @@
-package org.jeecg.config.sign.util;
+package com.logiant.config.sign.util;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -13,8 +13,8 @@ import java.util.TreeMap;
 import javax.servlet.http.HttpServletRequest;
 
 import lombok.extern.slf4j.Slf4j;
-import org.jeecg.common.constant.SymbolConstant;
-import org.jeecg.common.util.oConvertUtils;
+import com.logiant.common.constant.SymbolConstant;
+import com.logiant.common.util.oConvertUtils;
 import org.springframework.http.HttpMethod;
 
 import com.alibaba.fastjson.JSONObject;

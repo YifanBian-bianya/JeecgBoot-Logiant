@@ -1,12 +1,12 @@
-package org.jeecg.modules.system.mapper;
+package com.logiant.modules.system.mapper;
 
 import java.util.List;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
-import org.jeecg.modules.system.entity.SysUser;
-import org.jeecg.modules.system.entity.SysUserDepart;
+import com.logiant.modules.system.entity.SysUser;
+import com.logiant.modules.system.entity.SysUserDepart;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**

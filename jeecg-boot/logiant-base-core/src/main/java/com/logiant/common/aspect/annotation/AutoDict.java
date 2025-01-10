@@ -1,4 +1,4 @@
-package org.jeecg.common.aspect.annotation;
+package com.logiant.common.aspect.annotation;
 
 import java.lang.annotation.*;
 

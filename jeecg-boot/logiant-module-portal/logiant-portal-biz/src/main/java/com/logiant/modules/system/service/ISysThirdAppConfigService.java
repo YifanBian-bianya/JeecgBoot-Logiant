@@ -1,8 +1,8 @@
-package org.jeecg.modules.system.service;
+package com.logiant.modules.system.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
 import io.swagger.models.auth.In;
-import org.jeecg.modules.system.entity.SysThirdAppConfig;
+import com.logiant.modules.system.entity.SysThirdAppConfig;
 
 import java.util.List;
 

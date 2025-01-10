@@ -1,6 +1,6 @@
-package org.jeecg.modules.system.mapper;
+package com.logiant.modules.system.mapper;
 
-import org.jeecg.modules.system.entity.SysRolePermission;
+import com.logiant.modules.system.entity.SysRolePermission;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**

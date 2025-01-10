@@ -1,7 +1,7 @@
-package org.jeecg.config.firewall.SqlInjection;
+package com.logiant.config.firewall.SqlInjection;
 
 import lombok.extern.slf4j.Slf4j;
-import org.jeecg.common.util.oConvertUtils;
+import com.logiant.common.util.oConvertUtils;
 import java.util.HashSet;
 import java.util.Set;
 

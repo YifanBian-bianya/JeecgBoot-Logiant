@@ -1,9 +1,9 @@
-package org.jeecg.config.oss;
+package com.logiant.config.oss;
 
 import lombok.extern.slf4j.Slf4j;
-import org.jeecg.common.constant.CommonConstant;
-import org.jeecg.common.constant.SymbolConstant;
-import org.jeecg.common.util.MinioUtil;
+import com.logiant.common.constant.CommonConstant;
+import com.logiant.common.constant.SymbolConstant;
+import com.logiant.common.util.MinioUtil;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.context.annotation.Bean;

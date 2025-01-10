@@ -1,9 +1,9 @@
-package org.jeecg.modules.system.service;
+package com.logiant.modules.system.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import org.jeecg.modules.system.entity.SysComment;
-import org.jeecg.modules.system.vo.SysCommentFileVo;
-import org.jeecg.modules.system.vo.SysCommentVO;
+import com.logiant.modules.system.entity.SysComment;
+import com.logiant.modules.system.vo.SysCommentFileVo;
+import com.logiant.modules.system.vo.SysCommentVO;
 
 import javax.servlet.http.HttpServletRequest;
 import java.util.List;

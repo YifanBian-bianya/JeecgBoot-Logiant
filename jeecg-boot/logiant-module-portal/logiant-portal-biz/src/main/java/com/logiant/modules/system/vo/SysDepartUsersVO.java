@@ -1,4 +1,4 @@
-package org.jeecg.modules.system.vo;
+package com.logiant.modules.system.vo;
 
 import java.io.Serializable;
 import java.util.List;

@@ -1,11 +1,11 @@
-package org.jeecg.modules.system.util;
+package com.logiant.modules.system.util;
 
-import org.jeecg.common.constant.CommonConstant;
+import com.logiant.common.constant.CommonConstant;
 import org.jeecg.common.util.RedisUtil;
-import org.jeecg.common.util.oConvertUtils;
-import org.jeecg.modules.system.entity.SysDepart;
-import org.jeecg.modules.system.model.DepartIdModel;
-import org.jeecg.modules.system.model.SysDepartTreeModel;
+import com.logiant.common.util.oConvertUtils;
+import com.logiant.modules.system.entity.SysDepart;
+import com.logiant.modules.system.model.DepartIdModel;
+import com.logiant.modules.system.model.SysDepartTreeModel;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.ArrayList;

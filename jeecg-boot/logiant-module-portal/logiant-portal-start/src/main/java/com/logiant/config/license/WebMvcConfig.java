@@ -1,6 +1,6 @@
-package org.jeecg.config.license;
+package com.logiant.config.license;
 
-import org.jeecg.license.LicenseCheckInterceptor;
+import com.logiant.license.LicenseCheckInterceptor;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;

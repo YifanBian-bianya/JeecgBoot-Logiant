@@ -1,4 +1,4 @@
-package org.jeecg.common.util.dynamic.db;
+package com.logiant.common.util.dynamic.db;
 
 import freemarker.cache.StringTemplateLoader;
 import freemarker.core.ParseException;
@@ -7,8 +7,8 @@ import freemarker.template.Configuration;
 import freemarker.template.Template;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
-import org.jeecg.common.constant.DataBaseConstant;
-import org.jeecg.common.constant.SymbolConstant;
+import com.logiant.common.constant.DataBaseConstant;
+import com.logiant.common.constant.SymbolConstant;
 import org.jeecgframework.codegenerate.generate.util.SimpleFormat;
 
 import java.io.StringWriter;

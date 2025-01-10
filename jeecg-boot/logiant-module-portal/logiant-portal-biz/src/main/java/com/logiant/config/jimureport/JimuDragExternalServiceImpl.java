@@ -1,12 +1,12 @@
-package org.jeecg.config.jimureport;
+package com.logiant.config.jimureport;
 
 import com.alibaba.fastjson.JSONObject;
 import lombok.extern.slf4j.Slf4j;
-import org.jeecg.common.api.dto.LogDTO;
-import org.jeecg.common.system.api.ISysBaseAPI;
-import org.jeecg.common.system.vo.DictModel;
-import org.jeecg.common.util.oConvertUtils;
-import org.jeecg.modules.base.service.BaseCommonService;
+import com.logiant.common.api.dto.LogDTO;
+import com.logiant.common.system.api.ISysBaseAPI;
+import com.logiant.common.system.vo.DictModel;
+import com.logiant.common.util.oConvertUtils;
+import com.logiant.modules.base.service.BaseCommonService;
 import org.jeecg.modules.drag.service.IOnlDragExternalService;
 import org.jeecg.modules.drag.vo.DragDictModel;
 import org.jeecg.modules.drag.vo.DragLogDTO;

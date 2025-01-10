@@ -1,4 +1,4 @@
-package org.jeecg.modules.system.mapper;
+package com.logiant.modules.system.mapper;
 
 import com.baomidou.mybatisplus.annotation.InterceptorIgnore;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
@@ -7,12 +7,12 @@ import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
 import org.apache.ibatis.annotations.Update;
-import org.jeecg.common.system.vo.DictModel;
-import org.jeecg.common.system.vo.DictModelMany;
-import org.jeecg.common.system.vo.DictQuery;
-import org.jeecg.modules.system.entity.SysDict;
-import org.jeecg.modules.system.model.DuplicateCheckVo;
-import org.jeecg.modules.system.model.TreeSelectModel;
+import com.logiant.common.system.vo.DictModel;
+import com.logiant.common.system.vo.DictModelMany;
+import com.logiant.common.system.vo.DictQuery;
+import com.logiant.modules.system.entity.SysDict;
+import com.logiant.modules.system.model.DuplicateCheckVo;
+import com.logiant.modules.system.model.TreeSelectModel;
 
 import java.util.List;
 import java.util.Map;

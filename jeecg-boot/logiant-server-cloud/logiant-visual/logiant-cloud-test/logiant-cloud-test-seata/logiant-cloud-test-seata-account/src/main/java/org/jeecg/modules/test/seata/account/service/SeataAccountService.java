@@ -1,4 +1,4 @@
-package org.jeecg.modules.test.seata.account.service;
+package com.logiant.modules.test.seata.account.service;
 
 import java.math.BigDecimal;
 

@@ -1,4 +1,4 @@
-package org.jeecg.common.util.oss;
+package com.logiant.common.util.oss;
 
 import com.aliyun.oss.ClientConfiguration;
 import com.aliyun.oss.OSSClient;
@@ -8,12 +8,12 @@ import com.aliyun.oss.model.OSSObject;
 import com.aliyun.oss.model.PutObjectResult;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.fileupload.FileItemStream;
-import org.jeecg.common.constant.CommonConstant;
-import org.jeecg.common.constant.SymbolConstant;
-import org.jeecg.common.util.CommonUtils;
-import org.jeecg.common.util.filter.SsrfFileTypeFilter;
-import org.jeecg.common.util.filter.StrAttackFilter;
-import org.jeecg.common.util.oConvertUtils;
+import com.logiant.common.constant.CommonConstant;
+import com.logiant.common.constant.SymbolConstant;
+import com.logiant.common.util.CommonUtils;
+import com.logiant.common.util.filter.SsrfFileTypeFilter;
+import com.logiant.common.util.filter.StrAttackFilter;
+import com.logiant.common.util.oConvertUtils;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.io.BufferedInputStream;

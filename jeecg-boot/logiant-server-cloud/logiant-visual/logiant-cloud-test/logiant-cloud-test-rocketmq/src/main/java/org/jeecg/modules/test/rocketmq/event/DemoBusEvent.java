@@ -1,11 +1,11 @@
-package org.jeecg.modules.test.rocketmq.event;
+package com.logiant.modules.test.rocketmq.event;
 
 import cn.hutool.core.util.ObjectUtil;
 import lombok.extern.slf4j.Slf4j;
-import org.jeecg.boot.starter.rabbitmq.event.EventObj;
-import org.jeecg.boot.starter.rabbitmq.event.JeecgBusEventHandler;
+import com.logiant.boot.starter.rabbitmq.event.EventObj;
+import com.logiant.boot.starter.rabbitmq.event.JeecgBusEventHandler;
 import org.jeecg.common.base.BaseMap;
-import org.jeecg.modules.test.rocketmq.constant.CloudConstant;
+import com.logiant.modules.test.rocketmq.constant.CloudConstant;
 import org.springframework.stereotype.Component;
 
 /**

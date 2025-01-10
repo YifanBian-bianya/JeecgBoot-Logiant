@@ -1,4 +1,4 @@
-package org.jeecg.config.shiro.ignore;
+package com.logiant.config.shiro.ignore;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package org.jeecg.fallback.sentinel;
+package com.logiant.fallback.sentinel;
 
 import cn.hutool.core.util.ObjectUtil;
 import com.alibaba.csp.sentinel.adapter.gateway.sc.callback.BlockRequestHandler;

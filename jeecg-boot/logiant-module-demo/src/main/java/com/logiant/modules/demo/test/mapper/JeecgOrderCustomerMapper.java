@@ -1,10 +1,10 @@
-package org.jeecg.modules.demo.test.mapper;
+package com.logiant.modules.demo.test.mapper;
 
 import java.util.List;
 
 import org.apache.ibatis.annotations.Delete;
 import org.apache.ibatis.annotations.Select;
-import org.jeecg.modules.demo.test.entity.JeecgOrderCustomer;
+import com.logiant.modules.demo.test.entity.JeecgOrderCustomer;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 

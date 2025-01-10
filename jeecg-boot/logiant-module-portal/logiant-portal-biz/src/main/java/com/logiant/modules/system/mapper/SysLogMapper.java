@@ -1,11 +1,11 @@
-package org.jeecg.modules.system.mapper;
+package com.logiant.modules.system.mapper;
 
 import java.util.Date;
 import java.util.List;
 import java.util.Map;
 
 import org.apache.ibatis.annotations.Param;
-import org.jeecg.modules.system.entity.SysLog;
+import com.logiant.modules.system.entity.SysLog;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 

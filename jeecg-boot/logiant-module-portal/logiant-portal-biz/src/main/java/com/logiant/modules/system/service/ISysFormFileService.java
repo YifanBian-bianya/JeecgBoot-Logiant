@@ -1,7 +1,7 @@
-package org.jeecg.modules.system.service;
+package com.logiant.modules.system.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import org.jeecg.modules.system.entity.SysFormFile;
+import com.logiant.modules.system.entity.SysFormFile;
 
 /**
  * @Description: 表单评论文件

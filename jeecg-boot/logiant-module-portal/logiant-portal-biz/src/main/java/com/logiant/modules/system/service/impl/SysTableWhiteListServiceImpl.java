@@ -1,15 +1,15 @@
-package org.jeecg.modules.system.service.impl;
+package com.logiant.modules.system.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import lombok.extern.slf4j.Slf4j;
-import org.jeecg.common.constant.CommonConstant;
-import org.jeecg.common.exception.JeecgBootException;
-import org.jeecg.common.util.oConvertUtils;
-import org.jeecg.config.firewall.SqlInjection.IDictTableWhiteListHandler;
-import org.jeecg.modules.system.entity.SysTableWhiteList;
-import org.jeecg.modules.system.mapper.SysTableWhiteListMapper;
-import org.jeecg.modules.system.service.ISysTableWhiteListService;
+import com.logiant.common.constant.CommonConstant;
+import com.logiant.common.exception.JeecgBootException;
+import com.logiant.common.util.oConvertUtils;
+import com.logiant.config.firewall.SqlInjection.IDictTableWhiteListHandler;
+import com.logiant.modules.system.entity.SysTableWhiteList;
+import com.logiant.modules.system.mapper.SysTableWhiteListMapper;
+import com.logiant.modules.system.service.ISysTableWhiteListService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;

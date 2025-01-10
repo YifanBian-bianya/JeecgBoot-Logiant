@@ -2,7 +2,7 @@ package ${bussiPackage}.${entityPackage}.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import org.apache.ibatis.annotations.Param;
-import org.jeecg.common.system.vo.SelectTreeModel;
+import com.logiant.common.system.vo.SelectTreeModel;
 import ${bussiPackage}.${entityPackage}.entity.${entityName};
 
 import java.util.List;

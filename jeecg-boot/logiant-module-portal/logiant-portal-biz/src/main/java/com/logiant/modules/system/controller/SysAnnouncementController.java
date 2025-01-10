@@ -1,4 +1,4 @@
-package org.jeecg.modules.system.controller;
+package com.logiant.modules.system.controller;
 
 import com.alibaba.fastjson.JSONObject;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
@@ -9,26 +9,27 @@ import com.jeecg.dingtalk.api.core.response.Response;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang.StringUtils;
 import org.apache.shiro.SecurityUtils;
-import org.jeecg.common.api.vo.Result;
+import com.logiant.common.api.vo.Result;
 import org.jeecg.common.config.TenantContext;
-import org.jeecg.common.constant.CommonConstant;
-import org.jeecg.common.constant.CommonSendStatus;
-import org.jeecg.common.constant.WebsocketConst;
-import org.jeecg.common.system.query.QueryGenerator;
-import org.jeecg.common.system.util.JwtUtil;
-import org.jeecg.common.system.vo.LoginUser;
-import org.jeecg.common.util.*;
-import org.jeecg.config.mybatis.MybatisPlusSaasConfig;
-import org.jeecg.modules.message.enums.RangeDateEnum;
-import org.jeecg.modules.message.websocket.WebSocket;
-import org.jeecg.modules.system.entity.SysAnnouncement;
-import org.jeecg.modules.system.entity.SysAnnouncementSend;
-import org.jeecg.modules.system.service.ISysAnnouncementSendService;
-import org.jeecg.modules.system.service.ISysAnnouncementService;
-import org.jeecg.modules.system.service.impl.SysBaseApiImpl;
-import org.jeecg.modules.system.service.impl.ThirdAppDingtalkServiceImpl;
-import org.jeecg.modules.system.service.impl.ThirdAppWechatEnterpriseServiceImpl;
-import org.jeecg.modules.system.util.XssUtils;
+import com.logiant.common.constant.CommonConstant;
+import com.logiant.common.constant.CommonSendStatus;
+import com.logiant.common.constant.WebsocketConst;
+import com.logiant.common.system.query.QueryGenerator;
+import com.logiant.common.system.util.JwtUtil;
+import com.logiant.common.system.vo.LoginUser;
+import com.logiant.common.util.*;
+import com.logiant.config.mybatis.MybatisPlusSaasConfig;
+import com.logiant.modules.message.enums.RangeDateEnum;
+import com.logiant.modules.message.websocket.WebSocket;
+import com.logiant.modules.system.entity.SysAnnouncement;
+import com.logiant.modules.system.entity.SysAnnouncementSend;
+import com.logiant.modules.system.service.ISysAnnouncementSendService;
+import com.logiant.modules.system.service.ISysAnnouncementService;
+import com.logiant.modules.system.service.impl.SysBaseApiImpl;
+import com.logiant.modules.system.service.impl.ThirdAppDingtalkServiceImpl;
+import com.logiant.modules.system.service.impl.ThirdAppWechatEnterpriseServiceImpl;
+import com.logiant.modules.system.util.XssUtils;
+import org.jeecg.common.util.RedisUtil;
 import org.jeecgframework.poi.excel.ExcelImportUtil;
 import org.jeecgframework.poi.excel.def.NormalExcelConstants;
 import org.jeecgframework.poi.excel.entity.ExportParams;
@@ -58,7 +59,7 @@ import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 import java.util.stream.Collectors;
 
-import static org.jeecg.common.constant.CommonConstant.ANNOUNCEMENT_SEND_STATUS_1;
+import static com.logiant.common.constant.CommonConstant.ANNOUNCEMENT_SEND_STATUS_1;
 
 /**
  * @Title: Controller

@@ -1,4 +1,4 @@
-import org.jeecg.loader.vo.PredicatesVo;
+import com.logiant.loader.vo.PredicatesVo;
 import org.junit.Test;
 
 import java.util.*;

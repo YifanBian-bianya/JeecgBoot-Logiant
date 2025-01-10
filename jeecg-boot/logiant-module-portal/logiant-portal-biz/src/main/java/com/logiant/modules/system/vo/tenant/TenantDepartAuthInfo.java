@@ -1,7 +1,7 @@
-package org.jeecg.modules.system.vo.tenant;
+package com.logiant.modules.system.vo.tenant;
 
 import lombok.Data;
-import org.jeecg.modules.system.entity.SysTenant;
+import com.logiant.modules.system.entity.SysTenant;
 
 import java.util.List;
 

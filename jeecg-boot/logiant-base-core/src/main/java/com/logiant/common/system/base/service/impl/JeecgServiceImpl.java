@@ -1,7 +1,7 @@
-package org.jeecg.common.system.base.service.impl;
+package com.logiant.common.system.base.service.impl;
 
-import org.jeecg.common.system.base.entity.JeecgEntity;
-import org.jeecg.common.system.base.service.JeecgService;
+import com.logiant.common.system.base.entity.JeecgEntity;
+import com.logiant.common.system.base.service.JeecgService;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;

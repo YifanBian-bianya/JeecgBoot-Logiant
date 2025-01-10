@@ -1,9 +1,9 @@
-package org.jeecg.config.sign.interceptor;
+package com.logiant.config.sign.interceptor;
 
 import org.apache.commons.lang3.StringUtils;
 import org.jeecg.common.util.PathMatcherUtil;
-import org.jeecg.config.JeecgBaseConfig;
-import org.jeecg.config.filter.RequestBodyReserveFilter;
+import com.logiant.config.JeecgBaseConfig;
+import com.logiant.config.filter.RequestBodyReserveFilter;
 import org.springframework.boot.web.servlet.FilterRegistrationBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

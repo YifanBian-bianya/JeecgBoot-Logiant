@@ -1,15 +1,15 @@
-package org.jeecg.modules.demo.test.controller;
+package com.logiant.modules.demo.test.controller;
 
 import io.lettuce.core.dynamic.annotation.Param;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;
-import org.jeecg.common.api.vo.Result;
-import org.jeecg.common.aspect.annotation.AutoLog;
-import org.jeecg.common.system.base.controller.JeecgController;
-import org.jeecg.modules.demo.test.entity.JeecgDemo;
-import org.jeecg.modules.demo.test.service.IJeecgDemoService;
-import org.jeecg.modules.demo.test.service.IJeecgDynamicDataService;
+import com.logiant.common.api.vo.Result;
+import com.logiant.common.aspect.annotation.AutoLog;
+import com.logiant.common.system.base.controller.JeecgController;
+import com.logiant.modules.demo.test.entity.JeecgDemo;
+import com.logiant.modules.demo.test.service.IJeecgDemoService;
+import com.logiant.modules.demo.test.service.IJeecgDynamicDataService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

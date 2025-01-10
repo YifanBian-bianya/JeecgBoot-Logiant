@@ -1,4 +1,4 @@
-package org.jeecg.modules.system.service.impl;
+package com.logiant.modules.system.service.impl;
 
 import cn.hutool.core.util.ObjectUtil;
 import cn.hutool.core.util.RandomUtil;
@@ -9,12 +9,12 @@ import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import lombok.extern.slf4j.Slf4j;
 import org.jeecg.common.base.BaseMap;
 import org.jeecg.common.constant.CacheConstant;
-import org.jeecg.common.constant.CommonConstant;
+import com.logiant.common.constant.CommonConstant;
 import org.jeecg.common.constant.GlobalConstants;
-import org.jeecg.common.util.oConvertUtils;
-import org.jeecg.modules.system.entity.SysGatewayRoute;
-import org.jeecg.modules.system.mapper.SysGatewayRouteMapper;
-import org.jeecg.modules.system.service.ISysGatewayRouteService;
+import com.logiant.common.util.oConvertUtils;
+import com.logiant.modules.system.entity.SysGatewayRoute;
+import com.logiant.modules.system.mapper.SysGatewayRouteMapper;
+import com.logiant.modules.system.service.ISysGatewayRouteService;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;

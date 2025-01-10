@@ -3,7 +3,7 @@
 // (powered by Fernflower decompiler)
 //
 
-package org.jeecg.loader.repository;
+package com.logiant.loader.repository;
 
 import java.util.Collections;
 import java.util.LinkedHashMap;

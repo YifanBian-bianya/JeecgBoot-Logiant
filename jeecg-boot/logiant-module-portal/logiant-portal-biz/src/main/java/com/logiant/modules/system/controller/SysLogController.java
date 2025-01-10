@@ -1,4 +1,4 @@
-package org.jeecg.modules.system.controller;
+package com.logiant.modules.system.controller;
 
 
 import java.util.Arrays;
@@ -6,13 +6,13 @@ import java.util.Arrays;
 import javax.servlet.http.HttpServletRequest;
 
 import org.apache.shiro.authz.annotation.RequiresPermissions;
-import org.jeecg.common.api.vo.Result;
-import org.jeecg.common.constant.CommonConstant;
-import org.jeecg.common.system.query.QueryGenerator;
-import org.jeecg.common.util.oConvertUtils;
-import org.jeecg.modules.system.entity.SysLog;
-import org.jeecg.modules.system.entity.SysRole;
-import org.jeecg.modules.system.service.ISysLogService;
+import com.logiant.common.api.vo.Result;
+import com.logiant.common.constant.CommonConstant;
+import com.logiant.common.system.query.QueryGenerator;
+import com.logiant.common.util.oConvertUtils;
+import com.logiant.modules.system.entity.SysLog;
+import com.logiant.modules.system.entity.SysRole;
+import com.logiant.modules.system.service.ISysLogService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;

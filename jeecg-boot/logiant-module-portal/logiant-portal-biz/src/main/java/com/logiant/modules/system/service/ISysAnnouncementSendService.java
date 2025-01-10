@@ -1,9 +1,9 @@
-package org.jeecg.modules.system.service;
+package com.logiant.modules.system.service;
 
 import java.util.List;
 
-import org.jeecg.modules.system.entity.SysAnnouncementSend;
-import org.jeecg.modules.system.model.AnnouncementSendModel;
+import com.logiant.modules.system.entity.SysAnnouncementSend;
+import com.logiant.modules.system.model.AnnouncementSendModel;
 
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.IService;

@@ -1,4 +1,4 @@
-package org.jeecg.config.firewall.interceptor.enums;
+package com.logiant.config.firewall.interceptor.enums;
 
 
 import java.util.Arrays;

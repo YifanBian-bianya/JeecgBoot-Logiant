@@ -1,10 +1,10 @@
-package org.jeecg.common.util;
+package com.logiant.common.util;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import org.jeecg.common.constant.CommonConstant;
-import org.jeecg.common.constant.ServiceNameConstants;
+import com.logiant.common.constant.CommonConstant;
+import com.logiant.common.constant.ServiceNameConstants;
 import org.springframework.beans.BeansException;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;

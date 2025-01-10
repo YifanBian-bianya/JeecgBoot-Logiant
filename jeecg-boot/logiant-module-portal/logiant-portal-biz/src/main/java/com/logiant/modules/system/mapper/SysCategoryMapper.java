@@ -1,4 +1,4 @@
-package org.jeecg.modules.system.mapper;
+package com.logiant.modules.system.mapper;
 
 import java.util.List;
 import java.util.Map;
@@ -7,8 +7,8 @@ import com.baomidou.mybatisplus.annotation.InterceptorIgnore;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
-import org.jeecg.modules.system.entity.SysCategory;
-import org.jeecg.modules.system.model.TreeSelectModel;
+import com.logiant.modules.system.entity.SysCategory;
+import com.logiant.modules.system.model.TreeSelectModel;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 

@@ -1,8 +1,8 @@
-package org.jeecg.modules.system.service;
+package com.logiant.modules.system.service;
 
 import java.util.List;
 
-import org.jeecg.modules.system.entity.SysPermissionDataRule;
+import com.logiant.modules.system.entity.SysPermissionDataRule;
 
 import com.baomidou.mybatisplus.extension.service.IService;
 

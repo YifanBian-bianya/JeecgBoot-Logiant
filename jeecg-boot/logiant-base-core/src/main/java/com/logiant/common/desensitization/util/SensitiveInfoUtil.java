@@ -1,10 +1,10 @@
-package org.jeecg.common.desensitization.util;
+package com.logiant.common.desensitization.util;
 
 import lombok.extern.slf4j.Slf4j;
-import org.jeecg.common.desensitization.annotation.SensitiveField;
-import org.jeecg.common.desensitization.enums.SensitiveEnum;
-import org.jeecg.common.util.encryption.AesEncryptUtil;
-import org.jeecg.common.util.oConvertUtils;
+import com.logiant.common.desensitization.annotation.SensitiveField;
+import com.logiant.common.desensitization.enums.SensitiveEnum;
+import com.logiant.common.util.encryption.AesEncryptUtil;
+import com.logiant.common.util.oConvertUtils;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.ParameterizedType;

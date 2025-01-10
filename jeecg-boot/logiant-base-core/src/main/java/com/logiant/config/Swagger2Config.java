@@ -1,9 +1,9 @@
-package org.jeecg.config;
+package com.logiant.config;
 
 
 import io.swagger.annotations.ApiOperation;
-import org.jeecg.common.constant.CommonConstant;
-import org.jeecg.config.mybatis.MybatisPlusSaasConfig;
+import com.logiant.common.constant.CommonConstant;
+import com.logiant.config.mybatis.MybatisPlusSaasConfig;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.config.BeanPostProcessor;
 import org.springframework.context.annotation.Bean;

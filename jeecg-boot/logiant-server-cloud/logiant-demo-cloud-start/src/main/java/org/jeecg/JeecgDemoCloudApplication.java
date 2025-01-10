@@ -1,7 +1,7 @@
 package org.jeecg;
 
 import org.jeecg.common.base.BaseMap;
-import org.jeecg.common.constant.GlobalConstants;
+import com.logiant.common.constant.GlobalConstants;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;

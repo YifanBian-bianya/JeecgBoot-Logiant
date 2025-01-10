@@ -1,4 +1,4 @@
-package org.jeecg.common.util.sqlparse;
+package com.logiant.common.util.sqlparse;
 
 import lombok.extern.slf4j.Slf4j;
 import net.sf.jsqlparser.JSQLParserException;
@@ -8,9 +8,9 @@ import net.sf.jsqlparser.schema.Column;
 import net.sf.jsqlparser.schema.Table;
 import net.sf.jsqlparser.statement.Statement;
 import net.sf.jsqlparser.statement.select.*;
-import org.jeecg.common.exception.JeecgBootException;
-import org.jeecg.common.util.oConvertUtils;
-import org.jeecg.common.util.sqlparse.vo.SelectSqlInfo;
+import com.logiant.common.exception.JeecgBootException;
+import com.logiant.common.util.oConvertUtils;
+import com.logiant.common.util.sqlparse.vo.SelectSqlInfo;
 
 import java.io.StringReader;
 import java.util.List;

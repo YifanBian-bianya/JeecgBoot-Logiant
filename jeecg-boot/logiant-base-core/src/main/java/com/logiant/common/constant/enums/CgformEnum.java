@@ -1,4 +1,4 @@
-package org.jeecg.common.constant.enums;
+package com.logiant.common.constant.enums;
 
 import java.util.ArrayList;
 import java.util.HashMap;

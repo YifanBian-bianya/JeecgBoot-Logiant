@@ -1,13 +1,13 @@
-package org.jeecg.modules.test.rocketmq.controller;
+package com.logiant.modules.test.rocketmq.controller;
 
 
 import cn.hutool.core.util.RandomUtil;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
-import org.jeecg.boot.starter.rabbitmq.client.RabbitMqClient;
-import org.jeecg.common.api.vo.Result;
+import com.logiant.boot.starter.rabbitmq.client.RabbitMqClient;
+import com.logiant.common.api.vo.Result;
 import org.jeecg.common.base.BaseMap;
-import org.jeecg.modules.test.rocketmq.constant.CloudConstant;
+import com.logiant.modules.test.rocketmq.constant.CloudConstant;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

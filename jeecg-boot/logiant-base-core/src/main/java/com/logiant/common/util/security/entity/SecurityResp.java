@@ -1,4 +1,4 @@
-package org.jeecg.common.util.security.entity;
+package com.logiant.common.util.security.entity;
 
 import com.alibaba.fastjson.JSONObject;
 import lombok.Data;

@@ -1,8 +1,8 @@
-package org.jeecg.modules.message.controller;
+package com.logiant.modules.message.controller;
 
-import org.jeecg.common.api.vo.Result;
-import org.jeecg.common.constant.WebsocketConst;
-import org.jeecg.modules.message.websocket.WebSocket;
+import com.logiant.common.api.vo.Result;
+import com.logiant.common.constant.WebsocketConst;
+import com.logiant.modules.message.websocket.WebSocket;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;

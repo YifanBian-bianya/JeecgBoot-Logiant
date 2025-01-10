@@ -1,11 +1,11 @@
-package org.jeecg.modules.test.seata.order.entity;
+package com.logiant.modules.test.seata.order.entity;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.Builder;
 import lombok.Data;
-import org.jeecg.modules.test.seata.order.enums.OrderStatus;
+import com.logiant.modules.test.seata.order.enums.OrderStatus;
 
 import java.math.BigDecimal;
 

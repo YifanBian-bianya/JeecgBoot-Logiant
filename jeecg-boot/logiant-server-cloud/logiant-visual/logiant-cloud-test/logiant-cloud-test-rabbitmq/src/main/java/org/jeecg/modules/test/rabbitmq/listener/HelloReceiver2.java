@@ -1,12 +1,12 @@
-package org.jeecg.modules.test.rabbitmq.listener;//package org.jeecg.modules.cloud.rabbitmq;
+package com.logiant.modules.test.rabbitmq.listener;//package com.logiant.modules.cloud.rabbitmq;
 
 import com.rabbitmq.client.Channel;
 import lombok.extern.slf4j.Slf4j;
-import org.jeecg.boot.starter.rabbitmq.core.BaseRabbiMqHandler;
-import org.jeecg.boot.starter.rabbitmq.listenter.MqListener;
+import com.logiant.boot.starter.rabbitmq.core.BaseRabbiMqHandler;
+import com.logiant.boot.starter.rabbitmq.listenter.MqListener;
 import org.jeecg.common.annotation.RabbitComponent;
 import org.jeecg.common.base.BaseMap;
-import org.jeecg.modules.test.rabbitmq.constant.CloudConstant;
+import com.logiant.modules.test.rabbitmq.constant.CloudConstant;
 import org.springframework.amqp.rabbit.annotation.RabbitHandler;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.amqp.support.AmqpHeaders;

@@ -1,17 +1,17 @@
-package org.jeecg.modules.test.seata.order.service.impl;
+package com.logiant.modules.test.seata.order.service.impl;
 import com.alibaba.fastjson.JSONObject;
 import com.baomidou.dynamic.datasource.annotation.DS;
 
 import io.seata.core.context.RootContext;
 import io.seata.spring.annotation.GlobalTransactional;
 import lombok.extern.slf4j.Slf4j;
-import org.jeecg.modules.test.seata.order.dto.PlaceOrderRequest;
-import org.jeecg.modules.test.seata.order.entity.SeataOrder;
-import org.jeecg.modules.test.seata.order.enums.OrderStatus;
-import org.jeecg.modules.test.seata.order.feign.AccountClient;
-import org.jeecg.modules.test.seata.order.feign.ProductClient;
-import org.jeecg.modules.test.seata.order.mapper.SeataOrderMapper;
-import org.jeecg.modules.test.seata.order.service.SeataOrderService;
+import com.logiant.modules.test.seata.order.dto.PlaceOrderRequest;
+import com.logiant.modules.test.seata.order.entity.SeataOrder;
+import com.logiant.modules.test.seata.order.enums.OrderStatus;
+import com.logiant.modules.test.seata.order.feign.AccountClient;
+import com.logiant.modules.test.seata.order.feign.ProductClient;
+import com.logiant.modules.test.seata.order.mapper.SeataOrderMapper;
+import com.logiant.modules.test.seata.order.service.SeataOrderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

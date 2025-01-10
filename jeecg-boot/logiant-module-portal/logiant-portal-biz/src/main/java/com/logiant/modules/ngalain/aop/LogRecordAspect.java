@@ -1,4 +1,4 @@
-//package org.jeecg.modules.ngalain.aop;
+//package com.logiant.modules.ngalain.aop;
 //
 //import javax.servlet.http.HttpServletRequest;
 //

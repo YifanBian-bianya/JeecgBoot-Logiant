@@ -1,4 +1,4 @@
-package org.jeecg.common.system.query;
+package com.logiant.common.system.query;
 
 import java.beans.PropertyDescriptor;
 import java.io.UnsupportedEncodingException;
@@ -12,14 +12,14 @@ import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 
 import org.apache.commons.beanutils.PropertyUtils;
-import org.jeecg.common.constant.CommonConstant;
-import org.jeecg.common.constant.DataBaseConstant;
-import org.jeecg.common.exception.JeecgBootException;
-import org.jeecg.common.system.util.JeecgDataAutorUtils;
-import org.jeecg.common.system.util.JwtUtil;
-import org.jeecg.common.system.util.SqlConcatUtil;
-import org.jeecg.common.system.vo.SysPermissionDataRuleModel;
-import org.jeecg.common.util.*;
+import com.logiant.common.constant.CommonConstant;
+import com.logiant.common.constant.DataBaseConstant;
+import com.logiant.common.exception.JeecgBootException;
+import com.logiant.common.system.util.JeecgDataAutorUtils;
+import com.logiant.common.system.util.JwtUtil;
+import com.logiant.common.system.util.SqlConcatUtil;
+import com.logiant.common.system.vo.SysPermissionDataRuleModel;
+import com.logiant.common.util.*;
 import org.springframework.util.NumberUtils;
 
 import com.alibaba.fastjson.JSON;

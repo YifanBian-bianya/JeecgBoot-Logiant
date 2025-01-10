@@ -1,8 +1,8 @@
-package org.jeecg.modules.base.mapper;
+package com.logiant.modules.base.mapper;
 
 import com.baomidou.mybatisplus.annotation.InterceptorIgnore;
 import org.apache.ibatis.annotations.Param;
-import org.jeecg.common.api.dto.LogDTO;
+import com.logiant.common.api.dto.LogDTO;
 
 /**
  * @Description: BaseCommonMapper

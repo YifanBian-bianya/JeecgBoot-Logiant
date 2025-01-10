@@ -1,4 +1,4 @@
-package org.jeecg.common.util.security;
+package com.logiant.common.util.security;
 
 import cn.hutool.core.codec.Base64Decoder;
 import cn.hutool.core.codec.Base64Encoder;
@@ -8,7 +8,7 @@ import cn.hutool.crypto.asymmetric.RSA;
 import cn.hutool.crypto.asymmetric.Sign;
 import cn.hutool.crypto.asymmetric.SignAlgorithm;
 import cn.hutool.crypto.symmetric.AES;
-import org.jeecg.common.util.security.entity.*;
+import com.logiant.common.util.security.entity.*;
 import com.alibaba.fastjson.JSONObject;
 import javax.crypto.SecretKey;
 import java.security.KeyPair;

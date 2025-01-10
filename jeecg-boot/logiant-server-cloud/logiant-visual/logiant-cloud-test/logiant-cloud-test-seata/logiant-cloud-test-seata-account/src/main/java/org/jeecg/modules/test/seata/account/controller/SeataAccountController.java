@@ -1,7 +1,7 @@
-package org.jeecg.modules.test.seata.account.controller;
+package com.logiant.modules.test.seata.account.controller;
 
 import lombok.extern.slf4j.Slf4j;
-import org.jeecg.modules.test.seata.account.service.SeataAccountService;
+import com.logiant.modules.test.seata.account.service.SeataAccountService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

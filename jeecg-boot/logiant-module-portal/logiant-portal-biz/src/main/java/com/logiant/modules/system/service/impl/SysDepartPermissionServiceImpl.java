@@ -1,17 +1,17 @@
-package org.jeecg.modules.system.service.impl;
+package com.logiant.modules.system.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
-import org.jeecg.common.util.oConvertUtils;
-import org.jeecg.modules.system.entity.SysDepartPermission;
-import org.jeecg.modules.system.entity.SysDepartRole;
-import org.jeecg.modules.system.entity.SysDepartRolePermission;
-import org.jeecg.modules.system.entity.SysPermissionDataRule;
-import org.jeecg.modules.system.mapper.SysDepartPermissionMapper;
-import org.jeecg.modules.system.mapper.SysDepartRoleMapper;
-import org.jeecg.modules.system.mapper.SysDepartRolePermissionMapper;
-import org.jeecg.modules.system.mapper.SysPermissionDataRuleMapper;
-import org.jeecg.modules.system.service.ISysDepartPermissionService;
+import com.logiant.common.util.oConvertUtils;
+import com.logiant.modules.system.entity.SysDepartPermission;
+import com.logiant.modules.system.entity.SysDepartRole;
+import com.logiant.modules.system.entity.SysDepartRolePermission;
+import com.logiant.modules.system.entity.SysPermissionDataRule;
+import com.logiant.modules.system.mapper.SysDepartPermissionMapper;
+import com.logiant.modules.system.mapper.SysDepartRoleMapper;
+import com.logiant.modules.system.mapper.SysDepartRolePermissionMapper;
+import com.logiant.modules.system.mapper.SysPermissionDataRuleMapper;
+import com.logiant.modules.system.service.ISysDepartPermissionService;
 import org.springframework.stereotype.Service;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;

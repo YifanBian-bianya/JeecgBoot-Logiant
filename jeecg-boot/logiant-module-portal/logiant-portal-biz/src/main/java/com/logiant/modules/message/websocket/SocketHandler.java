@@ -1,9 +1,9 @@
-package org.jeecg.modules.message.websocket;
+package com.logiant.modules.message.websocket;
 
 import cn.hutool.core.util.ObjectUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.jeecg.common.base.BaseMap;
-import org.jeecg.common.constant.CommonSendStatus;
+import com.logiant.common.constant.CommonSendStatus;
 import org.jeecg.common.modules.redis.listener.JeecgRedisListener;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;

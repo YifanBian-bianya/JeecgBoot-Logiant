@@ -1,4 +1,4 @@
-package org.jeecg.modules.message.controller;
+package com.logiant.modules.message.controller;
 
 import java.util.Arrays;
 import java.util.Map;
@@ -6,16 +6,16 @@ import java.util.Map;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import org.jeecg.common.api.dto.message.MessageDTO;
-import org.jeecg.common.api.vo.Result;
-import org.jeecg.common.system.api.ISysBaseAPI;
-import org.jeecg.common.system.base.controller.JeecgController;
-import org.jeecg.common.system.query.QueryGenerator;
-import org.jeecg.common.util.oConvertUtils;
-import org.jeecg.modules.message.entity.MsgParams;
-import org.jeecg.modules.message.entity.SysMessageTemplate;
-import org.jeecg.modules.message.service.ISysMessageTemplateService;
-import org.jeecg.modules.message.util.PushMsgUtil;
+import com.logiant.common.api.dto.message.MessageDTO;
+import com.logiant.common.api.vo.Result;
+import com.logiant.common.system.api.ISysBaseAPI;
+import com.logiant.common.system.base.controller.JeecgController;
+import com.logiant.common.system.query.QueryGenerator;
+import com.logiant.common.util.oConvertUtils;
+import com.logiant.modules.message.entity.MsgParams;
+import com.logiant.modules.message.entity.SysMessageTemplate;
+import com.logiant.modules.message.service.ISysMessageTemplateService;
+import com.logiant.modules.message.util.PushMsgUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;

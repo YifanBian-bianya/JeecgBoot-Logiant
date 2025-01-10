@@ -1,9 +1,9 @@
-package org.jeecg.modules.demo.test.controller;
+package com.logiant.modules.demo.test.controller;
 
 import lombok.extern.slf4j.Slf4j;
-import org.jeecg.common.system.base.controller.JeecgController;
-import org.jeecg.modules.demo.test.entity.JeecgDemo;
-import org.jeecg.modules.demo.test.service.IJeecgDemoService;
+import com.logiant.common.system.base.controller.JeecgController;
+import com.logiant.modules.demo.test.entity.JeecgDemo;
+import com.logiant.modules.demo.test.service.IJeecgDemoService;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;

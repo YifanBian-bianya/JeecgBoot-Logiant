@@ -1,15 +1,15 @@
-package org.jeecg.modules.system.service;
+package com.logiant.modules.system.service;
 
 import com.alibaba.fastjson.JSONObject;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.IService;
-import org.jeecg.modules.system.entity.SysDepart;
-import org.jeecg.modules.system.entity.SysUserDepart;
-import org.jeecg.modules.system.model.DepartIdModel;
-import org.jeecg.modules.system.model.SysDepartTreeModel;
-import org.jeecg.modules.system.vo.SysDepartExportVo;
-import org.jeecg.modules.system.vo.lowapp.ExportDepartVo;
+import com.logiant.modules.system.entity.SysDepart;
+import com.logiant.modules.system.entity.SysUserDepart;
+import com.logiant.modules.system.model.DepartIdModel;
+import com.logiant.modules.system.model.SysDepartTreeModel;
+import com.logiant.modules.system.vo.SysDepartExportVo;
+import com.logiant.modules.system.vo.lowapp.ExportDepartVo;
 
 import javax.servlet.http.HttpServletRequest;
 import java.util.List;

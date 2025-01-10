@@ -1,17 +1,17 @@
-package org.jeecg.config.firewall.SqlInjection.impl;
+package com.logiant.config.firewall.SqlInjection.impl;
 
 import lombok.extern.slf4j.Slf4j;
-import org.jeecg.common.constant.SymbolConstant;
-import org.jeecg.common.exception.JeecgSqlInjectionException;
-import org.jeecg.common.util.oConvertUtils;
-import org.jeecg.common.util.sqlparse.JSqlParserUtils;
-import org.jeecg.common.util.sqlparse.vo.SelectSqlInfo;
-import org.jeecg.config.JeecgBaseConfig;
-import org.jeecg.config.firewall.SqlInjection.IDictTableWhiteListHandler;
-import org.jeecg.config.firewall.interceptor.LowCodeModeInterceptor;
-import org.jeecg.modules.system.entity.SysTableWhiteList;
-import org.jeecg.modules.system.security.DictQueryBlackListHandler;
-import org.jeecg.modules.system.service.ISysTableWhiteListService;
+import com.logiant.common.constant.SymbolConstant;
+import com.logiant.common.exception.JeecgSqlInjectionException;
+import com.logiant.common.util.oConvertUtils;
+import com.logiant.common.util.sqlparse.JSqlParserUtils;
+import com.logiant.common.util.sqlparse.vo.SelectSqlInfo;
+import com.logiant.config.JeecgBaseConfig;
+import com.logiant.config.firewall.SqlInjection.IDictTableWhiteListHandler;
+import com.logiant.config.firewall.interceptor.LowCodeModeInterceptor;
+import com.logiant.modules.system.entity.SysTableWhiteList;
+import com.logiant.modules.system.security.DictQueryBlackListHandler;
+import com.logiant.modules.system.service.ISysTableWhiteListService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

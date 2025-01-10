@@ -1,4 +1,4 @@
-package org.jeecg.modules.system.entity;
+package com.logiant.modules.system.entity;
 
 import java.io.Serializable;
 import java.util.Date;
@@ -8,8 +8,8 @@ import com.baomidou.mybatisplus.annotation.TableId;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.experimental.Accessors;
-import org.jeecg.common.aspect.annotation.Dict;
-import org.jeecg.modules.system.constant.DefIndexConst;
+import com.logiant.common.aspect.annotation.Dict;
+import com.logiant.modules.system.constant.DefIndexConst;
 
 /**
  * <p>

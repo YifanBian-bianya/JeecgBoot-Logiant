@@ -1,12 +1,12 @@
-package org.jeecg.common.util;
+package com.logiant.common.util;
 
 import com.alibaba.fastjson.JSONArray;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.codec.binary.Base64;
 import org.apache.commons.io.IOUtils;
 import org.apache.commons.lang3.StringUtils;
-import org.jeecg.common.constant.CommonConstant;
-import org.jeecg.common.constant.SymbolConstant;
+import com.logiant.common.constant.CommonConstant;
+import com.logiant.common.constant.SymbolConstant;
 import org.springframework.beans.BeanUtils;
 
 import javax.servlet.http.HttpServletRequest;

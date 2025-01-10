@@ -1,8 +1,8 @@
-package org.jeecg.modules.system.service;
+package com.logiant.modules.system.service;
 
-import org.jeecg.modules.system.entity.SysTenantPack;
+import com.logiant.modules.system.entity.SysTenantPack;
 import com.baomidou.mybatisplus.extension.service.IService;
-import org.jeecg.modules.system.entity.SysTenantPackUser;
+import com.logiant.modules.system.entity.SysTenantPackUser;
 
 import java.util.List;
 

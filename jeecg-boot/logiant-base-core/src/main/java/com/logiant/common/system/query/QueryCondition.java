@@ -1,4 +1,4 @@
-package org.jeecg.common.system.query;
+package com.logiant.common.system.query;
 
 import java.io.Serializable;
 

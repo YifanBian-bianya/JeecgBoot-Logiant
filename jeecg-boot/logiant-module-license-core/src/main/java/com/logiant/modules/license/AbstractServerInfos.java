@@ -1,4 +1,4 @@
-package org.jeecg.modules.license;
+package com.logiant.modules.license;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

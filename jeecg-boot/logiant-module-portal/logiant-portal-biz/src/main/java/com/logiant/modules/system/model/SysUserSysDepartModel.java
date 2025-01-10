@@ -1,8 +1,8 @@
-package org.jeecg.modules.system.model;
+package com.logiant.modules.system.model;
 
 import lombok.Data;
-import org.jeecg.modules.system.entity.SysDepart;
-import org.jeecg.modules.system.entity.SysUser;
+import com.logiant.modules.system.entity.SysDepart;
+import com.logiant.modules.system.entity.SysUser;
 
 /**
  * 包含 SysUser 和 SysDepart 的 Model

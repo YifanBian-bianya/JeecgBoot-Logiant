@@ -1,4 +1,4 @@
-package org.jeecg.modules.dlglong.entity;
+package com.logiant.modules.dlglong.entity;
 
 import lombok.Data;
 

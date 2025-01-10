@@ -1,4 +1,4 @@
-package org.jeecg.common.util;
+package com.logiant.common.util;
 
 import java.security.Key;
 import java.security.SecureRandom;

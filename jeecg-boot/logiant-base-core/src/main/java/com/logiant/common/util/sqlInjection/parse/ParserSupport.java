@@ -1,4 +1,4 @@
-package org.jeecg.common.util.sqlInjection.parse;
+package com.logiant.common.util.sqlInjection.parse;
 
 import lombok.extern.slf4j.Slf4j;
 import net.sf.jsqlparser.JSQLParserException;
@@ -17,8 +17,8 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import com.google.common.base.Throwables;
-import org.jeecg.common.exception.JeecgBootException;
-import org.jeecg.common.exception.JeecgSqlInjectionException;
+import com.logiant.common.exception.JeecgBootException;
+import com.logiant.common.exception.JeecgSqlInjectionException;
 
 /**
  * 解析sql支持

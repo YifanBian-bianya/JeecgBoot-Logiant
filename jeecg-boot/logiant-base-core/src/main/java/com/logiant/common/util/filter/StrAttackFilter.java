@@ -1,4 +1,4 @@
-package org.jeecg.common.util.filter;
+package com.logiant.common.util.filter;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

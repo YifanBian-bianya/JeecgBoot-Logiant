@@ -1,16 +1,16 @@
-package org.jeecg.modules.system.service;
+package com.logiant.modules.system.service;
 
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.IService;
-import org.jeecg.common.api.vo.Result;
-import org.jeecg.modules.system.entity.SysTenant;
-import org.jeecg.modules.system.entity.SysTenantPackUser;
-import org.jeecg.modules.system.entity.SysUser;
-import org.jeecg.modules.system.vo.tenant.TenantDepartAuthInfo;
-import org.jeecg.modules.system.vo.tenant.TenantPackModel;
-import org.jeecg.modules.system.vo.tenant.TenantPackUser;
-import org.jeecg.modules.system.vo.tenant.TenantPackUserCount;
+import com.logiant.common.api.vo.Result;
+import com.logiant.modules.system.entity.SysTenant;
+import com.logiant.modules.system.entity.SysTenantPackUser;
+import com.logiant.modules.system.entity.SysUser;
+import com.logiant.modules.system.vo.tenant.TenantDepartAuthInfo;
+import com.logiant.modules.system.vo.tenant.TenantPackModel;
+import com.logiant.modules.system.vo.tenant.TenantPackUser;
+import com.logiant.modules.system.vo.tenant.TenantPackUserCount;
 
 import java.util.Collection;
 import java.util.List;

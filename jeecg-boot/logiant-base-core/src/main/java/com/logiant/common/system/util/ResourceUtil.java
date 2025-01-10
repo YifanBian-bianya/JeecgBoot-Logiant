@@ -1,10 +1,10 @@
-package org.jeecg.common.system.util;
+package com.logiant.common.system.util;
 
 import lombok.extern.slf4j.Slf4j;
-import org.jeecg.common.system.annotation.EnumDict;
-import org.jeecg.common.system.vo.DictModel;
-import org.jeecg.common.util.SpringContextUtils;
-import org.jeecg.common.util.oConvertUtils;
+import com.logiant.common.system.annotation.EnumDict;
+import com.logiant.common.system.vo.DictModel;
+import com.logiant.common.util.SpringContextUtils;
+import com.logiant.common.util.oConvertUtils;
 import org.springframework.beans.factory.NoSuchBeanDefinitionException;
 import org.springframework.core.io.Resource;
 import org.springframework.core.io.support.PathMatchingResourcePatternResolver;

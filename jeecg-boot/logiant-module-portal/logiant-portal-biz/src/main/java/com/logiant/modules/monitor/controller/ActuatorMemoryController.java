@@ -1,9 +1,9 @@
-package org.jeecg.modules.monitor.controller;
+package com.logiant.modules.monitor.controller;
 
 import cn.hutool.core.util.NumberUtil;
 import com.alibaba.fastjson.JSONObject;
 import lombok.extern.slf4j.Slf4j;
-import org.jeecg.common.api.vo.Result;
+import com.logiant.common.api.vo.Result;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

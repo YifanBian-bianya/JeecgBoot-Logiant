@@ -1,14 +1,14 @@
-//package org.jeecg.modules.ngalain.service.impl;
+//package com.logiant.modules.ngalain.service.impl;
 //
 //import com.alibaba.fastjson.JSONArray;
 //import com.alibaba.fastjson.JSONObject;
-//import org.jeecg.common.constant.CommonConstant;
-//import org.jeecg.common.constant.SymbolConstant;
-//import org.jeecg.common.util.oConvertUtils;
-//import org.jeecg.modules.ngalain.service.NgAlainService;
-//import org.jeecg.modules.system.entity.SysPermission;
-//import org.jeecg.modules.system.mapper.SysDictMapper;
-//import org.jeecg.modules.system.service.ISysPermissionService;
+//import com.logiant.common.constant.CommonConstant;
+//import com.logiant.common.constant.SymbolConstant;
+//import com.logiant.common.util.oConvertUtils;
+//import com.logiant.modules.ngalain.service.NgAlainService;
+//import com.logiant.modules.system.entity.SysPermission;
+//import com.logiant.modules.system.mapper.SysDictMapper;
+//import com.logiant.modules.system.service.ISysPermissionService;
 //import org.springframework.beans.factory.annotation.Autowired;
 //import org.springframework.stereotype.Service;
 //import org.springframework.transaction.annotation.Transactional;

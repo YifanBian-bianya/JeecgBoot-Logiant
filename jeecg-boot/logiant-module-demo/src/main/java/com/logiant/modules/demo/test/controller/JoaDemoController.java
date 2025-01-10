@@ -1,4 +1,4 @@
-package org.jeecg.modules.demo.test.controller;
+package com.logiant.modules.demo.test.controller;
 
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
@@ -10,11 +10,11 @@ import java.util.Map;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import org.jeecg.common.api.vo.Result;
-import org.jeecg.common.system.query.QueryGenerator;
-import org.jeecg.common.util.oConvertUtils;
-import org.jeecg.modules.demo.test.entity.JoaDemo;
-import org.jeecg.modules.demo.test.service.IJoaDemoService;
+import com.logiant.common.api.vo.Result;
+import com.logiant.common.system.query.QueryGenerator;
+import com.logiant.common.util.oConvertUtils;
+import com.logiant.modules.demo.test.entity.JoaDemo;
+import com.logiant.modules.demo.test.service.IJoaDemoService;
 import org.jeecgframework.poi.excel.ExcelImportUtil;
 import org.jeecgframework.poi.excel.def.NormalExcelConstants;
 import org.jeecgframework.poi.excel.entity.ExportParams;

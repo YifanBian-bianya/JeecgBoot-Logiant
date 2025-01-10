@@ -1,4 +1,4 @@
-package org.jeecg.modules.system.entity;
+package com.logiant.modules.system.entity;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
@@ -8,7 +8,7 @@ import lombok.EqualsAndHashCode;
 import lombok.experimental.Accessors;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.shiro.SecurityUtils;
-import org.jeecg.common.system.vo.LoginUser;
+import com.logiant.common.system.vo.LoginUser;
 import org.springframework.format.annotation.DateTimeFormat;
 
 import java.io.Serializable;

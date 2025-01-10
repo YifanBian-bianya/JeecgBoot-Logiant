@@ -1,4 +1,4 @@
-package org.jeecg.modules.system.service.impl;
+package com.logiant.modules.system.service.impl;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONArray;
@@ -6,9 +6,9 @@ import com.alibaba.fastjson.JSONObject;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.apache.commons.lang.StringUtils;
-import org.jeecg.modules.system.entity.SysCheckRule;
-import org.jeecg.modules.system.mapper.SysCheckRuleMapper;
-import org.jeecg.modules.system.service.ISysCheckRuleService;
+import com.logiant.modules.system.entity.SysCheckRule;
+import com.logiant.modules.system.mapper.SysCheckRuleMapper;
+import com.logiant.modules.system.service.ISysCheckRuleService;
 import org.springframework.stereotype.Service;
 
 import java.util.regex.Pattern;

@@ -1,8 +1,8 @@
-package org.jeecg.modules.demo.test.service.impl;
+package com.logiant.modules.demo.test.service.impl;
 
-import org.jeecg.modules.demo.test.entity.JoaDemo;
-import org.jeecg.modules.demo.test.mapper.JoaDemoMapper;
-import org.jeecg.modules.demo.test.service.IJoaDemoService;
+import com.logiant.modules.demo.test.entity.JoaDemo;
+import com.logiant.modules.demo.test.mapper.JoaDemoMapper;
+import com.logiant.modules.demo.test.service.IJoaDemoService;
 import org.springframework.stereotype.Service;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;

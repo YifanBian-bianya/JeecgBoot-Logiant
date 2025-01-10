@@ -1,4 +1,4 @@
-package org.jeecg.modules.system.mapper;
+package com.logiant.modules.system.mapper;
 
 import java.util.Date;
 import java.util.List;
@@ -6,7 +6,7 @@ import java.util.List;
 import com.baomidou.mybatisplus.core.conditions.Wrapper;
 import com.baomidou.mybatisplus.core.toolkit.Constants;
 import org.apache.ibatis.annotations.Param;
-import org.jeecg.modules.system.entity.SysAnnouncement;
+import com.logiant.modules.system.entity.SysAnnouncement;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;

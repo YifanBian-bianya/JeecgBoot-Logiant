@@ -1,4 +1,4 @@
-package org.jeecg.common.util.encryption;
+package com.logiant.common.util.encryption;
 
 import org.apache.shiro.codec.Base64;
 

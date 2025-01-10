@@ -1,11 +1,11 @@
-package org.jeecg.modules.system.service.impl;
+package com.logiant.modules.system.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import org.jeecg.common.constant.SymbolConstant;
-import org.jeecg.modules.system.entity.SysPosition;
-import org.jeecg.modules.system.mapper.SysPositionMapper;
-import org.jeecg.modules.system.service.ISysPositionService;
+import com.logiant.common.constant.SymbolConstant;
+import com.logiant.modules.system.entity.SysPosition;
+import com.logiant.modules.system.mapper.SysPositionMapper;
+import com.logiant.modules.system.service.ISysPositionService;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

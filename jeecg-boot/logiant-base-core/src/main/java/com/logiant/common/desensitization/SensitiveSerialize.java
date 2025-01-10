@@ -1,4 +1,4 @@
-package org.jeecg.common.desensitization;
+package com.logiant.common.desensitization;
 
 import com.fasterxml.jackson.core.JsonGenerator;
 import com.fasterxml.jackson.databind.BeanProperty;
@@ -9,10 +9,10 @@ import com.fasterxml.jackson.databind.ser.ContextualSerializer;
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.jeecg.common.desensitization.annotation.Sensitive;
-import org.jeecg.common.desensitization.enums.SensitiveEnum;
-import org.jeecg.common.desensitization.util.SensitiveInfoUtil;
-import org.jeecg.common.util.encryption.AesEncryptUtil;
+import com.logiant.common.desensitization.annotation.Sensitive;
+import com.logiant.common.desensitization.enums.SensitiveEnum;
+import com.logiant.common.desensitization.util.SensitiveInfoUtil;
+import com.logiant.common.util.encryption.AesEncryptUtil;
 
 import java.io.IOException;
 import java.util.Objects;

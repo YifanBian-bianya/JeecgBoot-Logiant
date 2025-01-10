@@ -1,4 +1,4 @@
-package org.jeecg.modules.system.vo.thirdapp;
+package com.logiant.modules.system.vo.thirdapp;
 
 import lombok.Data;
 

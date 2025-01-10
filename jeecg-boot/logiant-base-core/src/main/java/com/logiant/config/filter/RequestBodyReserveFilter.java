@@ -1,7 +1,7 @@
-package org.jeecg.config.filter;
+package com.logiant.config.filter;
 
-import org.jeecg.common.constant.CommonConstant;
-import org.jeecg.config.sign.util.BodyReaderHttpServletRequestWrapper;
+import com.logiant.common.constant.CommonConstant;
+import com.logiant.config.sign.util.BodyReaderHttpServletRequestWrapper;
 
 import javax.servlet.*;
 import javax.servlet.http.HttpServletRequest;

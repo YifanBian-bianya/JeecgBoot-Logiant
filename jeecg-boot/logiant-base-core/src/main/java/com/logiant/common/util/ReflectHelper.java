@@ -1,4 +1,4 @@
-package org.jeecg.common.util;
+package com.logiant.common.util;
 
 import com.baomidou.mybatisplus.annotation.TableField;
 import lombok.extern.slf4j.Slf4j;

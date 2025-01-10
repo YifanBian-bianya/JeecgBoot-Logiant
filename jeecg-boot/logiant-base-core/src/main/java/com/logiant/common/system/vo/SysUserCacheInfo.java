@@ -1,8 +1,8 @@
-package org.jeecg.common.system.vo;
+package com.logiant.common.system.vo;
 
 import java.util.List;
 
-import org.jeecg.common.util.DateUtils;
+import com.logiant.common.util.DateUtils;
 
 /**
  * @Description: 用户缓存信息

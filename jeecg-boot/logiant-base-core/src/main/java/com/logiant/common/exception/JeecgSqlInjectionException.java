@@ -1,4 +1,4 @@
-package org.jeecg.common.exception;
+package com.logiant.common.exception;
 
 /**
  * @Description: jeecg-boot自定义SQL注入异常

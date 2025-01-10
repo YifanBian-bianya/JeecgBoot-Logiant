@@ -1,14 +1,14 @@
-package org.jeecg.config.mybatis.aspect;
+package com.logiant.config.mybatis.aspect;
 
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Pointcut;
 import org.aspectj.lang.reflect.MethodSignature;
-import org.jeecg.common.aspect.annotation.DynamicTable;
-import org.jeecg.common.constant.CommonConstant;
-import org.jeecg.common.util.SpringContextUtils;
-import org.jeecg.config.mybatis.ThreadLocalDataHelper;
+import com.logiant.common.aspect.annotation.DynamicTable;
+import com.logiant.common.constant.CommonConstant;
+import com.logiant.common.util.SpringContextUtils;
+import com.logiant.config.mybatis.ThreadLocalDataHelper;
 import org.springframework.stereotype.Component;
 
 import javax.servlet.http.HttpServletRequest;

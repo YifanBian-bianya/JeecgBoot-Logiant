@@ -1,4 +1,4 @@
-package org.jeecg.common.desensitization.aspect;
+package com.logiant.common.desensitization.aspect;
 
 import lombok.extern.slf4j.Slf4j;
 import org.aspectj.lang.ProceedingJoinPoint;
@@ -6,9 +6,9 @@ import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Pointcut;
 import org.aspectj.lang.reflect.MethodSignature;
-import org.jeecg.common.desensitization.annotation.SensitiveDecode;
-import org.jeecg.common.desensitization.annotation.SensitiveEncode;
-import org.jeecg.common.desensitization.util.SensitiveInfoUtil;
+import com.logiant.common.desensitization.annotation.SensitiveDecode;
+import com.logiant.common.desensitization.annotation.SensitiveEncode;
+import com.logiant.common.desensitization.util.SensitiveInfoUtil;
 import org.springframework.stereotype.Component;
 
 import java.lang.reflect.Method;

@@ -1,4 +1,4 @@
-package org.jeecg.modules.system.service;
+package com.logiant.modules.system.service;
 
 import com.alibaba.fastjson.JSONObject;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
@@ -6,14 +6,14 @@ import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.IService;
-import org.jeecg.common.api.vo.Result;
-import org.jeecg.common.system.vo.LoginUser;
-import org.jeecg.common.system.vo.SysUserCacheInfo;
-import org.jeecg.modules.system.entity.SysRoleIndex;
-import org.jeecg.modules.system.entity.SysUser;
-import org.jeecg.modules.system.model.SysUserSysDepartModel;
-import org.jeecg.modules.system.vo.lowapp.DepartAndUserInfo;
-import org.jeecg.modules.system.vo.lowapp.UpdateDepartInfo;
+import com.logiant.common.api.vo.Result;
+import com.logiant.common.system.vo.LoginUser;
+import com.logiant.common.system.vo.SysUserCacheInfo;
+import com.logiant.modules.system.entity.SysRoleIndex;
+import com.logiant.modules.system.entity.SysUser;
+import com.logiant.modules.system.model.SysUserSysDepartModel;
+import com.logiant.modules.system.vo.lowapp.DepartAndUserInfo;
+import com.logiant.modules.system.vo.lowapp.UpdateDepartInfo;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.servlet.ModelAndView;
 

@@ -1,4 +1,4 @@
-package org.jeecg.common.es;
+package com.logiant.common.es;
 
 /**
  * 用于创建 ElasticSearch 的 queryString

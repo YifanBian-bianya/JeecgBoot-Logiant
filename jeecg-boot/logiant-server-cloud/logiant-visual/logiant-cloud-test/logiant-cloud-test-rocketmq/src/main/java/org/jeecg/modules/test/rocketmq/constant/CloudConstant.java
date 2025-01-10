@@ -1,4 +1,4 @@
-package org.jeecg.modules.test.rocketmq.constant;
+package com.logiant.modules.test.rocketmq.constant;
 
 /**
  * 微服务单元测试常量定义

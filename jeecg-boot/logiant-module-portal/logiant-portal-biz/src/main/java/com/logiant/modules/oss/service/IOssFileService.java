@@ -1,9 +1,9 @@
-package org.jeecg.modules.oss.service;
+package com.logiant.modules.oss.service;
 
 import java.io.IOException;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import org.jeecg.modules.oss.entity.OssFile;
+import com.logiant.modules.oss.entity.OssFile;
 import org.springframework.web.multipart.MultipartFile;
 
 /**

@@ -1,6 +1,6 @@
-package org.jeecg.modules.monitor.actuator;
+package com.logiant.modules.monitor.actuator;
 
-import org.jeecg.modules.monitor.actuator.httptrace.CustomInMemoryHttpTraceRepository;
+import com.logiant.modules.monitor.actuator.httptrace.CustomInMemoryHttpTraceRepository;
 import org.springframework.boot.actuate.autoconfigure.trace.http.HttpTraceAutoConfiguration;
 import org.springframework.boot.actuate.autoconfigure.trace.http.HttpTraceProperties;
 import org.springframework.boot.actuate.trace.http.HttpTraceRepository;

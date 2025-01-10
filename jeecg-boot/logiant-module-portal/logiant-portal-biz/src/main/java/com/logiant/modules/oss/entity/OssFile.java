@@ -1,10 +1,10 @@
-package org.jeecg.modules.oss.entity;
+package com.logiant.modules.oss.entity;
 
 import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.experimental.Accessors;
-import org.jeecg.common.system.base.entity.JeecgEntity;
+import com.logiant.common.system.base.entity.JeecgEntity;
 import org.jeecgframework.poi.excel.annotation.Excel;
 
 /**

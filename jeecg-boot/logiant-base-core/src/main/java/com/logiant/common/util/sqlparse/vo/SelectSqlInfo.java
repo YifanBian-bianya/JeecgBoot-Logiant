@@ -1,4 +1,4 @@
-package org.jeecg.common.util.sqlparse.vo;
+package com.logiant.common.util.sqlparse.vo;
 
 import lombok.Data;
 import net.sf.jsqlparser.statement.select.SelectBody;

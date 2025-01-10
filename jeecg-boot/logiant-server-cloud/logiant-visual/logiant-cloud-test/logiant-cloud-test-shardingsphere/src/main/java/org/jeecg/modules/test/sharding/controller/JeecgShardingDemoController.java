@@ -1,10 +1,10 @@
-package org.jeecg.modules.test.sharding.controller;
+package com.logiant.modules.test.sharding.controller;
 
-import org.jeecg.common.api.vo.Result;
-import org.jeecg.common.aspect.annotation.AutoLog;
-import org.jeecg.common.system.base.controller.JeecgController;
-import org.jeecg.modules.test.sharding.entity.ShardingSysLog;
-import org.jeecg.modules.test.sharding.service.IShardingSysLogService;
+import com.logiant.common.api.vo.Result;
+import com.logiant.common.aspect.annotation.AutoLog;
+import com.logiant.common.system.base.controller.JeecgController;
+import com.logiant.modules.test.sharding.entity.ShardingSysLog;
+import com.logiant.modules.test.sharding.service.IShardingSysLogService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

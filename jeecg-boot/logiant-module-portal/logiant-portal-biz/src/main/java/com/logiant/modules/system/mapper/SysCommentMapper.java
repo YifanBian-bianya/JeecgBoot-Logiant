@@ -1,12 +1,12 @@
-package org.jeecg.modules.system.mapper;
+package com.logiant.modules.system.mapper;
 
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import org.apache.ibatis.annotations.Param;
-import org.jeecg.modules.system.entity.SysComment;
-import org.jeecg.modules.system.vo.SysCommentFileVo;
-import org.jeecg.modules.system.vo.SysCommentVO;
-import org.jeecg.modules.system.vo.UserAvatar;
+import com.logiant.modules.system.entity.SysComment;
+import com.logiant.modules.system.vo.SysCommentFileVo;
+import com.logiant.modules.system.vo.SysCommentVO;
+import com.logiant.modules.system.vo.UserAvatar;
 
 import java.util.List;
 import java.util.Set;

@@ -1,4 +1,4 @@
-package org.jeecg.config.vo;
+package com.logiant.config.vo;
 
 import javax.print.DocFlavor;
 

@@ -1,4 +1,4 @@
-package org.jeecg.common.util.sqlInjection.parse;
+package com.logiant.common.util.sqlInjection.parse;
 
 import net.sf.jsqlparser.expression.*;
 import net.sf.jsqlparser.expression.operators.arithmetic.Addition;

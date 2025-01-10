@@ -1,7 +1,7 @@
-package org.jeecg.common.api.dto.message;
+package com.logiant.common.api.dto.message;
 
 import lombok.Data;
-import org.jeecg.common.constant.CommonConstant;
+import com.logiant.common.constant.CommonConstant;
 
 import java.io.Serializable;
 import java.util.*;

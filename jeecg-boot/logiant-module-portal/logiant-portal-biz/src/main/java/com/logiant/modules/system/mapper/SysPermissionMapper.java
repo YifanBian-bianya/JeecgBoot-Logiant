@@ -1,4 +1,4 @@
-package org.jeecg.modules.system.mapper;
+package com.logiant.modules.system.mapper;
 
 import java.util.List;
 
@@ -6,8 +6,8 @@ import com.baomidou.mybatisplus.annotation.InterceptorIgnore;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
 import org.apache.ibatis.annotations.Update;
-import org.jeecg.modules.system.entity.SysPermission;
-import org.jeecg.modules.system.model.TreeModel;
+import com.logiant.modules.system.entity.SysPermission;
+import com.logiant.modules.system.model.TreeModel;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 

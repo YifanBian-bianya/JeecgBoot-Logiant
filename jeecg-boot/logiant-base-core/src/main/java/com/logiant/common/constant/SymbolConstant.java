@@ -1,4 +1,4 @@
-package org.jeecg.common.constant;
+package com.logiant.common.constant;
 
 /**
  * @Description: 符号和特殊符号常用类

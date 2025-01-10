@@ -1,5 +1,5 @@
 
-package org.jeecg.modules.test.xxljob;
+package com.logiant.modules.test.xxljob;
 
 
 import com.xxl.job.core.biz.model.ReturnT;

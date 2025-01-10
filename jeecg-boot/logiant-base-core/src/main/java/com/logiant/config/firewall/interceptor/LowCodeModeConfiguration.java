@@ -1,6 +1,6 @@
-package org.jeecg.config.firewall.interceptor;
+package com.logiant.config.firewall.interceptor;
 
-import org.jeecg.config.firewall.interceptor.enums.LowCodeUrlsEnum;
+import com.logiant.config.firewall.interceptor.enums.LowCodeUrlsEnum;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;

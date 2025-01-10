@@ -1,7 +1,7 @@
-package org.jeecg.modules.test.seata.order.service;
+package com.logiant.modules.test.seata.order.service;
 
 
-import org.jeecg.modules.test.seata.order.dto.PlaceOrderRequest;
+import com.logiant.modules.test.seata.order.dto.PlaceOrderRequest;
 
 /**
  * @Description: 订单接口

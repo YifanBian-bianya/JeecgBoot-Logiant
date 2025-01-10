@@ -1,4 +1,4 @@
-package org.jeecg.common.system.enhance;
+package com.logiant.common.system.enhance;
 
 import java.util.List;
 

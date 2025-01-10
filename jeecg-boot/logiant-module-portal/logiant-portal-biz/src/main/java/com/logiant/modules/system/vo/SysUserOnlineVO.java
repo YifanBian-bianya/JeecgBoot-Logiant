@@ -1,8 +1,8 @@
-package org.jeecg.modules.system.vo;
+package com.logiant.modules.system.vo;
 
 import java.util.Date;
 
-import org.jeecg.common.aspect.annotation.Dict;
+import com.logiant.common.aspect.annotation.Dict;
 import org.springframework.format.annotation.DateTimeFormat;
 
 import com.fasterxml.jackson.annotation.JsonFormat;

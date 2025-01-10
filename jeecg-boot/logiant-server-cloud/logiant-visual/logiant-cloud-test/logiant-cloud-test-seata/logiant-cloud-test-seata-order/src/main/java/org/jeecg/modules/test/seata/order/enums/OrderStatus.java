@@ -1,4 +1,4 @@
-package org.jeecg.modules.test.seata.order.enums;
+package com.logiant.modules.test.seata.order.enums;
 
 /**
  * @Description: 订单状态

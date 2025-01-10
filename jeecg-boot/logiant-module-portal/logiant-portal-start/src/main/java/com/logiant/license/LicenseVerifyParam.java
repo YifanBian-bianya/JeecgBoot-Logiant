@@ -1,4 +1,4 @@
-package org.jeecg.license;
+package com.logiant.license;
 
 /**
  * License校验类需要的参数

@@ -1,4 +1,4 @@
-package org.jeecg.modules.system.controller;
+package com.logiant.modules.system.controller;
 
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
@@ -11,12 +11,12 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import org.apache.shiro.SecurityUtils;
-import org.jeecg.common.api.vo.Result;
-import org.jeecg.common.system.query.QueryGenerator;
-import org.jeecg.common.system.vo.LoginUser;
-import org.jeecg.common.util.oConvertUtils;
-import org.jeecg.modules.system.entity.SysUserAgent;
-import org.jeecg.modules.system.service.ISysUserAgentService;
+import com.logiant.common.api.vo.Result;
+import com.logiant.common.system.query.QueryGenerator;
+import com.logiant.common.system.vo.LoginUser;
+import com.logiant.common.util.oConvertUtils;
+import com.logiant.modules.system.entity.SysUserAgent;
+import com.logiant.modules.system.service.ISysUserAgentService;
 import org.jeecgframework.poi.excel.ExcelImportUtil;
 import org.jeecgframework.poi.excel.def.NormalExcelConstants;
 import org.jeecgframework.poi.excel.entity.ExportParams;

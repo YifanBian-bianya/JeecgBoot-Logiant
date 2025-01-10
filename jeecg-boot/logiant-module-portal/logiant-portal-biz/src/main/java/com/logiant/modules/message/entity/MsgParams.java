@@ -1,4 +1,4 @@
-package org.jeecg.modules.message.entity;
+package com.logiant.modules.message.entity;
 
 import java.io.Serializable;
 

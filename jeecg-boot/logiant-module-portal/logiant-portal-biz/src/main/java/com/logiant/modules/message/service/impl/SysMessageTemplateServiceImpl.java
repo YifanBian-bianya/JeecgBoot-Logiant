@@ -1,9 +1,9 @@
-package org.jeecg.modules.message.service.impl;
+package com.logiant.modules.message.service.impl;
 
-import org.jeecg.common.system.base.service.impl.JeecgServiceImpl;
-import org.jeecg.modules.message.entity.SysMessageTemplate;
-import org.jeecg.modules.message.mapper.SysMessageTemplateMapper;
-import org.jeecg.modules.message.service.ISysMessageTemplateService;
+import com.logiant.common.system.base.service.impl.JeecgServiceImpl;
+import com.logiant.modules.message.entity.SysMessageTemplate;
+import com.logiant.modules.message.mapper.SysMessageTemplateMapper;
+import com.logiant.modules.message.service.ISysMessageTemplateService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import java.util.List;

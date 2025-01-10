@@ -1,4 +1,4 @@
-package org.jeecg.modules.aop;
+package com.logiant.modules.aop;
 
 import org.apache.shiro.SecurityUtils;
 import org.aspectj.lang.ProceedingJoinPoint;
@@ -7,12 +7,12 @@ import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Pointcut;
 import org.aspectj.lang.reflect.MethodSignature;
-import org.jeecg.common.api.dto.LogDTO;
-import org.jeecg.common.constant.CommonConstant;
-import org.jeecg.common.system.vo.LoginUser;
-import org.jeecg.modules.base.service.BaseCommonService;
-import org.jeecg.modules.system.entity.SysTenantPack;
-import org.jeecg.modules.system.entity.SysTenantPackUser;
+import com.logiant.common.api.dto.LogDTO;
+import com.logiant.common.constant.CommonConstant;
+import com.logiant.common.system.vo.LoginUser;
+import com.logiant.modules.base.service.BaseCommonService;
+import com.logiant.modules.system.entity.SysTenantPack;
+import com.logiant.modules.system.entity.SysTenantPackUser;
 import org.springframework.stereotype.Component;
 
 import javax.annotation.Resource;

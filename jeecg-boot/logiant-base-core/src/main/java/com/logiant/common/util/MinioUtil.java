@@ -1,11 +1,11 @@
-package org.jeecg.common.util;
+package com.logiant.common.util;
 
 import io.minio.*;
 import io.minio.http.Method;
 import lombok.extern.slf4j.Slf4j;
-import org.jeecg.common.constant.SymbolConstant;
-import org.jeecg.common.util.filter.SsrfFileTypeFilter;
-import org.jeecg.common.util.filter.StrAttackFilter;
+import com.logiant.common.constant.SymbolConstant;
+import com.logiant.common.util.filter.SsrfFileTypeFilter;
+import com.logiant.common.util.filter.StrAttackFilter;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.io.InputStream;

@@ -1,14 +1,14 @@
-package org.jeecg.config.shiro.filters;
+package com.logiant.config.shiro.filters;
 
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang.StringUtils;
 import org.apache.shiro.web.filter.authc.BasicHttpAuthenticationFilter;
 import org.jeecg.common.config.TenantContext;
-import org.jeecg.common.constant.CommonConstant;
-import org.jeecg.common.system.util.JwtUtil;
-import org.jeecg.common.util.oConvertUtils;
-import org.jeecg.config.shiro.JwtToken;
-import org.jeecg.config.shiro.ignore.InMemoryIgnoreAuth;
+import com.logiant.common.constant.CommonConstant;
+import com.logiant.common.system.util.JwtUtil;
+import com.logiant.common.util.oConvertUtils;
+import com.logiant.config.shiro.JwtToken;
+import com.logiant.config.shiro.ignore.InMemoryIgnoreAuth;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.RequestMethod;

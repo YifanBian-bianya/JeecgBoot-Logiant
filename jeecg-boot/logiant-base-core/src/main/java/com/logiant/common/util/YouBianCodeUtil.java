@@ -1,4 +1,4 @@
-package org.jeecg.common.util;
+package com.logiant.common.util;
 
 import io.netty.util.internal.StringUtil;
 

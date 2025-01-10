@@ -1,10 +1,11 @@
-package org.jeecg.common.util.dynamic.db;
+package com.logiant.common.util.dynamic.db;
 
 import com.alibaba.druid.pool.DruidDataSource;
-import org.jeecg.common.api.CommonAPI;
+import com.logiant.common.api.CommonAPI;
 import org.jeecg.common.constant.CacheConstant;
-import org.jeecg.common.system.vo.DynamicDataSourceModel;
-import org.jeecg.common.util.SpringContextUtils;
+import org.jeecg.common.constant.CacheConstant;
+import com.logiant.common.system.vo.DynamicDataSourceModel;
+import com.logiant.common.util.SpringContextUtils;
 import org.springframework.data.redis.core.RedisTemplate;
 import java.util.HashMap;
 import java.util.Map;

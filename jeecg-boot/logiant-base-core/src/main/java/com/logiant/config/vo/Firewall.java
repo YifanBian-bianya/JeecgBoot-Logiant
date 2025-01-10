@@ -1,4 +1,4 @@
-package org.jeecg.config.vo;
+package com.logiant.config.vo;
 
 /**
  * 平台安全配置

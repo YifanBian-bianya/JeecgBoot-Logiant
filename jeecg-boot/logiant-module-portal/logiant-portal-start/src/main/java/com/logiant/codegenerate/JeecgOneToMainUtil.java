@@ -1,4 +1,4 @@
-package org.jeecg.codegenerate;
+package com.logiant.codegenerate;
 
 import java.util.ArrayList;
 import java.util.List;

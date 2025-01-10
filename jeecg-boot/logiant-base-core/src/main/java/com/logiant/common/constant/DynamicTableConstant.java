@@ -1,4 +1,4 @@
-package org.jeecg.common.constant;
+package com.logiant.common.constant;
 
 /**
  * 动态切换表配置常量

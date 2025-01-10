@@ -1,4 +1,4 @@
-package org.jeecg.config.mybatis;
+package com.logiant.config.mybatis;
 
 import cn.hutool.core.util.ObjectUtil;
 import com.baomidou.mybatisplus.core.toolkit.CollectionUtils;

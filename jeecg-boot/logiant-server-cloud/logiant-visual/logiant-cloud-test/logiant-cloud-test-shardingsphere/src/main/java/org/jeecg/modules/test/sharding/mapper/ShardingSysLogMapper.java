@@ -1,7 +1,7 @@
-package org.jeecg.modules.test.sharding.mapper;
+package com.logiant.modules.test.sharding.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import org.jeecg.modules.test.sharding.entity.ShardingSysLog;
+import com.logiant.modules.test.sharding.entity.ShardingSysLog;
 
 
 /**

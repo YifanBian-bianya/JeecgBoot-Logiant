@@ -1,6 +1,6 @@
-package org.jeecg.modules.demo.test.service;
+package com.logiant.modules.demo.test.service;
 
-import org.jeecg.modules.demo.test.entity.JoaDemo;
+import com.logiant.modules.demo.test.entity.JoaDemo;
 
 import com.baomidou.mybatisplus.extension.service.IService;
 

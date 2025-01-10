@@ -1,12 +1,12 @@
-package org.jeecg.config.sign.util;
+package com.logiant.config.sign.util;
 
 import com.alibaba.fastjson.JSONObject;
 import lombok.extern.slf4j.Slf4j;
-import org.jeecg.common.constant.SymbolConstant;
-import org.jeecg.common.exception.JeecgBootException;
-import org.jeecg.common.util.SpringContextUtils;
-import org.jeecg.common.util.oConvertUtils;
-import org.jeecg.config.JeecgBaseConfig;
+import com.logiant.common.constant.SymbolConstant;
+import com.logiant.common.exception.JeecgBootException;
+import com.logiant.common.util.SpringContextUtils;
+import com.logiant.common.util.oConvertUtils;
+import com.logiant.config.JeecgBaseConfig;
 import org.springframework.util.DigestUtils;
 import org.springframework.util.StringUtils;
 

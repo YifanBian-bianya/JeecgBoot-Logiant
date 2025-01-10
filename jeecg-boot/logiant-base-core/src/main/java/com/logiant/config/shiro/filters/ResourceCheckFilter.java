@@ -1,4 +1,4 @@
-package org.jeecg.config.shiro.filters;
+package com.logiant.config.shiro.filters;
 
 import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;

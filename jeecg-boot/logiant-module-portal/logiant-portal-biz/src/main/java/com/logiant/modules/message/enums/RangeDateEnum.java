@@ -1,9 +1,9 @@
-package org.jeecg.modules.message.enums;
+package com.logiant.modules.message.enums;
 
 import lombok.extern.slf4j.Slf4j;
-import org.jeecg.common.constant.enums.MessageTypeEnum;
-import org.jeecg.common.system.annotation.EnumDict;
-import org.jeecg.common.system.vo.DictModel;
+import com.logiant.common.constant.enums.MessageTypeEnum;
+import com.logiant.common.system.annotation.EnumDict;
+import com.logiant.common.system.vo.DictModel;
 
 import java.util.ArrayList;
 import java.util.Calendar;

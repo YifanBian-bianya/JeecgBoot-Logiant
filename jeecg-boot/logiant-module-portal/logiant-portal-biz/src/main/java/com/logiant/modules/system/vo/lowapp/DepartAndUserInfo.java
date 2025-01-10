@@ -1,7 +1,7 @@
-package org.jeecg.modules.system.vo.lowapp;
+package com.logiant.modules.system.vo.lowapp;
 
 import lombok.Data;
-import org.jeecg.modules.system.vo.UserAvatar;
+import com.logiant.modules.system.vo.UserAvatar;
 
 import java.io.Serializable;
 import java.util.List;

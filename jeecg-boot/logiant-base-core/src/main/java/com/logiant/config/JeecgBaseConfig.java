@@ -1,6 +1,6 @@
-package org.jeecg.config;
+package com.logiant.config;
 
-import org.jeecg.config.vo.*;
+import com.logiant.config.vo.*;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 

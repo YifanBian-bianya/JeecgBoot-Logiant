@@ -1,9 +1,9 @@
-package org.jeecg.modules.system.vo;
+package com.logiant.modules.system.vo;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
-import org.jeecg.common.aspect.annotation.Dict;
+import com.logiant.common.aspect.annotation.Dict;
 import org.springframework.format.annotation.DateTimeFormat;
 
 import java.io.Serializable;

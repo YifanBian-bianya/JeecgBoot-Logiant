@@ -1,9 +1,9 @@
-package org.jeecg.modules.system.rule;
+package com.logiant.modules.system.rule;
 
 import com.alibaba.fastjson.JSONObject;
 import org.apache.commons.lang.StringUtils;
 import org.apache.commons.lang.math.RandomUtils;
-import org.jeecg.common.handler.IFillRuleHandler;
+import com.logiant.common.handler.IFillRuleHandler;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

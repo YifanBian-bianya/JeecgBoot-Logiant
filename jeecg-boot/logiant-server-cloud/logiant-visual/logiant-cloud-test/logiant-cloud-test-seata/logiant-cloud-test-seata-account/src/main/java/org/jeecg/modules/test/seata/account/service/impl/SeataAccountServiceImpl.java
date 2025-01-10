@@ -1,13 +1,13 @@
-package org.jeecg.modules.test.seata.account.service.impl;
+package com.logiant.modules.test.seata.account.service.impl;
 
 
 import com.baomidou.dynamic.datasource.annotation.DS;
 import io.seata.core.context.RootContext;
 import lombok.extern.slf4j.Slf4j;
 
-import org.jeecg.modules.test.seata.account.entity.SeataAccount;
-import org.jeecg.modules.test.seata.account.mapper.SeataAccountMapper;
-import org.jeecg.modules.test.seata.account.service.SeataAccountService;
+import com.logiant.modules.test.seata.account.entity.SeataAccount;
+import com.logiant.modules.test.seata.account.mapper.SeataAccountMapper;
+import com.logiant.modules.test.seata.account.service.SeataAccountService;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;

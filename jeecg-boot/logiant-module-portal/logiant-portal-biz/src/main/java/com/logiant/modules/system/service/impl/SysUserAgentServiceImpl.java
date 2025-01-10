@@ -1,8 +1,8 @@
-package org.jeecg.modules.system.service.impl;
+package com.logiant.modules.system.service.impl;
 
-import org.jeecg.modules.system.entity.SysUserAgent;
-import org.jeecg.modules.system.mapper.SysUserAgentMapper;
-import org.jeecg.modules.system.service.ISysUserAgentService;
+import com.logiant.modules.system.entity.SysUserAgent;
+import com.logiant.modules.system.mapper.SysUserAgentMapper;
+import com.logiant.modules.system.service.ISysUserAgentService;
 import org.springframework.stereotype.Service;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;

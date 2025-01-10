@@ -1,9 +1,9 @@
-package org.jeecg.modules.test.lock;
+package com.logiant.modules.test.lock;
 
 import lombok.extern.slf4j.Slf4j;
-import org.jeecg.boot.starter.lock.annotation.JLock;
-import org.jeecg.boot.starter.lock.client.RedissonLockClient;
-import org.jeecg.modules.test.constant.CloudConstant;
+import com.logiant.boot.starter.lock.annotation.JLock;
+import com.logiant.boot.starter.lock.client.RedissonLockClient;
+import com.logiant.modules.test.constant.CloudConstant;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;

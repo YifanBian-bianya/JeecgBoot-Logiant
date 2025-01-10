@@ -1,7 +1,7 @@
-package org.jeecg.common.desensitization.annotation;
+package com.logiant.common.desensitization.annotation;
 
 
-import org.jeecg.common.desensitization.enums.SensitiveEnum;
+import com.logiant.common.desensitization.enums.SensitiveEnum;
 
 import java.lang.annotation.*;
 

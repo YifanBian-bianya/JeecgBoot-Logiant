@@ -1,4 +1,4 @@
-package org.jeecg.config.sign.util;
+package com.logiant.config.sign.util;
 
 import javax.servlet.ReadListener;
 import javax.servlet.ServletInputStream;

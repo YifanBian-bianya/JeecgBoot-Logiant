@@ -1,4 +1,4 @@
-package org.jeecg.modules.system.controller;
+package com.logiant.modules.system.controller;
 
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
@@ -8,12 +8,12 @@ import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.shiro.authz.annotation.RequiresPermissions;
-import org.jeecg.common.api.vo.Result;
-import org.jeecg.common.aspect.annotation.AutoLog;
-import org.jeecg.common.system.base.controller.JeecgController;
-import org.jeecg.common.system.query.QueryGenerator;
-import org.jeecg.modules.system.entity.SysRoleIndex;
-import org.jeecg.modules.system.service.ISysRoleIndexService;
+import com.logiant.common.api.vo.Result;
+import com.logiant.common.aspect.annotation.AutoLog;
+import com.logiant.common.system.base.controller.JeecgController;
+import com.logiant.common.system.query.QueryGenerator;
+import com.logiant.modules.system.entity.SysRoleIndex;
+import com.logiant.modules.system.service.ISysRoleIndexService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;

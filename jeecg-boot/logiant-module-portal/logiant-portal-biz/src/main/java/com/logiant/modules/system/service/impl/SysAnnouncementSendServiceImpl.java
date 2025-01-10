@@ -1,13 +1,13 @@
-package org.jeecg.modules.system.service.impl;
+package com.logiant.modules.system.service.impl;
 
 import java.util.List;
 
 import javax.annotation.Resource;
 
-import org.jeecg.modules.system.entity.SysAnnouncementSend;
-import org.jeecg.modules.system.mapper.SysAnnouncementSendMapper;
-import org.jeecg.modules.system.model.AnnouncementSendModel;
-import org.jeecg.modules.system.service.ISysAnnouncementSendService;
+import com.logiant.modules.system.entity.SysAnnouncementSend;
+import com.logiant.modules.system.mapper.SysAnnouncementSendMapper;
+import com.logiant.modules.system.model.AnnouncementSendModel;
+import com.logiant.modules.system.service.ISysAnnouncementSendService;
 import org.springframework.stereotype.Service;
 
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;

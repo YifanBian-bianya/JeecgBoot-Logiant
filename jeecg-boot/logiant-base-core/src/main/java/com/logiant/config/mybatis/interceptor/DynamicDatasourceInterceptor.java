@@ -1,4 +1,4 @@
-package org.jeecg.config.mybatis.interceptor;
+package com.logiant.config.mybatis.interceptor;
 
 import com.baomidou.dynamic.datasource.toolkit.DynamicDataSourceContextHolder;
 import lombok.extern.slf4j.Slf4j;

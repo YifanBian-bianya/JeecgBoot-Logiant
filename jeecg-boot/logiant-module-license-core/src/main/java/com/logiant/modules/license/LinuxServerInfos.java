@@ -1,4 +1,4 @@
-package org.jeecg.modules.license;
+package com.logiant.modules.license;
 
 import org.apache.commons.lang3.StringUtils;
 

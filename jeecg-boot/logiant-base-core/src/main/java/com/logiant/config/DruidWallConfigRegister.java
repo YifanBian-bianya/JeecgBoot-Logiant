@@ -1,4 +1,4 @@
-package org.jeecg.config;
+package com.logiant.config;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.SpringApplicationRunListener;

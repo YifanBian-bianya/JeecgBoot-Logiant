@@ -1,4 +1,4 @@
-package org.jeecg.common.system.vo;
+package com.logiant.common.system.vo;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;

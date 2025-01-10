@@ -1,4 +1,4 @@
-package org.jeecg.config.shiro;
+package com.logiant.config.shiro;
 
 import lombok.extern.slf4j.Slf4j;
 import org.apache.shiro.authc.AuthenticationException;
@@ -9,17 +9,17 @@ import org.apache.shiro.authz.AuthorizationInfo;
 import org.apache.shiro.authz.SimpleAuthorizationInfo;
 import org.apache.shiro.realm.AuthorizingRealm;
 import org.apache.shiro.subject.PrincipalCollection;
-import org.jeecg.common.api.CommonAPI;
+import com.logiant.common.api.CommonAPI;
 import org.jeecg.common.config.TenantContext;
 import org.jeecg.common.constant.CacheConstant;
-import org.jeecg.common.constant.CommonConstant;
-import org.jeecg.common.system.util.JwtUtil;
-import org.jeecg.common.system.vo.LoginUser;
+import com.logiant.common.constant.CommonConstant;
+import com.logiant.common.system.util.JwtUtil;
+import com.logiant.common.system.vo.LoginUser;
 import org.jeecg.common.util.RedisUtil;
-import org.jeecg.common.util.SpringContextUtils;
-import org.jeecg.common.util.TokenUtils;
-import org.jeecg.common.util.oConvertUtils;
-import org.jeecg.config.mybatis.MybatisPlusSaasConfig;
+import com.logiant.common.util.SpringContextUtils;
+import com.logiant.common.util.TokenUtils;
+import com.logiant.common.util.oConvertUtils;
+import com.logiant.config.mybatis.MybatisPlusSaasConfig;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Component;
 

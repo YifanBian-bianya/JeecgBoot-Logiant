@@ -1,10 +1,10 @@
-package org.jeecg.common.util;
+package com.logiant.common.util;
 
 import cn.hutool.core.util.ReUtil;
 import lombok.extern.slf4j.Slf4j;
-import org.jeecg.common.constant.CommonConstant;
-import org.jeecg.common.constant.SymbolConstant;
-import org.jeecg.common.exception.JeecgSqlInjectionException;
+import com.logiant.common.constant.CommonConstant;
+import com.logiant.common.constant.SymbolConstant;
+import com.logiant.common.exception.JeecgSqlInjectionException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Matcher;

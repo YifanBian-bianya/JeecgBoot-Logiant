@@ -1,6 +1,6 @@
-package org.jeecg.common.constant.enums;
+package com.logiant.common.constant.enums;
 
-import org.jeecg.common.constant.CommonConstant;
+import com.logiant.common.constant.CommonConstant;
 
 /**
  * @Description: 操作类型

@@ -1,9 +1,9 @@
-package org.jeecg.modules.system.test;
+package com.logiant.modules.system.test;
 
-import org.jeecg.JeecgSystemApplication;
-import org.jeecg.common.system.api.ISysBaseAPI;
-import org.jeecg.config.JeecgBaseConfig;
-import org.jeecg.config.firewall.SqlInjection.IDictTableWhiteListHandler;
+import com.logiant.JeecgSystemApplication;
+import com.logiant.common.system.api.ISysBaseAPI;
+import com.logiant.config.JeecgBaseConfig;
+import com.logiant.config.firewall.SqlInjection.IDictTableWhiteListHandler;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

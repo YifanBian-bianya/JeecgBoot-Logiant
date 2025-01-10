@@ -1,7 +1,7 @@
-package org.jeecg.modules.test.sharding.service;
+package com.logiant.modules.test.sharding.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import org.jeecg.modules.test.sharding.entity.ShardingSysLog;
+import com.logiant.modules.test.sharding.entity.ShardingSysLog;
 
 /**
  * @Description:  系统日志表 服务类

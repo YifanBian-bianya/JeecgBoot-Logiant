@@ -1,13 +1,13 @@
-package org.jeecg.modules.system.service.impl;
+package com.logiant.modules.system.service.impl;
 
 import java.util.*;
 
-import org.jeecg.common.util.IpUtils;
-import org.jeecg.common.util.SpringContextUtils;
-import org.jeecg.common.util.oConvertUtils;
-import org.jeecg.modules.system.entity.SysRolePermission;
-import org.jeecg.modules.system.mapper.SysRolePermissionMapper;
-import org.jeecg.modules.system.service.ISysRolePermissionService;
+import com.logiant.common.util.IpUtils;
+import com.logiant.common.util.SpringContextUtils;
+import com.logiant.common.util.oConvertUtils;
+import com.logiant.modules.system.entity.SysRolePermission;
+import com.logiant.modules.system.mapper.SysRolePermissionMapper;
+import com.logiant.modules.system.service.ISysRolePermissionService;
 
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;

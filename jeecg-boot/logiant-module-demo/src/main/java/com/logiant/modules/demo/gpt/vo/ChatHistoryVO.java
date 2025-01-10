@@ -1,4 +1,4 @@
-package org.jeecg.modules.demo.gpt.vo;
+package com.logiant.modules.demo.gpt.vo;
 
 import lombok.Data;
 

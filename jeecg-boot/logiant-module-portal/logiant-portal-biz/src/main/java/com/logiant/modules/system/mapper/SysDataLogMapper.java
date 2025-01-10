@@ -1,7 +1,7 @@
-package org.jeecg.modules.system.mapper;
+package com.logiant.modules.system.mapper;
 
 import org.apache.ibatis.annotations.Param;
-import org.jeecg.modules.system.entity.SysDataLog;
+import com.logiant.modules.system.entity.SysDataLog;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 

@@ -1,4 +1,4 @@
-package org.jeecg.common.aspect;
+package com.logiant.common.aspect;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
@@ -11,12 +11,12 @@ import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Pointcut;
-import org.jeecg.common.api.CommonAPI;
-import org.jeecg.common.api.vo.Result;
-import org.jeecg.common.aspect.annotation.Dict;
-import org.jeecg.common.constant.CommonConstant;
-import org.jeecg.common.system.vo.DictModel;
-import org.jeecg.common.util.oConvertUtils;
+import com.logiant.common.api.CommonAPI;
+import com.logiant.common.api.vo.Result;
+import com.logiant.common.aspect.annotation.Dict;
+import com.logiant.common.constant.CommonConstant;
+import com.logiant.common.system.vo.DictModel;
+import com.logiant.common.util.oConvertUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.data.redis.core.RedisTemplate;

@@ -1,6 +1,6 @@
-package org.jeecg.config;
+package com.logiant.config;
 
-import org.jeecg.config.filter.WebsocketFilter;
+import com.logiant.config.filter.WebsocketFilter;
 import org.springframework.boot.web.servlet.FilterRegistrationBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

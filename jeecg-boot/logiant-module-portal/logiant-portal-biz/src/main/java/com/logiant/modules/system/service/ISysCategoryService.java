@@ -1,9 +1,9 @@
-package org.jeecg.modules.system.service;
+package com.logiant.modules.system.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import org.jeecg.common.exception.JeecgBootException;
-import org.jeecg.modules.system.entity.SysCategory;
-import org.jeecg.modules.system.model.TreeSelectModel;
+import com.logiant.common.exception.JeecgBootException;
+import com.logiant.modules.system.entity.SysCategory;
+import com.logiant.modules.system.model.TreeSelectModel;
 
 import java.util.List;
 import java.util.Map;

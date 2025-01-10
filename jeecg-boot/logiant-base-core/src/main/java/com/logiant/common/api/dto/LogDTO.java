@@ -1,7 +1,7 @@
-package org.jeecg.common.api.dto;
+package com.logiant.common.api.dto;
 import lombok.Data;
-import org.jeecg.common.aspect.annotation.Dict;
-import org.jeecg.common.system.vo.LoginUser;
+import com.logiant.common.aspect.annotation.Dict;
+import com.logiant.common.system.vo.LoginUser;
 import java.io.Serializable;
 import java.util.Date;
 

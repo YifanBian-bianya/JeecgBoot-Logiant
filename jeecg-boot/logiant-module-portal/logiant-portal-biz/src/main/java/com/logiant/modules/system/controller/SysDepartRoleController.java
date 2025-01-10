@@ -1,4 +1,4 @@
-package org.jeecg.modules.system.controller;
+package com.logiant.modules.system.controller;
 
 import java.util.*;
 import java.util.stream.Collectors;
@@ -11,20 +11,20 @@ import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authz.annotation.RequiresPermissions;
 import org.apache.shiro.authz.annotation.RequiresRoles;
-import org.jeecg.common.api.vo.Result;
-import org.jeecg.common.constant.CommonConstant;
-import org.jeecg.common.system.query.QueryGenerator;
-import org.jeecg.common.aspect.annotation.AutoLog;
-import org.jeecg.common.system.vo.LoginUser;
-import org.jeecg.common.util.oConvertUtils;
-import org.jeecg.modules.base.service.BaseCommonService;
-import org.jeecg.modules.system.entity.*;
-import org.jeecg.modules.system.service.*;
+import com.logiant.common.api.vo.Result;
+import com.logiant.common.constant.CommonConstant;
+import com.logiant.common.system.query.QueryGenerator;
+import com.logiant.common.aspect.annotation.AutoLog;
+import com.logiant.common.system.vo.LoginUser;
+import com.logiant.common.util.oConvertUtils;
+import com.logiant.modules.base.service.BaseCommonService;
+import com.logiant.modules.system.entity.*;
+import com.logiant.modules.system.service.*;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import lombok.extern.slf4j.Slf4j;
-import org.jeecg.common.system.base.controller.JeecgController;
+import com.logiant.common.system.base.controller.JeecgController;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

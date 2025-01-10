@@ -1,13 +1,13 @@
-package org.jeecg.modules.oss.service.impl;
+package com.logiant.modules.oss.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import org.jeecg.common.exception.JeecgBootException;
-import org.jeecg.common.util.CommonUtils;
-import org.jeecg.common.util.oConvertUtils;
-import org.jeecg.common.util.oss.OssBootUtil;
-import org.jeecg.modules.oss.entity.OssFile;
-import org.jeecg.modules.oss.mapper.OssFileMapper;
-import org.jeecg.modules.oss.service.IOssFileService;
+import com.logiant.common.exception.JeecgBootException;
+import com.logiant.common.util.CommonUtils;
+import com.logiant.common.util.oConvertUtils;
+import com.logiant.common.util.oss.OssBootUtil;
+import com.logiant.modules.oss.entity.OssFile;
+import com.logiant.modules.oss.mapper.OssFileMapper;
+import com.logiant.modules.oss.service.IOssFileService;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 

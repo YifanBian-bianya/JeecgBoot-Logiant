@@ -1,9 +1,9 @@
-package org.jeecg.modules.message.service;
+package com.logiant.modules.message.service;
 
 import java.util.List;
 
-import org.jeecg.common.system.base.service.JeecgService;
-import org.jeecg.modules.message.entity.SysMessageTemplate;
+import com.logiant.common.system.base.service.JeecgService;
+import com.logiant.modules.message.entity.SysMessageTemplate;
 
 /**
  * @Description: 消息模板

@@ -1,9 +1,9 @@
-package org.jeecg.modules.system.model;
+package com.logiant.modules.system.model;
 
 import java.io.Serializable;
 import java.util.Date;
 
-import org.jeecg.modules.system.entity.SysDict;
+import com.logiant.modules.system.entity.SysDict;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;

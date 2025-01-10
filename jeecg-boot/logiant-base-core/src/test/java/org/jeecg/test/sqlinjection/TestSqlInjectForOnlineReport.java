@@ -1,8 +1,8 @@
-package org.jeecg.test.sqlinjection;
+package com.logiant.test.sqlinjection;
 
 import lombok.extern.slf4j.Slf4j;
 import net.sf.jsqlparser.JSQLParserException;
-import org.jeecg.common.util.SqlInjectionUtil;
+import com.logiant.common.util.SqlInjectionUtil;
 import org.junit.Test;
 
 import static org.junit.Assert.assertFalse;

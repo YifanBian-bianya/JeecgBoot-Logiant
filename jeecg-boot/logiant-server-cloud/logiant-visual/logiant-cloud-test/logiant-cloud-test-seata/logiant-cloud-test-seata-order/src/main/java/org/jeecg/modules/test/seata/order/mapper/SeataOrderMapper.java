@@ -1,4 +1,4 @@
-package org.jeecg.modules.test.seata.order.mapper;
+package com.logiant.modules.test.seata.order.mapper;
 
 /**
  * @Description: TODO
@@ -9,7 +9,7 @@ package org.jeecg.modules.test.seata.order.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import org.apache.ibatis.annotations.Mapper;
-import org.jeecg.modules.test.seata.order.entity.SeataOrder;
+import com.logiant.modules.test.seata.order.entity.SeataOrder;
 
 @Mapper
 public interface SeataOrderMapper extends BaseMapper<SeataOrder> {

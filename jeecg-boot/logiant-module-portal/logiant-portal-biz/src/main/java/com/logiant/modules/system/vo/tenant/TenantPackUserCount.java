@@ -1,4 +1,4 @@
-package org.jeecg.modules.system.vo.tenant;
+package com.logiant.modules.system.vo.tenant;
 
 import lombok.Data;
 

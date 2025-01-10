@@ -1,4 +1,4 @@
-package org.jeecg.config;
+package com.logiant.config;
 
 import org.jeecgframework.core.util.ApplicationContextUtil;
 import org.springframework.context.annotation.Bean;

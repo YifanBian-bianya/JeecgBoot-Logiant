@@ -1,7 +1,7 @@
-package org.jeecg.common.util.security;
+package com.logiant.common.util.security;
 
-import org.jeecg.common.exception.JeecgBootException;
-import org.jeecg.common.util.oConvertUtils;
+import com.logiant.common.exception.JeecgBootException;
+import com.logiant.common.util.oConvertUtils;
 
 /**
  * jdbc连接校验

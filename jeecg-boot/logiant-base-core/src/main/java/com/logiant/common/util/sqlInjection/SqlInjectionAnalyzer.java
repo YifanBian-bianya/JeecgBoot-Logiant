@@ -1,7 +1,7 @@
-package org.jeecg.common.util.sqlInjection;
+package com.logiant.common.util.sqlInjection;
 
-import org.jeecg.common.exception.JeecgSqlInjectionException;
-import org.jeecg.common.util.sqlInjection.parse.ParserSupport;
+import com.logiant.common.exception.JeecgSqlInjectionException;
+import com.logiant.common.util.sqlInjection.parse.ParserSupport;
 ;
 
 /**

@@ -1,4 +1,4 @@
-//package org.jeecg.common.util.superSearch;
+//package com.logiant.common.util.superSearch;
 //
 //import lombok.Data;
 //

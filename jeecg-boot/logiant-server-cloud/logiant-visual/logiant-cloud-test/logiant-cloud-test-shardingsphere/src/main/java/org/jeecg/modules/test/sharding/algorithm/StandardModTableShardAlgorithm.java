@@ -1,4 +1,4 @@
-package org.jeecg.modules.test.sharding.algorithm;
+package com.logiant.modules.test.sharding.algorithm;
 
 
 import org.apache.shardingsphere.sharding.api.sharding.standard.PreciseShardingValue;

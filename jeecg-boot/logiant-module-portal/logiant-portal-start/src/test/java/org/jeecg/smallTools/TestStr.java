@@ -1,4 +1,4 @@
-package org.jeecg.smallTools;
+package com.logiant.smallTools;
 
 import com.alibaba.fastjson.JSONArray;
 import org.apache.commons.lang3.StringUtils;

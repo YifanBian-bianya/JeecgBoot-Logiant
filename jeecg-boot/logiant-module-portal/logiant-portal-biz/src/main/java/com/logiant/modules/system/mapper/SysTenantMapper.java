@@ -1,15 +1,15 @@
-package org.jeecg.modules.system.mapper;
+package com.logiant.modules.system.mapper;
 
 import com.baomidou.mybatisplus.annotation.InterceptorIgnore;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
-import org.jeecg.modules.system.entity.SysTenant;
-import org.jeecg.modules.system.vo.tenant.TenantPackUser;
-import org.jeecg.modules.system.vo.tenant.TenantPackUserCount;
-import org.jeecg.modules.system.vo.tenant.UserDepart;
-import org.jeecg.modules.system.vo.tenant.UserPosition;
+import com.logiant.modules.system.entity.SysTenant;
+import com.logiant.modules.system.vo.tenant.TenantPackUser;
+import com.logiant.modules.system.vo.tenant.TenantPackUserCount;
+import com.logiant.modules.system.vo.tenant.UserDepart;
+import com.logiant.modules.system.vo.tenant.UserPosition;
 
 import java.util.List;
 

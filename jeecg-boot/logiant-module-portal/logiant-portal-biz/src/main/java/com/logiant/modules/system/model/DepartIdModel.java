@@ -1,10 +1,10 @@
-package org.jeecg.modules.system.model;
+package com.logiant.modules.system.model;
 
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.jeecg.modules.system.entity.SysDepart;
+import com.logiant.modules.system.entity.SysDepart;
 
 /**
  * <p>

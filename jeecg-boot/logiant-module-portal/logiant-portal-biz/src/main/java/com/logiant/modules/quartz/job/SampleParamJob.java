@@ -1,6 +1,6 @@
-package org.jeecg.modules.quartz.job;
+package com.logiant.modules.quartz.job;
 
-import org.jeecg.common.util.DateUtils;
+import com.logiant.common.util.DateUtils;
 import org.quartz.Job;
 import org.quartz.JobExecutionContext;
 import org.quartz.JobExecutionException;

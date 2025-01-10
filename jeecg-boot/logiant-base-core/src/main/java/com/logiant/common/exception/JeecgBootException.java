@@ -1,6 +1,6 @@
-package org.jeecg.common.exception;
+package com.logiant.common.exception;
 
-import org.jeecg.common.constant.CommonConstant;
+import com.logiant.common.constant.CommonConstant;
 
 /**
  * @Description: jeecg-boot自定义异常

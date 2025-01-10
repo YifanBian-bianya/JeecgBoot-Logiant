@@ -1,13 +1,13 @@
-package org.jeecg.modules.quartz.service.impl;
+package com.logiant.modules.quartz.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import lombok.extern.slf4j.Slf4j;
-import org.jeecg.common.constant.CommonConstant;
-import org.jeecg.common.exception.JeecgBootException;
-import org.jeecg.common.util.DateUtils;
-import org.jeecg.modules.quartz.entity.QuartzJob;
-import org.jeecg.modules.quartz.mapper.QuartzJobMapper;
-import org.jeecg.modules.quartz.service.IQuartzJobService;
+import com.logiant.common.constant.CommonConstant;
+import com.logiant.common.exception.JeecgBootException;
+import com.logiant.common.util.DateUtils;
+import com.logiant.modules.quartz.entity.QuartzJob;
+import com.logiant.modules.quartz.mapper.QuartzJobMapper;
+import com.logiant.modules.quartz.service.IQuartzJobService;
 import org.quartz.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

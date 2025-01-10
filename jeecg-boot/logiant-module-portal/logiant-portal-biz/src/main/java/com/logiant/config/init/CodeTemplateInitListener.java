@@ -1,4 +1,4 @@
-package org.jeecg.config.init;
+package com.logiant.config.init;
 
 import cn.hutool.core.io.FileUtil;
 import lombok.extern.slf4j.Slf4j;

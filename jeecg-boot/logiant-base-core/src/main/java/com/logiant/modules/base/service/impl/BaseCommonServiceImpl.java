@@ -1,17 +1,17 @@
-package org.jeecg.modules.base.service.impl;
+package com.logiant.modules.base.service.impl;
 
 import com.baomidou.mybatisplus.core.toolkit.IdWorker;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.shiro.SecurityUtils;
-import org.jeecg.common.api.dto.LogDTO;
-import org.jeecg.common.constant.enums.ClientTerminalTypeEnum;
-import org.jeecg.common.util.BrowserUtils;
-import org.jeecg.modules.base.mapper.BaseCommonMapper;
-import org.jeecg.modules.base.service.BaseCommonService;
-import org.jeecg.common.system.vo.LoginUser;
-import org.jeecg.common.util.IpUtils;
-import org.jeecg.common.util.SpringContextUtils;
-import org.jeecg.common.util.oConvertUtils;
+import com.logiant.common.api.dto.LogDTO;
+import com.logiant.common.constant.enums.ClientTerminalTypeEnum;
+import com.logiant.common.util.BrowserUtils;
+import com.logiant.modules.base.mapper.BaseCommonMapper;
+import com.logiant.modules.base.service.BaseCommonService;
+import com.logiant.common.system.vo.LoginUser;
+import com.logiant.common.util.IpUtils;
+import com.logiant.common.util.SpringContextUtils;
+import com.logiant.common.util.oConvertUtils;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;

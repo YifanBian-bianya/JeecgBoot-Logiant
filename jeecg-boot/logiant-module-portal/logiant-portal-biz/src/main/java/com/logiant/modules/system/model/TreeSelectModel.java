@@ -1,4 +1,4 @@
-package org.jeecg.modules.system.model;
+package com.logiant.modules.system.model;
 
 import java.io.Serializable;
 import java.util.List;

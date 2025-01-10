@@ -1,12 +1,12 @@
-package org.jeecg.modules.system.util;
+package com.logiant.modules.system.util;
 
-import org.jeecg.common.constant.CommonConstant;
-import org.jeecg.common.constant.SymbolConstant;
-import org.jeecg.common.util.SpringContextUtils;
-import org.jeecg.common.util.oConvertUtils;
-import org.jeecg.modules.system.entity.SysPermission;
-import org.jeecg.modules.system.entity.SysRoleIndex;
-import org.jeecg.modules.system.service.ISysRoleIndexService;
+import com.logiant.common.constant.CommonConstant;
+import com.logiant.common.constant.SymbolConstant;
+import com.logiant.common.util.SpringContextUtils;
+import com.logiant.common.util.oConvertUtils;
+import com.logiant.modules.system.entity.SysPermission;
+import com.logiant.modules.system.entity.SysRoleIndex;
+import com.logiant.modules.system.service.ISysRoleIndexService;
 
 import java.util.List;
 

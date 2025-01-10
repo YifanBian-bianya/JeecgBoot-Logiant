@@ -1,8 +1,8 @@
-package org.jeecg.test.sqlparse;
+package com.logiant.test.sqlparse;
 
 import net.sf.jsqlparser.JSQLParserException;
-import org.jeecg.common.util.IpUtils;
-import org.jeecg.common.util.oConvertUtils;
+import com.logiant.common.util.IpUtils;
+import com.logiant.common.util.oConvertUtils;
 import org.junit.Test;
 
 import java.util.Arrays;

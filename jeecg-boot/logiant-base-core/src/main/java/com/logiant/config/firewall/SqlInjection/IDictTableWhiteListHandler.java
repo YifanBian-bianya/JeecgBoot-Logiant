@@ -1,4 +1,4 @@
-package org.jeecg.config.firewall.SqlInjection;
+package com.logiant.config.firewall.SqlInjection;
 
 /**
  * 字典表查询 :: 白名单配置

@@ -1,12 +1,12 @@
-package org.jeecg.modules.system.controller;
+package com.logiant.modules.system.controller;
 
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang.StringUtils;
-import org.jeecg.common.api.vo.Result;
-import org.jeecg.modules.system.model.DuplicateCheckVo;
-import org.jeecg.modules.system.service.ISysDictService;
+import com.logiant.common.api.vo.Result;
+import com.logiant.modules.system.model.DuplicateCheckVo;
+import com.logiant.modules.system.service.ISysDictService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;

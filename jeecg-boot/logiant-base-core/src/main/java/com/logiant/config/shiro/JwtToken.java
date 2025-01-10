@@ -1,4 +1,4 @@
-package org.jeecg.config.shiro;
+package com.logiant.config.shiro;
  
 import org.apache.shiro.authc.AuthenticationToken;
 

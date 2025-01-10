@@ -1,4 +1,4 @@
-package org.jeecg.common.constant;
+package com.logiant.common.constant;
 
 /**
  * 规则值生成 编码常量类

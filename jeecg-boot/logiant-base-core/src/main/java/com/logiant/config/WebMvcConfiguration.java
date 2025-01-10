@@ -1,4 +1,4 @@
-package org.jeecg.config;
+package com.logiant.config;
 
 import com.fasterxml.jackson.core.JsonGenerator;
 import com.fasterxml.jackson.databind.DeserializationFeature;

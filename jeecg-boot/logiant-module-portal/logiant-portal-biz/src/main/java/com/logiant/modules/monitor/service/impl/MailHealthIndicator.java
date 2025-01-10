@@ -1,4 +1,4 @@
-package org.jeecg.modules.monitor.service.impl;
+package com.logiant.modules.monitor.service.impl;
 
 import org.springframework.boot.actuate.health.Health;
 import org.springframework.boot.actuate.health.HealthIndicator;

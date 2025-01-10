@@ -1,4 +1,4 @@
-package org.jeecg.common.util.sqlInjection;
+package com.logiant.common.util.sqlInjection;
 
 
 import net.sf.jsqlparser.expression.BinaryExpression;
@@ -15,9 +15,9 @@ import net.sf.jsqlparser.statement.select.SelectItem;
 import net.sf.jsqlparser.statement.select.SubSelect;
 import net.sf.jsqlparser.statement.select.WithItem;
 import net.sf.jsqlparser.util.TablesNamesFinder;
-import org.jeecg.common.exception.JeecgSqlInjectionException;
-import org.jeecg.common.util.sqlInjection.parse.ConstAnalyzer;
-import org.jeecg.common.util.sqlInjection.parse.ParserSupport;
+import com.logiant.common.exception.JeecgSqlInjectionException;
+import com.logiant.common.util.sqlInjection.parse.ConstAnalyzer;
+import com.logiant.common.util.sqlInjection.parse.ParserSupport;
 
 /**
  * 基于SQL语法对象的SQL注入攻击分析实现

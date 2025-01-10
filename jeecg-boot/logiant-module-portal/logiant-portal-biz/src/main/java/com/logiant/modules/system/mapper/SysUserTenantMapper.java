@@ -1,4 +1,4 @@
-package org.jeecg.modules.system.mapper;
+package com.logiant.modules.system.mapper;
 
 import java.util.List;
 
@@ -7,12 +7,12 @@ import org.apache.ibatis.annotations.Delete;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
 import org.apache.ibatis.annotations.Update;
-import org.jeecg.modules.system.entity.SysTenant;
-import org.jeecg.modules.system.entity.SysUser;
-import org.jeecg.modules.system.entity.SysUserTenant;
+import com.logiant.modules.system.entity.SysTenant;
+import com.logiant.modules.system.entity.SysUser;
+import com.logiant.modules.system.entity.SysUserTenant;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import org.jeecg.modules.system.vo.SysUserTenantVo;
-import org.jeecg.modules.system.vo.thirdapp.JwUserDepartVo;
+import com.logiant.modules.system.vo.SysUserTenantVo;
+import com.logiant.modules.system.vo.thirdapp.JwUserDepartVo;
 
 /**
  * @Description: sys_user_tenant_relation

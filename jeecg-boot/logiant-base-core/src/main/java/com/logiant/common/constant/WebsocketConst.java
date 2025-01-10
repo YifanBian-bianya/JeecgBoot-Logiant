@@ -1,4 +1,4 @@
-package org.jeecg.common.constant;
+package com.logiant.common.constant;
 
 /**
  * @Description: Websocket常量类

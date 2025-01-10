@@ -1,13 +1,13 @@
-package org.jeecg.modules.message.util;
+package com.logiant.modules.message.util;
 
 import freemarker.template.Configuration;
 import freemarker.template.Template;
 import freemarker.template.TemplateException;
-import org.jeecg.modules.message.entity.SysMessage;
-import org.jeecg.modules.message.entity.SysMessageTemplate;
-import org.jeecg.modules.message.handle.enums.SendMsgStatusEnum;
-import org.jeecg.modules.message.service.ISysMessageService;
-import org.jeecg.modules.message.service.ISysMessageTemplateService;
+import com.logiant.modules.message.entity.SysMessage;
+import com.logiant.modules.message.entity.SysMessageTemplate;
+import com.logiant.modules.message.handle.enums.SendMsgStatusEnum;
+import com.logiant.modules.message.service.ISysMessageService;
+import com.logiant.modules.message.service.ISysMessageTemplateService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

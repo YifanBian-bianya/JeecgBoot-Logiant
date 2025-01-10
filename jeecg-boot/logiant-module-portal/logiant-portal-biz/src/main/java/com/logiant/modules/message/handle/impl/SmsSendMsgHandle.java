@@ -1,7 +1,7 @@
-package org.jeecg.modules.message.handle.impl;
+package com.logiant.modules.message.handle.impl;
 
 import lombok.extern.slf4j.Slf4j;
-import org.jeecg.modules.message.handle.ISendMsgHandle;
+import com.logiant.modules.message.handle.ISendMsgHandle;
 
 /**
  * @Description: 短信发送

@@ -1,12 +1,12 @@
-package org.jeecg.config.jimureport;
+package com.logiant.config.jimureport;
 
 import lombok.extern.slf4j.Slf4j;
-import org.jeecg.common.system.util.JwtUtil;
-import org.jeecg.common.system.vo.SysUserCacheInfo;
+import com.logiant.common.system.util.JwtUtil;
+import com.logiant.common.system.vo.SysUserCacheInfo;
 import org.jeecg.common.util.RedisUtil;
-import org.jeecg.common.util.TokenUtils;
+import com.logiant.common.util.TokenUtils;
 import org.jeecg.modules.jmreport.api.JmReportTokenServiceI;
-import org.jeecg.modules.system.service.impl.SysBaseApiImpl;
+import com.logiant.modules.system.service.impl.SysBaseApiImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Component;

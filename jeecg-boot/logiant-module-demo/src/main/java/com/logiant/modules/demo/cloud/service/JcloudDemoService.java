@@ -1,6 +1,6 @@
-package org.jeecg.modules.demo.cloud.service;
+package com.logiant.modules.demo.cloud.service;
 
-import org.jeecg.common.api.vo.Result;
+import com.logiant.common.api.vo.Result;
 
 /**
  * @Description: JcloudDemoService接口

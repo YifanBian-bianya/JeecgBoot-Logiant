@@ -1,7 +1,7 @@
-package org.jeecg.modules.system.vo;
+package com.logiant.modules.system.vo;
 
 import lombok.Data;
-import org.jeecg.modules.system.entity.SysUser;
+import com.logiant.modules.system.entity.SysUser;
 
 /**
  *  用户名和头像信息

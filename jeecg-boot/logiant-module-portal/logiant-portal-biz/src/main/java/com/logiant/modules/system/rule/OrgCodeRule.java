@@ -1,15 +1,15 @@
-package org.jeecg.modules.system.rule;
+package com.logiant.modules.system.rule;
 
 import com.alibaba.fastjson.JSONObject;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import io.netty.util.internal.StringUtil;
-import org.jeecg.common.handler.IFillRuleHandler;
-import org.jeecg.common.util.SpringContextUtils;
-import org.jeecg.common.util.YouBianCodeUtil;
-import org.jeecg.modules.system.entity.SysDepart;
-import org.jeecg.modules.system.service.ISysDepartService;
+import com.logiant.common.handler.IFillRuleHandler;
+import com.logiant.common.util.SpringContextUtils;
+import com.logiant.common.util.YouBianCodeUtil;
+import com.logiant.modules.system.entity.SysDepart;
+import com.logiant.modules.system.service.ISysDepartService;
 
 import java.util.ArrayList;
 import java.util.List;

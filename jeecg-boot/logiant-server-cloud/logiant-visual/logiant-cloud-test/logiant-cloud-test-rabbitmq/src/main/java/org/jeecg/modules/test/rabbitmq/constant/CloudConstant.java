@@ -1,4 +1,4 @@
-package org.jeecg.modules.test.rabbitmq.constant;
+package com.logiant.modules.test.rabbitmq.constant;
 
 /**
  * 微服务单元测试常量定义

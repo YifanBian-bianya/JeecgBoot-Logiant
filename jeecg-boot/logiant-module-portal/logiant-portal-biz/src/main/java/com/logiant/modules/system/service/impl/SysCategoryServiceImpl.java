@@ -1,19 +1,19 @@
-package org.jeecg.modules.system.service.impl;
+package com.logiant.modules.system.service.impl;
 
 import com.alibaba.fastjson.JSONObject;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.core.conditions.update.LambdaUpdateWrapper;
 import com.baomidou.mybatisplus.core.conditions.update.UpdateWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import org.jeecg.common.constant.FillRuleConstant;
-import org.jeecg.common.constant.SymbolConstant;
-import org.jeecg.common.exception.JeecgBootException;
-import org.jeecg.common.util.FillRuleUtil;
-import org.jeecg.common.util.oConvertUtils;
-import org.jeecg.modules.system.entity.SysCategory;
-import org.jeecg.modules.system.mapper.SysCategoryMapper;
-import org.jeecg.modules.system.model.TreeSelectModel;
-import org.jeecg.modules.system.service.ISysCategoryService;
+import com.logiant.common.constant.FillRuleConstant;
+import com.logiant.common.constant.SymbolConstant;
+import com.logiant.common.exception.JeecgBootException;
+import com.logiant.common.util.FillRuleUtil;
+import com.logiant.common.util.oConvertUtils;
+import com.logiant.modules.system.entity.SysCategory;
+import com.logiant.modules.system.mapper.SysCategoryMapper;
+import com.logiant.modules.system.model.TreeSelectModel;
+import com.logiant.modules.system.service.ISysCategoryService;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 

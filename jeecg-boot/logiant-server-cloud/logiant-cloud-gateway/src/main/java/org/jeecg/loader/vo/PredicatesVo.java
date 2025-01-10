@@ -1,4 +1,4 @@
-package org.jeecg.loader.vo;
+package com.logiant.loader.vo;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

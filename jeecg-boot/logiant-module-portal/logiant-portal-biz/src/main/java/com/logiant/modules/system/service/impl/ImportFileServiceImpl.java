@@ -1,7 +1,7 @@
-package org.jeecg.modules.system.service.impl;
+package com.logiant.modules.system.service.impl;
 
 import lombok.extern.slf4j.Slf4j;
-import org.jeecg.common.util.CommonUtils;
+import com.logiant.common.util.CommonUtils;
 import org.jeecgframework.poi.excel.imports.base.ImportFileServiceI;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;

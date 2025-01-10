@@ -1,12 +1,12 @@
-package org.jeecg.common.system.util;
+package com.logiant.common.system.util;
 
 import lombok.extern.slf4j.Slf4j;
-import org.jeecg.common.constant.DataBaseConstant;
-import org.jeecg.common.constant.SymbolConstant;
-import org.jeecg.common.system.query.QueryGenerator;
-import org.jeecg.common.system.query.QueryRuleEnum;
-import org.jeecg.common.util.CommonUtils;
-import org.jeecg.common.util.oConvertUtils;
+import com.logiant.common.constant.DataBaseConstant;
+import com.logiant.common.constant.SymbolConstant;
+import com.logiant.common.system.query.QueryGenerator;
+import com.logiant.common.system.query.QueryRuleEnum;
+import com.logiant.common.util.CommonUtils;
+import com.logiant.common.util.oConvertUtils;
 import java.util.ArrayList;
 import java.util.List;
 

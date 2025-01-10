@@ -1,8 +1,8 @@
-package org.jeecg.license;
+package com.logiant.license;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.jeecg.modules.license.LicenseCreatorParam;
+import com.logiant.modules.license.LicenseCreatorParam;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
 

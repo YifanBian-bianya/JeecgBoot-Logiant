@@ -1,7 +1,7 @@
-package org.jeecg.modules.system.mapper;
+package com.logiant.modules.system.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import org.jeecg.modules.system.entity.SysFormFile;
+import com.logiant.modules.system.entity.SysFormFile;
 
 /**
  * @Description: 表单评论文件

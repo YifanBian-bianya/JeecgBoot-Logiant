@@ -1,4 +1,4 @@
-package org.jeecg.config;
+package com.logiant.config;
 
 import lombok.Data;
 import org.springframework.beans.factory.annotation.Value;

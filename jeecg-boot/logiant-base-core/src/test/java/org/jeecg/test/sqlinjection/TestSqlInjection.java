@@ -1,7 +1,7 @@
-package org.jeecg.test.sqlinjection;
+package com.logiant.test.sqlinjection;
 
 import com.baomidou.mybatisplus.core.toolkit.sql.SqlInjectionUtils;
-import org.jeecg.common.util.SqlInjectionUtil;
+import com.logiant.common.util.SqlInjectionUtil;
 import org.junit.Test;
 
 import java.util.ArrayList;

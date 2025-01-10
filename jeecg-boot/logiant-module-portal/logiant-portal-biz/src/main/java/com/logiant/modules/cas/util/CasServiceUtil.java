@@ -1,4 +1,4 @@
-package org.jeecg.modules.cas.util;
+package com.logiant.modules.cas.util;
 
 import java.io.BufferedReader;
 import java.io.IOException;

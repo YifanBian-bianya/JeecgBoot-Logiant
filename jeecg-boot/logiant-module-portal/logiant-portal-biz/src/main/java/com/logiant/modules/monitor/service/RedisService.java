@@ -1,12 +1,12 @@
-package org.jeecg.modules.monitor.service;
+package com.logiant.modules.monitor.service;
 
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
 import com.alibaba.fastjson.JSONArray;
-import org.jeecg.modules.monitor.domain.RedisInfo;
-import org.jeecg.modules.monitor.exception.RedisConnectException;
+import com.logiant.modules.monitor.domain.RedisInfo;
+import com.logiant.modules.monitor.exception.RedisConnectException;
 
 /**
  * @Description: redis信息service接口

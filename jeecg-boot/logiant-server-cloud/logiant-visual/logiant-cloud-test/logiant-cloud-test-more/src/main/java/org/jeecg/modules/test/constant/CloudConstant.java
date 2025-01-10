@@ -1,4 +1,4 @@
-package org.jeecg.modules.test.constant;
+package com.logiant.modules.test.constant;
 
 /**
  * 微服务单元测试常量定义

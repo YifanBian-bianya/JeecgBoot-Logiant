@@ -1,13 +1,13 @@
-package org.jeecg.config;
+package com.logiant.config;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import javax.annotation.Resource;
 
-import org.jeecg.common.api.CommonAPI;
-import org.jeecg.common.system.vo.DictModel;
-import org.jeecg.common.util.oConvertUtils;
+import com.logiant.common.api.CommonAPI;
+import com.logiant.common.system.vo.DictModel;
+import com.logiant.common.util.oConvertUtils;
 import org.jeecgframework.dict.service.AutoPoiDictServiceI;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;

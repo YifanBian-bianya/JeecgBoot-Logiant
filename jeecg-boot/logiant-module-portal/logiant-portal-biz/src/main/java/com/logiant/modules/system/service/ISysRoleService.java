@@ -1,12 +1,12 @@
-package org.jeecg.modules.system.service;
+package com.logiant.modules.system.service;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.IService;
 import org.apache.ibatis.annotations.Param;
-import org.jeecg.common.api.vo.Result;
-import org.jeecg.modules.system.entity.SysRole;
-import org.jeecg.modules.system.entity.SysUser;
+import com.logiant.common.api.vo.Result;
+import com.logiant.modules.system.entity.SysRole;
+import com.logiant.modules.system.entity.SysUser;
 import org.jeecgframework.poi.excel.entity.ImportParams;
 import org.springframework.web.multipart.MultipartFile;
 

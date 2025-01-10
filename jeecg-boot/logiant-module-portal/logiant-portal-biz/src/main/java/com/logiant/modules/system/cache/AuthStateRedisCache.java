@@ -1,4 +1,4 @@
-package org.jeecg.modules.system.cache;
+package com.logiant.modules.system.cache;
 
 import me.zhyd.oauth.cache.AuthCacheConfig;
 import me.zhyd.oauth.cache.AuthStateCache;

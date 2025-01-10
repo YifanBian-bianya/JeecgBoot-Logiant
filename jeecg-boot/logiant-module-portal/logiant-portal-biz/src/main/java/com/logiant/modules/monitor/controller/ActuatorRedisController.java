@@ -1,10 +1,10 @@
-package org.jeecg.modules.monitor.controller;
+package com.logiant.modules.monitor.controller;
 
 import com.alibaba.fastjson.JSONArray;
 import lombok.extern.slf4j.Slf4j;
-import org.jeecg.common.api.vo.Result;
-import org.jeecg.modules.monitor.domain.RedisInfo;
-import org.jeecg.modules.monitor.service.RedisService;
+import com.logiant.common.api.vo.Result;
+import com.logiant.modules.monitor.domain.RedisInfo;
+import com.logiant.modules.monitor.service.RedisService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

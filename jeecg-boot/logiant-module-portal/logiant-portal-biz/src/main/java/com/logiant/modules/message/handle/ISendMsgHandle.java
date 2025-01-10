@@ -1,6 +1,6 @@
-package org.jeecg.modules.message.handle;
+package com.logiant.modules.message.handle;
 
-import org.jeecg.common.api.dto.message.MessageDTO;
+import com.logiant.common.api.dto.message.MessageDTO;
 
 /**
  * @Description: 发送信息接口

@@ -1,4 +1,4 @@
-//package org.jeecg.fallback;
+//package com.logiant.fallback;
 //
 //import org.springframework.web.bind.annotation.RequestMapping;
 //import org.springframework.web.bind.annotation.RestController;

@@ -1,6 +1,6 @@
-package org.jeecg.modules.message.handle.enums;
+package com.logiant.modules.message.handle.enums;
 
-import org.jeecg.common.util.oConvertUtils;
+import com.logiant.common.util.oConvertUtils;
 
 /**
  * 发送消息类型枚举

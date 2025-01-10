@@ -1,10 +1,10 @@
-package org.jeecg.modules.system.vo.lowapp;
+package com.logiant.modules.system.vo.lowapp;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
 import lombok.Data;
-import org.jeecg.modules.system.entity.SysDict;
-import org.jeecg.modules.system.entity.SysDictItem;
+import com.logiant.modules.system.entity.SysDict;
+import com.logiant.modules.system.entity.SysDictItem;
 
 import java.util.List;
 

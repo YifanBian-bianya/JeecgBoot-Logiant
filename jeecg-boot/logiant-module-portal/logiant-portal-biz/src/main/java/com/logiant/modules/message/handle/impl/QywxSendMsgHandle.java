@@ -1,9 +1,9 @@
-package org.jeecg.modules.message.handle.impl;
+package com.logiant.modules.message.handle.impl;
 
 import lombok.extern.slf4j.Slf4j;
-import org.jeecg.common.api.dto.message.MessageDTO;
-import org.jeecg.modules.message.handle.ISendMsgHandle;
-import org.jeecg.modules.system.service.impl.ThirdAppWechatEnterpriseServiceImpl;
+import com.logiant.common.api.dto.message.MessageDTO;
+import com.logiant.modules.message.handle.ISendMsgHandle;
+import com.logiant.modules.system.service.impl.ThirdAppWechatEnterpriseServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

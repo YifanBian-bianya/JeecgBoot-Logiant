@@ -1,4 +1,4 @@
-package org.jeecg.modules.message.websocket;
+package com.logiant.modules.message.websocket;
 
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
@@ -8,7 +8,7 @@ import javax.websocket.server.ServerEndpoint;
 
 import com.alibaba.fastjson.JSONObject;
 import org.jeecg.common.base.BaseMap;
-import org.jeecg.common.constant.WebsocketConst;
+import com.logiant.common.constant.WebsocketConst;
 import org.jeecg.common.modules.redis.client.JeecgRedisClient;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;

@@ -1,11 +1,11 @@
-package org.jeecg.modules.system.service;
+package com.logiant.modules.system.service;
 
 import java.util.List;
 
 import org.apache.ibatis.annotations.Param;
-import org.jeecg.common.exception.JeecgBootException;
-import org.jeecg.modules.system.entity.SysPermission;
-import org.jeecg.modules.system.model.TreeModel;
+import com.logiant.common.exception.JeecgBootException;
+import com.logiant.modules.system.entity.SysPermission;
+import com.logiant.modules.system.model.TreeModel;
 
 import com.baomidou.mybatisplus.extension.service.IService;
 

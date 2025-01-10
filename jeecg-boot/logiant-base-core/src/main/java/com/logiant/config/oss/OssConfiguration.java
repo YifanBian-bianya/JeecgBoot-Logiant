@@ -1,6 +1,6 @@
-package org.jeecg.config.oss;
+package com.logiant.config.oss;
 
-import org.jeecg.common.util.oss.OssBootUtil;
+import com.logiant.common.util.oss.OssBootUtil;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.context.annotation.Bean;

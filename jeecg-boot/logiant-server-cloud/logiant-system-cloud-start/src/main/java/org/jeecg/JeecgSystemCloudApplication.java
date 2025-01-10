@@ -2,8 +2,8 @@ package org.jeecg;
 
 import lombok.extern.slf4j.Slf4j;
 import org.jeecg.common.base.BaseMap;
-import org.jeecg.common.constant.GlobalConstants;
-import org.jeecg.common.util.oConvertUtils;
+import com.logiant.common.constant.GlobalConstants;
+import com.logiant.common.util.oConvertUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;

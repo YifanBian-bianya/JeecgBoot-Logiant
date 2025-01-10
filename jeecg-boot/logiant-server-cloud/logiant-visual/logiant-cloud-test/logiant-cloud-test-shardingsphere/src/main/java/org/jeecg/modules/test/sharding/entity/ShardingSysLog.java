@@ -1,4 +1,4 @@
-package org.jeecg.modules.test.sharding.entity;
+package com.logiant.modules.test.sharding.entity;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
@@ -7,7 +7,7 @@ import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.experimental.Accessors;
-import org.jeecg.common.aspect.annotation.Dict;
+import com.logiant.common.aspect.annotation.Dict;
 import org.springframework.format.annotation.DateTimeFormat;
 
 import java.io.Serializable;

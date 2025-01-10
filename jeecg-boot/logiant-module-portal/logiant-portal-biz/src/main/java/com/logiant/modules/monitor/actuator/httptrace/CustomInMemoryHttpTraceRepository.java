@@ -1,4 +1,4 @@
-package org.jeecg.modules.monitor.actuator.httptrace;
+package com.logiant.modules.monitor.actuator.httptrace;
 
 import org.springframework.boot.actuate.trace.http.HttpTrace;
 import org.springframework.boot.actuate.trace.http.InMemoryHttpTraceRepository;

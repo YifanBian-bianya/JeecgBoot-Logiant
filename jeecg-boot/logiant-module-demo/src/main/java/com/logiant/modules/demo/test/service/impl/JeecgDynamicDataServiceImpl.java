@@ -1,9 +1,9 @@
-package org.jeecg.modules.demo.test.service.impl;
+package com.logiant.modules.demo.test.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import org.jeecg.modules.demo.test.entity.JeecgDemo;
-import org.jeecg.modules.demo.test.mapper.JeecgDemoMapper;
-import org.jeecg.modules.demo.test.service.IJeecgDynamicDataService;
+import com.logiant.modules.demo.test.entity.JeecgDemo;
+import com.logiant.modules.demo.test.mapper.JeecgDemoMapper;
+import com.logiant.modules.demo.test.service.IJeecgDynamicDataService;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

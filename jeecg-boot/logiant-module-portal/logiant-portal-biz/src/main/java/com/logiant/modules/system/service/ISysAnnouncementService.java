@@ -1,9 +1,9 @@
-package org.jeecg.modules.system.service;
+package com.logiant.modules.system.service;
 
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.IService;
-import org.jeecg.modules.system.entity.SysAnnouncement;
+import com.logiant.modules.system.entity.SysAnnouncement;
 
 import java.util.Date;
 import java.util.List;

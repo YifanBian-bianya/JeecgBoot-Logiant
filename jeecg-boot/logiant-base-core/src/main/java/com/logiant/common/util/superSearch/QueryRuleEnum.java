@@ -1,6 +1,6 @@
-//package org.jeecg.common.util.superSearch;
+//package com.logiant.common.util.superSearch;
 //
-//import org.jeecg.common.util.oConvertUtils;
+//import com.logiant.common.util.oConvertUtils;
 //
 ///**
 // * Query 规则 常量

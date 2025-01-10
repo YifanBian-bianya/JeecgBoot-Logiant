@@ -1,7 +1,7 @@
-package org.jeecg.modules.system.mapper;
+package com.logiant.modules.system.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import org.jeecg.modules.system.entity.SysCheckRule;
+import com.logiant.modules.system.entity.SysCheckRule;
 
 /**
  * @Description: 编码校验规则

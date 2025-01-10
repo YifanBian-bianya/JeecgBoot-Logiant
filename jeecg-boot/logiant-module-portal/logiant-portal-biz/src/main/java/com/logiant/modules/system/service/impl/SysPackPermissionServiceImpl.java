@@ -1,8 +1,8 @@
-package org.jeecg.modules.system.service.impl;
+package com.logiant.modules.system.service.impl;
 
-import org.jeecg.modules.system.entity.SysPackPermission;
-import org.jeecg.modules.system.mapper.SysPackPermissionMapper;
-import org.jeecg.modules.system.service.ISysPackPermissionService;
+import com.logiant.modules.system.entity.SysPackPermission;
+import com.logiant.modules.system.mapper.SysPackPermissionMapper;
+import com.logiant.modules.system.service.ISysPackPermissionService;
 import org.springframework.stereotype.Service;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;

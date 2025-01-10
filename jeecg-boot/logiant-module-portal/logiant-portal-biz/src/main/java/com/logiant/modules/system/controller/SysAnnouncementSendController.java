@@ -1,4 +1,4 @@
-package org.jeecg.modules.system.controller;
+package com.logiant.modules.system.controller;
 
 import java.util.Arrays;
 import java.util.Date;
@@ -7,17 +7,17 @@ import javax.servlet.http.HttpServletRequest;
 
 import org.apache.commons.lang3.StringUtils;
 import org.apache.shiro.SecurityUtils;
-import org.jeecg.common.api.vo.Result;
-import org.jeecg.common.constant.CommonConstant;
-import org.jeecg.common.constant.DataBaseConstant;
-import org.jeecg.common.constant.WebsocketConst;
-import org.jeecg.common.system.vo.LoginUser;
-import org.jeecg.common.util.SqlInjectionUtil;
-import org.jeecg.common.util.oConvertUtils;
-import org.jeecg.modules.message.websocket.WebSocket;
-import org.jeecg.modules.system.entity.SysAnnouncementSend;
-import org.jeecg.modules.system.model.AnnouncementSendModel;
-import org.jeecg.modules.system.service.ISysAnnouncementSendService;
+import com.logiant.common.api.vo.Result;
+import com.logiant.common.constant.CommonConstant;
+import com.logiant.common.constant.DataBaseConstant;
+import com.logiant.common.constant.WebsocketConst;
+import com.logiant.common.system.vo.LoginUser;
+import com.logiant.common.util.SqlInjectionUtil;
+import com.logiant.common.util.oConvertUtils;
+import com.logiant.modules.message.websocket.WebSocket;
+import com.logiant.modules.system.entity.SysAnnouncementSend;
+import com.logiant.modules.system.model.AnnouncementSendModel;
+import com.logiant.modules.system.service.ISysAnnouncementSendService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;

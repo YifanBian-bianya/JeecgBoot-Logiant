@@ -1,8 +1,8 @@
-package org.jeecg.modules.demo.cloud.controller;
+package com.logiant.modules.demo.cloud.controller;
 
 import lombok.extern.slf4j.Slf4j;
-import org.jeecg.common.api.vo.Result;
-import org.jeecg.modules.demo.cloud.service.JcloudDemoService;
+import com.logiant.common.api.vo.Result;
+import com.logiant.modules.demo.cloud.service.JcloudDemoService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;

@@ -1,4 +1,4 @@
-package org.jeecg.modules.system.service.impl;
+package com.logiant.modules.system.service.impl;
 
 import java.sql.SQLException;
 import java.util.Date;
@@ -8,11 +8,11 @@ import java.util.Map;
 import javax.annotation.Resource;
 
 import com.baomidou.mybatisplus.annotation.DbType;
-import org.jeecg.common.system.api.ISysBaseAPI;
-import org.jeecg.common.util.CommonUtils;
-import org.jeecg.modules.system.entity.SysLog;
-import org.jeecg.modules.system.mapper.SysLogMapper;
-import org.jeecg.modules.system.service.ISysLogService;
+import com.logiant.common.system.api.ISysBaseAPI;
+import com.logiant.common.util.CommonUtils;
+import com.logiant.modules.system.entity.SysLog;
+import com.logiant.modules.system.mapper.SysLogMapper;
+import com.logiant.modules.system.service.ISysLogService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

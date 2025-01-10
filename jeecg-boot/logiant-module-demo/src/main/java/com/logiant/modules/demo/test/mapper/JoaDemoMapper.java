@@ -1,6 +1,6 @@
-package org.jeecg.modules.demo.test.mapper;
+package com.logiant.modules.demo.test.mapper;
 
-import org.jeecg.modules.demo.test.entity.JoaDemo;
+import com.logiant.modules.demo.test.entity.JoaDemo;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 

@@ -16,7 +16,7 @@
  *
  */
 
-package org.jeecg.common.constant;
+package com.logiant.common.constant;
 
 /**
  * @author scott

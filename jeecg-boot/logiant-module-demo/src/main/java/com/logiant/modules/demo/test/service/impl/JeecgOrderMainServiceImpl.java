@@ -1,17 +1,17 @@
-package org.jeecg.modules.demo.test.service.impl;
+package com.logiant.modules.demo.test.service.impl;
 
 import java.io.Serializable;
 import java.util.Collection;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import org.jeecg.modules.demo.test.entity.JeecgOrderCustomer;
-import org.jeecg.modules.demo.test.entity.JeecgOrderMain;
-import org.jeecg.modules.demo.test.entity.JeecgOrderTicket;
-import org.jeecg.modules.demo.test.mapper.JeecgOrderCustomerMapper;
-import org.jeecg.modules.demo.test.mapper.JeecgOrderMainMapper;
-import org.jeecg.modules.demo.test.mapper.JeecgOrderTicketMapper;
-import org.jeecg.modules.demo.test.service.IJeecgOrderMainService;
+import com.logiant.modules.demo.test.entity.JeecgOrderCustomer;
+import com.logiant.modules.demo.test.entity.JeecgOrderMain;
+import com.logiant.modules.demo.test.entity.JeecgOrderTicket;
+import com.logiant.modules.demo.test.mapper.JeecgOrderCustomerMapper;
+import com.logiant.modules.demo.test.mapper.JeecgOrderMainMapper;
+import com.logiant.modules.demo.test.mapper.JeecgOrderTicketMapper;
+import com.logiant.modules.demo.test.service.IJeecgOrderMainService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

@@ -1,6 +1,6 @@
-package org.jeecg.common.api;
+package com.logiant.common.api;
 
-import org.jeecg.common.system.vo.*;
+import com.logiant.common.system.vo.*;
 
 import java.util.List;
 import java.util.Map;

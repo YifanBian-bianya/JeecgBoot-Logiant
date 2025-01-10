@@ -1,8 +1,8 @@
-package org.jeecg.modules.system.service.impl;
+package com.logiant.modules.system.service.impl;
 
-import org.jeecg.modules.system.entity.SysDataLog;
-import org.jeecg.modules.system.mapper.SysDataLogMapper;
-import org.jeecg.modules.system.service.ISysDataLogService;
+import com.logiant.modules.system.entity.SysDataLog;
+import com.logiant.modules.system.mapper.SysDataLogMapper;
+import com.logiant.modules.system.service.ISysDataLogService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;

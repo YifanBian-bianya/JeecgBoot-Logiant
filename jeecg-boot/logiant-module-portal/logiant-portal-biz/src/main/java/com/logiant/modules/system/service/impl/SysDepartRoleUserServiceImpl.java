@@ -1,12 +1,12 @@
-package org.jeecg.modules.system.service.impl;
+package com.logiant.modules.system.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
-import org.jeecg.common.util.oConvertUtils;
-import org.jeecg.modules.system.entity.SysDepartRole;
-import org.jeecg.modules.system.entity.SysDepartRoleUser;
-import org.jeecg.modules.system.mapper.SysDepartRoleMapper;
-import org.jeecg.modules.system.mapper.SysDepartRoleUserMapper;
-import org.jeecg.modules.system.service.ISysDepartRoleUserService;
+import com.logiant.common.util.oConvertUtils;
+import com.logiant.modules.system.entity.SysDepartRole;
+import com.logiant.modules.system.entity.SysDepartRoleUser;
+import com.logiant.modules.system.mapper.SysDepartRoleMapper;
+import com.logiant.modules.system.mapper.SysDepartRoleUserMapper;
+import com.logiant.modules.system.service.ISysDepartRoleUserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

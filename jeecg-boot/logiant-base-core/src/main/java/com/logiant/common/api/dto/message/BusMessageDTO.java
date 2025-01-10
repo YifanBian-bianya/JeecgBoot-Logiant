@@ -1,4 +1,4 @@
-package org.jeecg.common.api.dto.message;
+package com.logiant.common.api.dto.message;
 
 import lombok.Data;
 

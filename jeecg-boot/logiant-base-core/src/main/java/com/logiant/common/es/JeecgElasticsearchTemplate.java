@@ -1,11 +1,11 @@
-package org.jeecg.common.es;
+package com.logiant.common.es;
 
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
-import org.jeecg.common.util.RestUtil;
-import org.jeecg.common.util.oConvertUtils;
+import com.logiant.common.util.RestUtil;
+import com.logiant.common.util.oConvertUtils;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.http.HttpHeaders;

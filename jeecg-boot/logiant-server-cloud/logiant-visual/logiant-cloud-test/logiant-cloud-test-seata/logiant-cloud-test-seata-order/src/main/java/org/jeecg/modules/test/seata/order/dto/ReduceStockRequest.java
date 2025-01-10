@@ -1,4 +1,4 @@
-package org.jeecg.modules.test.seata.order.dto;
+package com.logiant.modules.test.seata.order.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

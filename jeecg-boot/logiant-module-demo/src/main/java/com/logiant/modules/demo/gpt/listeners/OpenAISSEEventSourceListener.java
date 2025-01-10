@@ -1,4 +1,4 @@
-package org.jeecg.modules.demo.gpt.listeners;
+package com.logiant.modules.demo.gpt.listeners;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.unfbx.chatgpt.entity.chat.ChatCompletionResponse;

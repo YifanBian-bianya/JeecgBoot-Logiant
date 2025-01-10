@@ -1,13 +1,13 @@
-package org.jeecg.modules.system.controller;
+package com.logiant.modules.system.controller;
 
 import lombok.extern.slf4j.Slf4j;
-import org.jeecg.common.api.vo.Result;
-import org.jeecg.common.exception.JeecgBootException;
-import org.jeecg.common.util.CommonUtils;
-import org.jeecg.common.util.MinioUtil;
-import org.jeecg.common.util.oConvertUtils;
-import org.jeecg.modules.oss.entity.OssFile;
-import org.jeecg.modules.oss.service.IOssFileService;
+import com.logiant.common.api.vo.Result;
+import com.logiant.common.exception.JeecgBootException;
+import com.logiant.common.util.CommonUtils;
+import com.logiant.common.util.MinioUtil;
+import com.logiant.common.util.oConvertUtils;
+import com.logiant.modules.oss.entity.OssFile;
+import com.logiant.modules.oss.service.IOssFileService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

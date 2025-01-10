@@ -1,4 +1,4 @@
-package org.jeecg.modules.cas.util;
+package com.logiant.modules.cas.util;
 
 
 import java.io.StringReader;
@@ -14,7 +14,7 @@ import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
-import org.jeecg.common.constant.CommonConstant;
+import com.logiant.common.constant.CommonConstant;
 import org.w3c.dom.Document;
 import org.xml.sax.Attributes;
 import org.xml.sax.InputSource;

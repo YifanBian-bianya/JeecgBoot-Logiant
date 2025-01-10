@@ -1,14 +1,14 @@
-package org.jeecg.common.system.api.fallback;
+package com.logiant.common.system.api.fallback;
 
 import com.alibaba.fastjson.JSONObject;
 import lombok.Setter;
 import lombok.extern.slf4j.Slf4j;
-import org.jeecg.common.api.dto.DataLogDTO;
-import org.jeecg.common.api.dto.OnlineAuthDTO;
-import org.jeecg.common.api.dto.message.*;
-import org.jeecg.common.constant.enums.EmailTemplateEnum;
-import org.jeecg.common.system.api.ISysBaseAPI;
-import org.jeecg.common.system.vo.*;
+import com.logiant.common.api.dto.DataLogDTO;
+import com.logiant.common.api.dto.OnlineAuthDTO;
+import com.logiant.common.api.dto.message.*;
+import com.logiant.common.constant.enums.EmailTemplateEnum;
+import com.logiant.common.system.api.ISysBaseAPI;
+import com.logiant.common.system.vo.*;
 
 import java.util.List;
 import java.util.Map;

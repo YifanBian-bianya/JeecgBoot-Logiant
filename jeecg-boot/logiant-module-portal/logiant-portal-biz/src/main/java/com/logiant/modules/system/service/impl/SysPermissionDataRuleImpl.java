@@ -1,4 +1,4 @@
-package org.jeecg.modules.system.service.impl;
+package com.logiant.modules.system.service.impl;
 
 import java.util.HashSet;
 import java.util.List;
@@ -6,14 +6,14 @@ import java.util.Set;
 
 import javax.annotation.Resource;
 
-import org.jeecg.common.constant.CommonConstant;
-import org.jeecg.common.system.query.QueryGenerator;
-import org.jeecg.common.util.oConvertUtils;
-import org.jeecg.modules.system.entity.SysPermission;
-import org.jeecg.modules.system.entity.SysPermissionDataRule;
-import org.jeecg.modules.system.mapper.SysPermissionDataRuleMapper;
-import org.jeecg.modules.system.mapper.SysPermissionMapper;
-import org.jeecg.modules.system.service.ISysPermissionDataRuleService;
+import com.logiant.common.constant.CommonConstant;
+import com.logiant.common.system.query.QueryGenerator;
+import com.logiant.common.util.oConvertUtils;
+import com.logiant.modules.system.entity.SysPermission;
+import com.logiant.modules.system.entity.SysPermissionDataRule;
+import com.logiant.modules.system.mapper.SysPermissionDataRuleMapper;
+import com.logiant.modules.system.mapper.SysPermissionMapper;
+import com.logiant.modules.system.service.ISysPermissionDataRuleService;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 

@@ -1,8 +1,8 @@
-package org.jeecg.modules.demo.gpt.controller;
+package com.logiant.modules.demo.gpt.controller;
 
-import org.jeecg.common.api.vo.Result;
-import org.jeecg.modules.demo.gpt.service.ChatService;
-import org.jeecg.modules.demo.gpt.vo.ChatHistoryVO;
+import com.logiant.common.api.vo.Result;
+import com.logiant.modules.demo.gpt.service.ChatService;
+import com.logiant.modules.demo.gpt.vo.ChatHistoryVO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;

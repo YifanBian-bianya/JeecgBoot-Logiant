@@ -1,12 +1,12 @@
-package org.jeecg.modules.system.service;
+package com.logiant.modules.system.service;
 
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import org.jeecg.modules.system.entity.SysTenant;
-import org.jeecg.modules.system.entity.SysUser;
-import org.jeecg.modules.system.entity.SysUserTenant;
+import com.logiant.modules.system.entity.SysTenant;
+import com.logiant.modules.system.entity.SysUser;
+import com.logiant.modules.system.entity.SysUserTenant;
 import com.baomidou.mybatisplus.extension.service.IService;
-import org.jeecg.modules.system.vo.SysUserTenantVo;
+import com.logiant.modules.system.vo.SysUserTenantVo;
 
 import java.util.List;
 

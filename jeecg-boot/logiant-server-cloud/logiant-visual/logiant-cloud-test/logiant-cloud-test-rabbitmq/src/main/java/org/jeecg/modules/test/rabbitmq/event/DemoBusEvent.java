@@ -1,9 +1,9 @@
-package org.jeecg.modules.test.rabbitmq.event;
+package com.logiant.modules.test.rabbitmq.event;
 
-import org.jeecg.boot.starter.rabbitmq.event.EventObj;
-import org.jeecg.boot.starter.rabbitmq.event.JeecgBusEventHandler;
+import com.logiant.boot.starter.rabbitmq.event.EventObj;
+import com.logiant.boot.starter.rabbitmq.event.JeecgBusEventHandler;
 import org.jeecg.common.base.BaseMap;
-import org.jeecg.modules.test.rabbitmq.constant.CloudConstant;
+import com.logiant.modules.test.rabbitmq.constant.CloudConstant;
 import org.springframework.stereotype.Component;
 
 import cn.hutool.core.util.ObjectUtil;

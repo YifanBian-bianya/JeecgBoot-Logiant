@@ -1,4 +1,4 @@
-package org.jeecg.handler.swagger;
+package com.logiant.handler.swagger;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;

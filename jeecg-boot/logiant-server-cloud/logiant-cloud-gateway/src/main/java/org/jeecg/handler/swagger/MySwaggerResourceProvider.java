@@ -1,4 +1,4 @@
-package org.jeecg.handler.swagger;
+package com.logiant.handler.swagger;
 
 import cn.hutool.core.util.ArrayUtil;
 import cn.hutool.core.util.ObjectUtil;

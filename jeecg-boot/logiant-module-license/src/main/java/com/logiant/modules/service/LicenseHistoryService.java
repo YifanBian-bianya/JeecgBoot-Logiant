@@ -1,7 +1,7 @@
-package org.jeecg.modules.service;
+package com.logiant.modules.service;
 
-import org.jeecg.modules.entity.LicenseHistory;
-import org.jeecg.modules.repository.LicenseHistoryRepository;
+import com.logiant.modules.entity.LicenseHistory;
+import com.logiant.modules.repository.LicenseHistoryRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

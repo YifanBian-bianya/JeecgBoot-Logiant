@@ -1,4 +1,4 @@
-package org.jeecg.modules.demo.mock.vxe.controller;
+package com.logiant.modules.demo.mock.vxe.controller;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONArray;
@@ -9,13 +9,13 @@ import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.io.IOUtils;
 import org.apache.commons.lang3.StringUtils;
-import org.jeecg.common.api.vo.Result;
-import org.jeecg.common.constant.VxeSocketConst;
-import org.jeecg.common.system.query.MatchTypeEnum;
-import org.jeecg.common.system.query.QueryCondition;
-import org.jeecg.common.system.query.QueryGenerator;
-import org.jeecg.modules.demo.mock.vxe.entity.MockEntity;
-import org.jeecg.modules.demo.mock.vxe.websocket.VxeSocket;
+import com.logiant.common.api.vo.Result;
+import com.logiant.common.constant.VxeSocketConst;
+import com.logiant.common.system.query.MatchTypeEnum;
+import com.logiant.common.system.query.QueryCondition;
+import com.logiant.common.system.query.QueryGenerator;
+import com.logiant.modules.demo.mock.vxe.entity.MockEntity;
+import com.logiant.modules.demo.mock.vxe.websocket.VxeSocket;
 import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletRequest;

@@ -1,7 +1,7 @@
-package org.jeecg.modules.base.service;
+package com.logiant.modules.base.service;
 
-import org.jeecg.common.api.dto.LogDTO;
-import org.jeecg.common.system.vo.LoginUser;
+import com.logiant.common.api.dto.LogDTO;
+import com.logiant.common.system.vo.LoginUser;
 
 /**
  * common接口

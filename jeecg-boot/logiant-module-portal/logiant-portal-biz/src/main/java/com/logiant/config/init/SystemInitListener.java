@@ -1,9 +1,9 @@
-package org.jeecg.config.init;
+package com.logiant.config.init;
 
 import lombok.extern.slf4j.Slf4j;
 import org.jeecg.common.constant.CacheConstant;
-import org.jeecg.config.JeecgCloudCondition;
-import org.jeecg.modules.system.service.ISysGatewayRouteService;
+import com.logiant.config.JeecgCloudCondition;
+import com.logiant.modules.system.service.ISysGatewayRouteService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.context.event.ApplicationReadyEvent;
 import org.springframework.context.ApplicationListener;

@@ -1,4 +1,4 @@
-package org.jeecg.common.system.base.controller;
+package com.logiant.common.system.base.controller;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
@@ -7,11 +7,11 @@ import com.baomidou.mybatisplus.extension.service.IService;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.beanutils.PropertyUtils;
 import org.apache.shiro.SecurityUtils;
-import org.jeecg.common.api.vo.Result;
-import org.jeecg.common.system.query.QueryGenerator;
-import org.jeecg.common.system.vo.LoginUser;
-import org.jeecg.common.util.oConvertUtils;
-import org.jeecg.config.JeecgBaseConfig;
+import com.logiant.common.api.vo.Result;
+import com.logiant.common.system.query.QueryGenerator;
+import com.logiant.common.system.vo.LoginUser;
+import com.logiant.common.util.oConvertUtils;
+import com.logiant.config.JeecgBaseConfig;
 import org.jeecgframework.poi.excel.ExcelImportUtil;
 import org.jeecgframework.poi.excel.def.NormalExcelConstants;
 import org.jeecgframework.poi.excel.entity.ExportParams;

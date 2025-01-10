@@ -1,16 +1,16 @@
-package org.jeecg.modules.system.controller;
+package com.logiant.modules.system.controller;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import javax.servlet.http.HttpServletRequest;
 
-import org.jeecg.common.api.vo.Result;
-import org.jeecg.common.constant.CommonConstant;
-import org.jeecg.common.system.query.QueryGenerator;
-import org.jeecg.common.util.oConvertUtils;
-import org.jeecg.modules.system.entity.SysDataLog;
-import org.jeecg.modules.system.service.ISysDataLogService;
+import com.logiant.common.api.vo.Result;
+import com.logiant.common.constant.CommonConstant;
+import com.logiant.common.system.query.QueryGenerator;
+import com.logiant.common.util.oConvertUtils;
+import com.logiant.modules.system.entity.SysDataLog;
+import com.logiant.modules.system.service.ISysDataLogService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;

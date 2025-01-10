@@ -1,8 +1,8 @@
-package org.jeecg.config.shiro.ignore;
+package com.logiant.config.shiro.ignore;
 
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.jeecg.config.shiro.IgnoreAuth;
+import com.logiant.config.shiro.IgnoreAuth;
 import org.springframework.beans.factory.InitializingBean;
 import org.springframework.stereotype.Component;
 import org.springframework.util.CollectionUtils;

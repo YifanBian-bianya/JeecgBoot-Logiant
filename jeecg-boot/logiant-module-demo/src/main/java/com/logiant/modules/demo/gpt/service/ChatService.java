@@ -1,7 +1,7 @@
-package org.jeecg.modules.demo.gpt.service;
+package com.logiant.modules.demo.gpt.service;
 
-import org.jeecg.common.api.vo.Result;
-import org.jeecg.modules.demo.gpt.vo.ChatHistoryVO;
+import com.logiant.common.api.vo.Result;
+import com.logiant.modules.demo.gpt.vo.ChatHistoryVO;
 import org.springframework.web.servlet.mvc.method.annotation.SseEmitter;
 
 //update-begin---author:chenrui ---date:20240126  for：【QQYUN-7932】AI助手------------

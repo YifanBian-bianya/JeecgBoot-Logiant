@@ -1,4 +1,4 @@
-package org.jeecg.modules.monitor.domain;
+package com.logiant.modules.monitor.domain;
 
 import java.util.HashMap;
 import java.util.Map;

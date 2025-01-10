@@ -1,4 +1,4 @@
-package org.jeecg.monitor.config;
+package com.logiant.monitor.config;
 
 import de.codecentric.boot.admin.server.config.AdminServerProperties;
 import org.springframework.context.annotation.Configuration;

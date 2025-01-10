@@ -1,4 +1,4 @@
-//package org.jeecg.modules.ngalain.service;
+//package com.logiant.modules.ngalain.service;
 //
 //import com.alibaba.fastjson.JSONArray;
 //

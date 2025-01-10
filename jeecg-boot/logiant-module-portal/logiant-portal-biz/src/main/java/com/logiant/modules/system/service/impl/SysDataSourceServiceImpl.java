@@ -1,4 +1,4 @@
-package org.jeecg.modules.system.service.impl;
+package com.logiant.modules.system.service.impl;
 
 import com.baomidou.dynamic.datasource.DynamicRoutingDataSource;
 import com.baomidou.dynamic.datasource.creator.DataSourceProperty;
@@ -6,12 +6,12 @@ import com.baomidou.dynamic.datasource.creator.druid.DruidDataSourceCreator;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.apache.commons.lang.StringUtils;
-import org.jeecg.common.api.vo.Result;
-import org.jeecg.common.util.dynamic.db.DataSourceCachePool;
-import org.jeecg.modules.system.entity.SysDataSource;
-import org.jeecg.modules.system.mapper.SysDataSourceMapper;
-import org.jeecg.modules.system.service.ISysDataSourceService;
-import org.jeecg.modules.system.util.SecurityUtil;
+import com.logiant.common.api.vo.Result;
+import com.logiant.common.util.dynamic.db.DataSourceCachePool;
+import com.logiant.modules.system.entity.SysDataSource;
+import com.logiant.modules.system.mapper.SysDataSourceMapper;
+import com.logiant.modules.system.service.ISysDataSourceService;
+import com.logiant.modules.system.util.SecurityUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

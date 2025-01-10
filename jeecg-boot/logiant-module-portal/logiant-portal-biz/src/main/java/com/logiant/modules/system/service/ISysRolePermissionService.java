@@ -1,6 +1,6 @@
-package org.jeecg.modules.system.service;
+package com.logiant.modules.system.service;
 
-import org.jeecg.modules.system.entity.SysRolePermission;
+import com.logiant.modules.system.entity.SysRolePermission;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**

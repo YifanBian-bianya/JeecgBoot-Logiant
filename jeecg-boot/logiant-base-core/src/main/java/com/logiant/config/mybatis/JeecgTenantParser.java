@@ -1,4 +1,4 @@
-//package org.jeecg.config.mybatis;
+//package com.logiant.config.mybatis;
 //
 //import com.baomidou.mybatisplus.extension.plugins.tenant.TenantSqlParser;
 //import net.sf.jsqlparser.expression.BinaryExpression;

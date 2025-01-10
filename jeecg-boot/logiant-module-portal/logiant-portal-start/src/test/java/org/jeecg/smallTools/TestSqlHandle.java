@@ -1,4 +1,4 @@
-package org.jeecg.smallTools;
+package com.logiant.smallTools;
 
 import org.junit.Test;
 

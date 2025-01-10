@@ -1,4 +1,4 @@
-package org.jeecg.common.system.vo;
+package com.logiant.common.system.vo;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.Data;

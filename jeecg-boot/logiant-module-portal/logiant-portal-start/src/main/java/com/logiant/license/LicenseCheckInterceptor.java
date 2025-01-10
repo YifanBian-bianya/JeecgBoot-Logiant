@@ -1,9 +1,9 @@
-package org.jeecg.license;
+package com.logiant.license;
 
 import com.alibaba.fastjson.JSON;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.jeecg.common.api.vo.Result;
+import com.logiant.common.api.vo.Result;
 import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
 
 import javax.servlet.http.HttpServletRequest;

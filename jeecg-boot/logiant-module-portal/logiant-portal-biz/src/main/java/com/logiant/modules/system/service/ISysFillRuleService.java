@@ -1,7 +1,7 @@
-package org.jeecg.modules.system.service;
+package com.logiant.modules.system.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import org.jeecg.modules.system.entity.SysFillRule;
+import com.logiant.modules.system.entity.SysFillRule;
 
 /**
  * @Description: 填值规则

@@ -1,10 +1,10 @@
-package org.jeecg.common.system.vo;
+package com.logiant.common.system.vo;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.experimental.Accessors;
-import org.jeecg.common.desensitization.annotation.SensitiveField;
+import com.logiant.common.desensitization.annotation.SensitiveField;
 import org.springframework.format.annotation.DateTimeFormat;
 
 import java.util.Date;

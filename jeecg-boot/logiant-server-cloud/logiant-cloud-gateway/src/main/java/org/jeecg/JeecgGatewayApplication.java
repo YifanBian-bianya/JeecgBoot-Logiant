@@ -1,6 +1,6 @@
 package org.jeecg;
 
-import org.jeecg.loader.DynamicRouteLoader;
+import com.logiant.loader.DynamicRouteLoader;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;

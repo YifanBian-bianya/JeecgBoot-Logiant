@@ -1,13 +1,13 @@
-package org.jeecg.modules.oss.controller;
+package com.logiant.modules.oss.controller;
 
 import javax.servlet.http.HttpServletRequest;
 
 import org.apache.shiro.authz.annotation.RequiresPermissions;
 import org.apache.shiro.authz.annotation.RequiresRoles;
-import org.jeecg.common.api.vo.Result;
-import org.jeecg.common.system.query.QueryGenerator;
-import org.jeecg.modules.oss.entity.OssFile;
-import org.jeecg.modules.oss.service.IOssFileService;
+import com.logiant.common.api.vo.Result;
+import com.logiant.common.system.query.QueryGenerator;
+import com.logiant.modules.oss.entity.OssFile;
+import com.logiant.modules.oss.service.IOssFileService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;

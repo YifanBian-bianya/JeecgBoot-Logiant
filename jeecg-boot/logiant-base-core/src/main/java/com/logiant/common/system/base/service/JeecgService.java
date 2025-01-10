@@ -1,4 +1,4 @@
-package org.jeecg.common.system.base.service;
+package com.logiant.common.system.base.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
 

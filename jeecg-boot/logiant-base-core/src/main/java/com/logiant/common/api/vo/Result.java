@@ -1,10 +1,10 @@
-package org.jeecg.common.api.vo;
+package com.logiant.common.api.vo;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
-import org.jeecg.common.constant.CommonConstant;
+import com.logiant.common.constant.CommonConstant;
 
 import java.io.Serializable;
 

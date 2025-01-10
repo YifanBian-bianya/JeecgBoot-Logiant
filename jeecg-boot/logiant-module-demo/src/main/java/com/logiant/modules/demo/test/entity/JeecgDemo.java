@@ -1,9 +1,9 @@
-package org.jeecg.modules.demo.test.entity;
+package com.logiant.modules.demo.test.entity;
 
 import java.io.Serializable;
 
 import com.baomidou.mybatisplus.annotation.Version;
-import org.jeecg.common.system.base.entity.JeecgEntity;
+import com.logiant.common.system.base.entity.JeecgEntity;
 import org.jeecgframework.poi.excel.annotation.Excel;
 import org.springframework.format.annotation.DateTimeFormat;
 

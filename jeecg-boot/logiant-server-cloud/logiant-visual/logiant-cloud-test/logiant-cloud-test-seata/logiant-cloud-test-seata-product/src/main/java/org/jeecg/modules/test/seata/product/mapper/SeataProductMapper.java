@@ -1,7 +1,7 @@
-package org.jeecg.modules.test.seata.product.mapper;
+package com.logiant.modules.test.seata.product.mapper;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import org.apache.ibatis.annotations.Mapper;
-import org.jeecg.modules.test.seata.product.entity.SeataProduct;
+import com.logiant.modules.test.seata.product.entity.SeataProduct;
 
 
 /**

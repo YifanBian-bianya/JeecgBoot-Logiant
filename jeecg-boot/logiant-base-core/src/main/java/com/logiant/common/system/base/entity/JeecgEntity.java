@@ -1,4 +1,4 @@
-package org.jeecg.common.system.base.entity;
+package com.logiant.common.system.base.entity;
 
 import java.io.Serializable;
 

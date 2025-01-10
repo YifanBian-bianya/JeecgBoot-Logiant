@@ -1,6 +1,6 @@
-package org.jeecg.modules.message.entity;
+package com.logiant.modules.message.entity;
 
-import org.jeecg.common.system.base.entity.JeecgEntity;
+import com.logiant.common.system.base.entity.JeecgEntity;
 import org.jeecgframework.poi.excel.annotation.Excel;
 
 import com.baomidou.mybatisplus.annotation.TableName;

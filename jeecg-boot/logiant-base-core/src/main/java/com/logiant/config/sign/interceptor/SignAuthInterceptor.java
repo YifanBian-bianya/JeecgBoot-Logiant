@@ -1,4 +1,4 @@
-package org.jeecg.config.sign.interceptor;
+package com.logiant.config.sign.interceptor;
 
 
 import java.io.PrintWriter;
@@ -7,13 +7,13 @@ import java.util.SortedMap;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import org.jeecg.common.api.vo.Result;
-import org.jeecg.common.constant.CommonConstant;
-import org.jeecg.common.util.DateUtils;
-import org.jeecg.common.util.oConvertUtils;
-import org.jeecg.config.sign.util.BodyReaderHttpServletRequestWrapper;
-import org.jeecg.config.sign.util.HttpUtils;
-import org.jeecg.config.sign.util.SignUtil;
+import com.logiant.common.api.vo.Result;
+import com.logiant.common.constant.CommonConstant;
+import com.logiant.common.util.DateUtils;
+import com.logiant.common.util.oConvertUtils;
+import com.logiant.config.sign.util.BodyReaderHttpServletRequestWrapper;
+import com.logiant.config.sign.util.HttpUtils;
+import com.logiant.config.sign.util.SignUtil;
 import org.springframework.web.servlet.HandlerInterceptor;
 
 import com.alibaba.fastjson.JSON;

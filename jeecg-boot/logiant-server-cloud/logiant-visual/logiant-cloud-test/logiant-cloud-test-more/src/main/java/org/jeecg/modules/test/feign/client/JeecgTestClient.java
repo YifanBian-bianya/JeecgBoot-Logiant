@@ -1,11 +1,11 @@
-package org.jeecg.modules.test.feign.client;
+package com.logiant.modules.test.feign.client;
 
-import org.jeecg.common.api.vo.Result;
+import com.logiant.common.api.vo.Result;
 
-import org.jeecg.common.constant.ServiceNameConstants;
-import org.jeecg.config.FeignConfig;
-import org.jeecg.modules.test.constant.CloudConstant;
-import org.jeecg.modules.test.feign.factory.JeecgTestClientFactory;
+import com.logiant.common.constant.ServiceNameConstants;
+import com.logiant.config.FeignConfig;
+import com.logiant.modules.test.constant.CloudConstant;
+import com.logiant.modules.test.feign.factory.JeecgTestClientFactory;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.GetMapping;

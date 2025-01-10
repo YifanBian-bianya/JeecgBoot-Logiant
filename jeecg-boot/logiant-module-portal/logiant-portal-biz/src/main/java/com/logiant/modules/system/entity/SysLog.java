@@ -1,8 +1,8 @@
-package org.jeecg.modules.system.entity;
+package com.logiant.modules.system.entity;
 
 import java.util.Date;
 
-import org.jeecg.common.aspect.annotation.Dict;
+import com.logiant.common.aspect.annotation.Dict;
 import org.springframework.format.annotation.DateTimeFormat;
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;

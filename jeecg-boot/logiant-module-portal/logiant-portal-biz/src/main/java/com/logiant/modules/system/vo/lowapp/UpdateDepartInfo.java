@@ -1,7 +1,7 @@
-package org.jeecg.modules.system.vo.lowapp;
+package com.logiant.modules.system.vo.lowapp;
 
 import lombok.Data;
-import org.jeecg.modules.system.entity.SysDepart;
+import com.logiant.modules.system.entity.SysDepart;
 
 import java.util.List;
 

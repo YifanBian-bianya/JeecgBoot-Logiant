@@ -1,9 +1,9 @@
-package org.jeecg.modules.demo.test.vo;
+package com.logiant.modules.demo.test.vo;
 
 import java.util.List;
 
-import org.jeecg.modules.demo.test.entity.JeecgOrderCustomer;
-import org.jeecg.modules.demo.test.entity.JeecgOrderTicket;
+import com.logiant.modules.demo.test.entity.JeecgOrderCustomer;
+import com.logiant.modules.demo.test.entity.JeecgOrderTicket;
 import org.jeecgframework.poi.excel.annotation.Excel;
 import org.jeecgframework.poi.excel.annotation.ExcelCollection;
 

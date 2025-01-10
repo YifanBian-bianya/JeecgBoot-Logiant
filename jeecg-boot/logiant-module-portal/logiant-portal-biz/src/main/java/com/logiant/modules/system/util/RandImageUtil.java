@@ -1,4 +1,4 @@
-package org.jeecg.modules.system.util;
+package com.logiant.modules.system.util;
 
 import javax.imageio.ImageIO;
 import javax.servlet.http.HttpServletResponse;

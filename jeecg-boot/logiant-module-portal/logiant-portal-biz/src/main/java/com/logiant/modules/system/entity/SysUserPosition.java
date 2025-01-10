@@ -1,4 +1,4 @@
-package org.jeecg.modules.system.entity;
+package com.logiant.modules.system.entity;
 
 import java.io.Serializable;
 import com.baomidou.mybatisplus.annotation.IdType;

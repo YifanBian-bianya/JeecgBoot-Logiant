@@ -1,15 +1,16 @@
-package org.jeecg.common.util;
+package com.logiant.common.util;
 
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
-import org.jeecg.common.api.CommonAPI;
+import com.logiant.common.api.CommonAPI;
 import org.jeecg.common.constant.CacheConstant;
-import org.jeecg.common.constant.CommonConstant;
-import org.jeecg.common.constant.TenantConstant;
-import org.jeecg.common.desensitization.util.SensitiveInfoUtil;
-import org.jeecg.common.exception.JeecgBoot401Exception;
-import org.jeecg.common.system.util.JwtUtil;
-import org.jeecg.common.system.vo.LoginUser;
+import com.logiant.common.constant.CommonConstant;
+import com.logiant.common.constant.TenantConstant;
+import com.logiant.common.desensitization.util.SensitiveInfoUtil;
+import com.logiant.common.exception.JeecgBoot401Exception;
+import com.logiant.common.system.util.JwtUtil;
+import com.logiant.common.system.vo.LoginUser;
+import org.jeecg.common.util.RedisUtil;
 
 import javax.servlet.http.HttpServletRequest;
 

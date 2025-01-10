@@ -1,9 +1,9 @@
 package ${bussiPackage}.${entityPackage}.service;
 
-import org.jeecg.common.system.vo.SelectTreeModel;
+import com.logiant.common.system.vo.SelectTreeModel;
 import ${bussiPackage}.${entityPackage}.entity.${entityName};
 import com.baomidou.mybatisplus.extension.service.IService;
-import org.jeecg.common.exception.JeecgBootException;
+import com.logiant.common.exception.JeecgBootException;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import java.util.List;
 

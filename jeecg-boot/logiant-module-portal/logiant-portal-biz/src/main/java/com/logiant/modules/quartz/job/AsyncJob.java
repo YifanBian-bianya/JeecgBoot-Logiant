@@ -1,7 +1,7 @@
-package org.jeecg.modules.quartz.job;
+package com.logiant.modules.quartz.job;
 
 import lombok.extern.slf4j.Slf4j;
-import org.jeecg.common.util.DateUtils;
+import com.logiant.common.util.DateUtils;
 import org.quartz.*;
 
 /**

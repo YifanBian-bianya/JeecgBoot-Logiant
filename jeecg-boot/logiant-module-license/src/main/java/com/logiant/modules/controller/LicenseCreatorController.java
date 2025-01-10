@@ -1,10 +1,10 @@
-package org.jeecg.modules.controller;
+package com.logiant.modules.controller;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.logiant.modules.license.*;
 import org.apache.commons.lang3.StringUtils;
-import org.jeecg.modules.entity.LicenseHistory;
-import org.jeecg.modules.license.*;
-import org.jeecg.modules.service.ILicenseHistoryService;
+import com.logiant.modules.entity.LicenseHistory;
+import com.logiant.modules.service.ILicenseHistoryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.MediaType;

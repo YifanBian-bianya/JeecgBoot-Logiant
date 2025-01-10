@@ -1,4 +1,4 @@
-package org.jeecg.common.util;
+package com.logiant.common.util;
 
 import com.alibaba.fastjson.JSONObject;
 import com.baomidou.dynamic.datasource.creator.DataSourceProperty;
@@ -7,13 +7,13 @@ import com.baomidou.mybatisplus.annotation.DbType;
 import com.baomidou.mybatisplus.extension.toolkit.JdbcUtils;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang.StringUtils;
-import org.jeecg.common.constant.CommonConstant;
-import org.jeecg.common.constant.DataBaseConstant;
-import org.jeecg.common.constant.ServiceNameConstants;
-import org.jeecg.common.constant.SymbolConstant;
-import org.jeecg.common.exception.JeecgBootException;
-import org.jeecg.common.util.filter.SsrfFileTypeFilter;
-import org.jeecg.common.util.oss.OssBootUtil;
+import com.logiant.common.constant.CommonConstant;
+import com.logiant.common.constant.DataBaseConstant;
+import com.logiant.common.constant.ServiceNameConstants;
+import com.logiant.common.constant.SymbolConstant;
+import com.logiant.common.exception.JeecgBootException;
+import com.logiant.common.util.filter.SsrfFileTypeFilter;
+import com.logiant.common.util.oss.OssBootUtil;
 import org.jeecgframework.poi.util.PoiPublicUtil;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
 import org.springframework.util.FileCopyUtils;

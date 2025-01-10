@@ -1,17 +1,17 @@
-package org.jeecg.modules.system.mapper;
+package com.logiant.modules.system.mapper;
 
 import com.baomidou.mybatisplus.annotation.InterceptorIgnore;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import org.apache.ibatis.annotations.Select;
 import org.apache.ibatis.annotations.Update;
-import org.jeecg.modules.system.entity.SysDepart;
-import org.jeecg.modules.system.entity.SysUser;
-import org.jeecg.modules.system.model.SysDepartTreeModel;
-import org.jeecg.modules.system.model.TreeModel;
-import org.jeecg.modules.system.vo.SysDepartExportVo;
-import org.jeecg.modules.system.vo.SysUserDepVo;
-import org.jeecg.modules.system.vo.lowapp.ExportDepartVo;
+import com.logiant.modules.system.entity.SysDepart;
+import com.logiant.modules.system.entity.SysUser;
+import com.logiant.modules.system.model.SysDepartTreeModel;
+import com.logiant.modules.system.model.TreeModel;
+import com.logiant.modules.system.vo.SysDepartExportVo;
+import com.logiant.modules.system.vo.SysUserDepVo;
+import com.logiant.modules.system.vo.lowapp.ExportDepartVo;
 import org.springframework.data.repository.query.Param;
 
 import java.util.List;

@@ -1,8 +1,8 @@
-package org.jeecg.modules.quartz.service;
+package com.logiant.modules.quartz.service;
 
 import java.util.List;
 
-import org.jeecg.modules.quartz.entity.QuartzJob;
+import com.logiant.modules.quartz.entity.QuartzJob;
 import org.quartz.SchedulerException;
 
 import com.baomidou.mybatisplus.extension.service.IService;

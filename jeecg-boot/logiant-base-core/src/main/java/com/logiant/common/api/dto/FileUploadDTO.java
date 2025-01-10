@@ -1,4 +1,4 @@
-package org.jeecg.common.api.dto;
+package com.logiant.common.api.dto;
 
 import lombok.Data;
 import org.springframework.web.multipart.MultipartFile;

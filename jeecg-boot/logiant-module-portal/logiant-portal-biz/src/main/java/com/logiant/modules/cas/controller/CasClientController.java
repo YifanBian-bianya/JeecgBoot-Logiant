@@ -1,4 +1,4 @@
-package org.jeecg.modules.cas.controller;
+package com.logiant.modules.cas.controller;
 
 import java.util.List;
 
@@ -6,16 +6,16 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import org.apache.commons.lang.StringUtils;
-import org.jeecg.common.api.vo.Result;
-import org.jeecg.common.constant.CommonConstant;
-import org.jeecg.common.system.util.JwtUtil;
+import com.logiant.common.api.vo.Result;
+import com.logiant.common.constant.CommonConstant;
+import com.logiant.common.system.util.JwtUtil;
 import org.jeecg.common.util.RedisUtil;
-import org.jeecg.modules.cas.util.CasServiceUtil;
-import org.jeecg.modules.cas.util.XmlUtils;
-import org.jeecg.modules.system.entity.SysDepart;
-import org.jeecg.modules.system.entity.SysUser;
-import org.jeecg.modules.system.service.ISysDepartService;
-import org.jeecg.modules.system.service.ISysUserService;
+import com.logiant.modules.cas.util.CasServiceUtil;
+import com.logiant.modules.cas.util.XmlUtils;
+import com.logiant.modules.system.entity.SysDepart;
+import com.logiant.modules.system.entity.SysUser;
+import com.logiant.modules.system.service.ISysDepartService;
+import com.logiant.modules.system.service.ISysUserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpEntity;

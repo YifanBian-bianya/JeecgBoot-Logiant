@@ -1,7 +1,7 @@
-package org.jeecg.modules.system.mapper;
+package com.logiant.modules.system.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import org.jeecg.modules.system.entity.SysThirdAppConfig;
+import com.logiant.modules.system.entity.SysThirdAppConfig;
 import org.springframework.data.repository.query.Param;
 
 import java.util.List;

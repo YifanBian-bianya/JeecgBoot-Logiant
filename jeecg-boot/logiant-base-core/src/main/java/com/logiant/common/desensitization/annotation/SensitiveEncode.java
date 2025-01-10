@@ -1,4 +1,4 @@
-package org.jeecg.common.desensitization.annotation;
+package com.logiant.common.desensitization.annotation;
 
 import java.lang.annotation.*;
 

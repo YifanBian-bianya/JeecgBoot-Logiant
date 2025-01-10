@@ -1,4 +1,4 @@
-//package org.jeecg.fallback.sentinel;
+//package com.logiant.fallback.sentinel;
 //import com.alibaba.csp.sentinel.adapter.gateway.sc.callback.BlockRequestHandler;
 //import com.alibaba.csp.sentinel.transport.config.TransportConfig;
 //import lombok.extern.slf4j.Slf4j;

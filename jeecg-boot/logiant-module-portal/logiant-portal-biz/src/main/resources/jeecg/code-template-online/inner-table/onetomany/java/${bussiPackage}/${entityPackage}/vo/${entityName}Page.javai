@@ -12,9 +12,9 @@ import org.jeecgframework.poi.excel.annotation.ExcelCollection;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import org.springframework.format.annotation.DateTimeFormat;
 import java.util.Date;
-import org.jeecg.common.aspect.annotation.Dict;
-import org.jeecg.common.constant.ProvinceCityArea;
-import org.jeecg.common.util.SpringContextUtils;
+import com.logiant.common.aspect.annotation.Dict;
+import com.logiant.common.constant.ProvinceCityArea;
+import com.logiant.common.util.SpringContextUtils;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 

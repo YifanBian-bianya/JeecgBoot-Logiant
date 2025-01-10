@@ -1,9 +1,9 @@
-package org.jeecg.modules.system.mapper;
+package com.logiant.modules.system.mapper;
 
 import com.baomidou.mybatisplus.annotation.InterceptorIgnore;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import org.apache.ibatis.annotations.Param;
-import org.jeecg.modules.system.entity.SysTenantPackUser;
+import com.logiant.modules.system.entity.SysTenantPackUser;
 
 import java.util.List;
 

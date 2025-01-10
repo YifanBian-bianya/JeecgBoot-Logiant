@@ -1,12 +1,12 @@
-package org.jeecg.modules.system.service.impl;
+package com.logiant.modules.system.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
-import org.jeecg.common.util.IpUtils;
-import org.jeecg.common.util.SpringContextUtils;
-import org.jeecg.common.util.oConvertUtils;
-import org.jeecg.modules.system.entity.SysDepartRolePermission;
-import org.jeecg.modules.system.mapper.SysDepartRolePermissionMapper;
-import org.jeecg.modules.system.service.ISysDepartRolePermissionService;
+import com.logiant.common.util.IpUtils;
+import com.logiant.common.util.SpringContextUtils;
+import com.logiant.common.util.oConvertUtils;
+import com.logiant.modules.system.entity.SysDepartRolePermission;
+import com.logiant.modules.system.mapper.SysDepartRolePermissionMapper;
+import com.logiant.modules.system.service.ISysDepartRolePermissionService;
 import org.springframework.stereotype.Service;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;

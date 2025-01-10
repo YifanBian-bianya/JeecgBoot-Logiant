@@ -1,9 +1,9 @@
-package org.jeecg.modules.system.service.impl;
+package com.logiant.modules.system.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import org.jeecg.modules.system.entity.SysFormFile;
-import org.jeecg.modules.system.mapper.SysFormFileMapper;
-import org.jeecg.modules.system.service.ISysFormFileService;
+import com.logiant.modules.system.entity.SysFormFile;
+import com.logiant.modules.system.mapper.SysFormFileMapper;
+import com.logiant.modules.system.service.ISysFormFileService;
 import org.springframework.stereotype.Service;
 
 

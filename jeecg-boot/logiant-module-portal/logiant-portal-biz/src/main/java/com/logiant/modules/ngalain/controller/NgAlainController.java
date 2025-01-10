@@ -1,4 +1,4 @@
-//package org.jeecg.modules.ngalain.controller;
+//package com.logiant.modules.ngalain.controller;
 //
 //import java.util.ArrayList;
 //import java.util.List;
@@ -7,11 +7,11 @@
 //import javax.servlet.http.HttpServletRequest;
 //
 //import org.apache.shiro.SecurityUtils;
-//import org.jeecg.common.api.vo.Result;
-//import org.jeecg.common.system.vo.DictModel;
-//import org.jeecg.common.system.vo.LoginUser;
-//import org.jeecg.modules.ngalain.service.NgAlainService;
-//import org.jeecg.modules.system.service.ISysDictService;
+//import com.logiant.common.api.vo.Result;
+//import com.logiant.common.system.vo.DictModel;
+//import com.logiant.common.system.vo.LoginUser;
+//import com.logiant.modules.ngalain.service.NgAlainService;
+//import com.logiant.modules.system.service.ISysDictService;
 //import org.springframework.beans.factory.annotation.Autowired;
 //import org.springframework.web.bind.annotation.PathVariable;
 //import org.springframework.web.bind.annotation.RequestMapping;

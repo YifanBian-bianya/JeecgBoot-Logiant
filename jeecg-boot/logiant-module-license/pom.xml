@@ -32,10 +32,11 @@
         </dependency>
 
         <dependency>
-            <groupId>com.logiant</groupId>
             <artifactId>logiant-module-license-core</artifactId>
+            <groupId>com.logiant</groupId>
             <version>${logiant.version}</version>
         </dependency>
+
 
     </dependencies>
 

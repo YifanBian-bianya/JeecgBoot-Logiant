@@ -1,4 +1,4 @@
-//package org.jeecg.fallback;
+//package com.logiant.fallback;
 //
 //import lombok.extern.slf4j.Slf4j;
 //import org.springframework.http.HttpStatus;

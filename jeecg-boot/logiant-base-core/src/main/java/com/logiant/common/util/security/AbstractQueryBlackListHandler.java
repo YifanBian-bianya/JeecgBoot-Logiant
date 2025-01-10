@@ -1,8 +1,8 @@
-package org.jeecg.common.util.security;
+package com.logiant.common.util.security;
 
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang.StringUtils;
-import org.jeecg.common.exception.JeecgSqlInjectionException;
+import com.logiant.common.exception.JeecgSqlInjectionException;
 
 import java.util.*;
 import java.util.regex.Matcher;

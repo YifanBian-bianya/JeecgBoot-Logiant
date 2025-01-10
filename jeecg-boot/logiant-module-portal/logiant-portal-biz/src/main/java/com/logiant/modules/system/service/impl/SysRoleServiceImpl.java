@@ -1,17 +1,17 @@
-package org.jeecg.modules.system.service.impl;
+package com.logiant.modules.system.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import org.jeecg.common.api.vo.Result;
-import org.jeecg.common.constant.CommonConstant;
-import org.jeecg.common.constant.SymbolConstant;
-import org.jeecg.common.exception.JeecgBootException;
-import org.jeecg.common.util.ImportExcelUtil;
-import org.jeecg.modules.system.entity.SysRole;
-import org.jeecg.modules.system.mapper.SysRoleMapper;
-import org.jeecg.modules.system.mapper.SysUserMapper;
-import org.jeecg.modules.system.service.ISysRoleService;
+import com.logiant.common.api.vo.Result;
+import com.logiant.common.constant.CommonConstant;
+import com.logiant.common.constant.SymbolConstant;
+import com.logiant.common.exception.JeecgBootException;
+import com.logiant.common.util.ImportExcelUtil;
+import com.logiant.modules.system.entity.SysRole;
+import com.logiant.modules.system.mapper.SysRoleMapper;
+import com.logiant.modules.system.mapper.SysUserMapper;
+import com.logiant.modules.system.service.ISysRoleService;
 import org.jeecgframework.poi.excel.ExcelImportUtil;
 import org.jeecgframework.poi.excel.entity.ImportParams;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,4 +1,4 @@
-package org.jeecg.modules.system.controller;
+package com.logiant.modules.system.controller;
 
 
 import java.util.Arrays;
@@ -12,12 +12,12 @@ import io.swagger.annotations.ApiOperation;
 import org.apache.commons.lang.StringUtils;
 import org.apache.shiro.authz.annotation.RequiresPermissions;
 import org.apache.shiro.authz.annotation.RequiresRoles;
-import org.jeecg.common.api.vo.Result;
+import com.logiant.common.api.vo.Result;
 import org.jeecg.common.constant.CacheConstant;
-import org.jeecg.common.system.query.QueryGenerator;
-import org.jeecg.common.util.oConvertUtils;
-import org.jeecg.modules.system.entity.SysDictItem;
-import org.jeecg.modules.system.service.ISysDictItemService;
+import com.logiant.common.system.query.QueryGenerator;
+import com.logiant.common.util.oConvertUtils;
+import com.logiant.modules.system.entity.SysDictItem;
+import com.logiant.modules.system.service.ISysDictItemService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.web.bind.annotation.RequestBody;

@@ -1,9 +1,9 @@
-package org.jeecg.common.util.sqlInjection;
+package com.logiant.common.util.sqlInjection;
 
 import net.sf.jsqlparser.parser.CCJSqlParserDefaultVisitor;
 import net.sf.jsqlparser.parser.SimpleNode;
 import net.sf.jsqlparser.statement.select.UnionOp;
-import org.jeecg.common.exception.JeecgSqlInjectionException;
+import com.logiant.common.exception.JeecgSqlInjectionException;
 
 /**
  * 基于抽象语法树(AST)的注入攻击分析实现

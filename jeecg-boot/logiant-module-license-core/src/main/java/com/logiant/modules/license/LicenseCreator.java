@@ -1,4 +1,4 @@
-package org.jeecg.modules.license;
+package com.logiant.modules.license;
 
 import de.schlichtherle.license.*;
 import org.apache.logging.log4j.LogManager;

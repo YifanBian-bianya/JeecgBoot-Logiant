@@ -1,11 +1,11 @@
-package org.jeecg.modules.system.test;
+package com.logiant.modules.system.test;
 
-import org.jeecg.JeecgSystemApplication;
-import org.jeecg.modules.demo.mock.MockController;
-import org.jeecg.modules.demo.test.entity.JeecgDemo;
-import org.jeecg.modules.demo.test.mapper.JeecgDemoMapper;
-import org.jeecg.modules.demo.test.service.IJeecgDemoService;
-import org.jeecg.modules.system.service.ISysDataLogService;
+import com.logiant.JeecgSystemApplication;
+import com.logiant.modules.demo.mock.MockController;
+import com.logiant.modules.demo.test.entity.JeecgDemo;
+import com.logiant.modules.demo.test.mapper.JeecgDemoMapper;
+import com.logiant.modules.demo.test.service.IJeecgDemoService;
+import com.logiant.modules.system.service.ISysDataLogService;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;

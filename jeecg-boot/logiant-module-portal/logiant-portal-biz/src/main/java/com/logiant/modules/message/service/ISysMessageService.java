@@ -1,7 +1,7 @@
-package org.jeecg.modules.message.service;
+package com.logiant.modules.message.service;
 
-import org.jeecg.common.system.base.service.JeecgService;
-import org.jeecg.modules.message.entity.SysMessage;
+import com.logiant.common.system.base.service.JeecgService;
+import com.logiant.modules.message.entity.SysMessage;
 
 /**
  * @Description: 消息

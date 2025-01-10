@@ -1,13 +1,13 @@
-package org.jeecg.modules.system.service.impl;
+package com.logiant.modules.system.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import org.jeecg.common.constant.CommonConstant;
+import com.logiant.common.constant.CommonConstant;
 import org.jeecg.common.util.RedisUtil;
-import org.jeecg.modules.system.constant.DefIndexConst;
-import org.jeecg.modules.system.entity.SysRoleIndex;
-import org.jeecg.modules.system.mapper.SysRoleIndexMapper;
-import org.jeecg.modules.system.service.ISysRoleIndexService;
+import com.logiant.modules.system.constant.DefIndexConst;
+import com.logiant.modules.system.entity.SysRoleIndex;
+import com.logiant.modules.system.mapper.SysRoleIndexMapper;
+import com.logiant.modules.system.service.ISysRoleIndexService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;

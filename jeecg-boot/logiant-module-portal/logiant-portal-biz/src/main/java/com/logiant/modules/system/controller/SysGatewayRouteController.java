@@ -1,4 +1,4 @@
-package org.jeecg.modules.system.controller;
+package com.logiant.modules.system.controller;
 
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
@@ -7,11 +7,11 @@ import io.swagger.annotations.Api;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang.StringUtils;
 import org.apache.shiro.authz.annotation.RequiresPermissions;
-import org.jeecg.common.api.vo.Result;
-import org.jeecg.common.system.base.controller.JeecgController;
-import org.jeecg.common.util.oConvertUtils;
-import org.jeecg.modules.system.entity.SysGatewayRoute;
-import org.jeecg.modules.system.service.ISysGatewayRouteService;
+import com.logiant.common.api.vo.Result;
+import com.logiant.common.system.base.controller.JeecgController;
+import com.logiant.common.util.oConvertUtils;
+import com.logiant.modules.system.entity.SysGatewayRoute;
+import com.logiant.modules.system.service.ISysGatewayRouteService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

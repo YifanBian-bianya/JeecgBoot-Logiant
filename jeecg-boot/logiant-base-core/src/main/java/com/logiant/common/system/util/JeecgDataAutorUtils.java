@@ -1,8 +1,8 @@
-package org.jeecg.common.system.util;
+package com.logiant.common.system.util;
 
-import org.jeecg.common.system.vo.SysPermissionDataRuleModel;
-import org.jeecg.common.system.vo.SysUserCacheInfo;
-import org.jeecg.common.util.SpringContextUtils;
+import com.logiant.common.system.vo.SysPermissionDataRuleModel;
+import com.logiant.common.system.vo.SysUserCacheInfo;
+import com.logiant.common.util.SpringContextUtils;
 import org.springframework.util.StringUtils;
 
 import javax.servlet.http.HttpServletRequest;

@@ -1,8 +1,8 @@
-package org.jeecg.modules.message.mapper;
+package com.logiant.modules.message.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import org.apache.ibatis.annotations.Select;
-import org.jeecg.modules.message.entity.SysMessageTemplate;
+import com.logiant.modules.message.entity.SysMessageTemplate;
 
 import java.util.List;
 

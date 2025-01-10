@@ -1,12 +1,12 @@
-//package org.jeecg.modules.demo.cloud.controller;
+//package com.logiant.modules.demo.cloud.controller;
 //
 //import com.alibaba.csp.sentinel.annotation.SentinelResource;
 //import io.swagger.annotations.Api;
 //import io.swagger.annotations.ApiOperation;
 //import lombok.extern.slf4j.Slf4j;
-//import org.jeecg.common.api.vo.Result;
-//import org.jeecg.common.system.api.ISysBaseAPI;
-//import org.jeecg.common.system.vo.DictModel;
+//import com.logiant.common.api.vo.Result;
+//import com.logiant.common.system.api.ISysBaseAPI;
+//import com.logiant.common.system.vo.DictModel;
 //import org.springframework.beans.factory.annotation.Autowired;
 //import org.springframework.web.bind.annotation.GetMapping;
 //import org.springframework.web.bind.annotation.RequestMapping;

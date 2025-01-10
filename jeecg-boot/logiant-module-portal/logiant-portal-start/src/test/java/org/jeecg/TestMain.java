@@ -1,7 +1,7 @@
 //package org.jeecg;
 //
 //import com.alibaba.fastjson.JSONObject;
-//import org.jeecg.common.util.RestUtil;
+//import com.logiant.common.util.RestUtil;
 //import org.springframework.http.HttpHeaders;
 //import org.springframework.http.HttpMethod;
 //import org.springframework.http.MediaType;

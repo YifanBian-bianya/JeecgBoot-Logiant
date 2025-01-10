@@ -1,9 +1,9 @@
-package org.jeecg.modules.message.service.impl;
+package com.logiant.modules.message.service.impl;
 
-import org.jeecg.common.system.base.service.impl.JeecgServiceImpl;
-import org.jeecg.modules.message.entity.SysMessage;
-import org.jeecg.modules.message.mapper.SysMessageMapper;
-import org.jeecg.modules.message.service.ISysMessageService;
+import com.logiant.common.system.base.service.impl.JeecgServiceImpl;
+import com.logiant.modules.message.entity.SysMessage;
+import com.logiant.modules.message.mapper.SysMessageMapper;
+import com.logiant.modules.message.service.ISysMessageService;
 import org.springframework.stereotype.Service;
 
 /**

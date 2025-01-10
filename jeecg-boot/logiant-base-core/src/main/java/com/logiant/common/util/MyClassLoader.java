@@ -1,6 +1,6 @@
-package org.jeecg.common.util;
+package com.logiant.common.util;
 
-import org.jeecg.common.constant.SymbolConstant;
+import com.logiant.common.constant.SymbolConstant;
 
 /**
  * @Author  张代浩

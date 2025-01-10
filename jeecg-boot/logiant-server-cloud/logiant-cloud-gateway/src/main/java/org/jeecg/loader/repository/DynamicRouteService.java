@@ -1,7 +1,7 @@
-package org.jeecg.loader.repository;
+package com.logiant.loader.repository;
 
 import lombok.extern.slf4j.Slf4j;
-import org.jeecg.loader.repository.MyInMemoryRouteDefinitionRepository;
+import com.logiant.loader.repository.MyInMemoryRouteDefinitionRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.gateway.event.RefreshRoutesEvent;
 import org.springframework.cloud.gateway.route.RouteDefinition;

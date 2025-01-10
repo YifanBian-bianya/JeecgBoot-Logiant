@@ -1,4 +1,4 @@
-package org.jeecg.config.init;
+package com.logiant.config.init;
 
 import org.apache.catalina.Context;
 import org.apache.tomcat.util.scan.StandardJarScanner;

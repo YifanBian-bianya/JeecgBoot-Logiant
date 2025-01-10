@@ -1,4 +1,4 @@
-package org.jeecg.modules.test.seata.account.entity;
+package com.logiant.modules.test.seata.account.entity;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;

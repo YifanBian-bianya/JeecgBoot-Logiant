@@ -1,4 +1,4 @@
-package org.jeecg.modules.demo.mock.vxe.entity;
+package com.logiant.modules.demo.mock.vxe.entity;
 
 import lombok.Data;
 

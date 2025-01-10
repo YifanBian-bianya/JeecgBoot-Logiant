@@ -1,4 +1,4 @@
-package org.jeecg.modules.monitor.actuator.httptrace;
+package com.logiant.modules.monitor.actuator.httptrace;
 
 import lombok.Getter;
 import org.springframework.boot.actuate.endpoint.annotation.Endpoint;

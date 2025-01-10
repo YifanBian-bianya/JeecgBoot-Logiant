@@ -1,4 +1,4 @@
-package org.jeecg.common.system.util;
+package com.logiant.common.system.util;
 
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.JWTVerifier;
@@ -18,17 +18,17 @@ import javax.servlet.http.HttpSession;
 
 import lombok.extern.slf4j.Slf4j;
 import org.apache.shiro.SecurityUtils;
-import org.jeecg.common.api.vo.Result;
-import org.jeecg.common.constant.CommonConstant;
-import org.jeecg.common.constant.DataBaseConstant;
-import org.jeecg.common.constant.SymbolConstant;
-import org.jeecg.common.constant.TenantConstant;
-import org.jeecg.common.exception.JeecgBootException;
-import org.jeecg.common.system.vo.LoginUser;
-import org.jeecg.common.system.vo.SysUserCacheInfo;
-import org.jeecg.common.util.DateUtils;
-import org.jeecg.common.util.SpringContextUtils;
-import org.jeecg.common.util.oConvertUtils;
+import com.logiant.common.api.vo.Result;
+import com.logiant.common.constant.CommonConstant;
+import com.logiant.common.constant.DataBaseConstant;
+import com.logiant.common.constant.SymbolConstant;
+import com.logiant.common.constant.TenantConstant;
+import com.logiant.common.exception.JeecgBootException;
+import com.logiant.common.system.vo.LoginUser;
+import com.logiant.common.system.vo.SysUserCacheInfo;
+import com.logiant.common.util.DateUtils;
+import com.logiant.common.util.SpringContextUtils;
+import com.logiant.common.util.oConvertUtils;
 
 /**
  * @Author Scott

@@ -1,8 +1,8 @@
-package org.jeecg.common.constant;
+package com.logiant.common.constant;
 
 import com.alibaba.fastjson.JSONObject;
 import org.apache.commons.lang3.StringUtils;
-import org.jeecg.common.util.oConvertUtils;
+import com.logiant.common.util.oConvertUtils;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.io.Resource;
 import org.springframework.stereotype.Component;

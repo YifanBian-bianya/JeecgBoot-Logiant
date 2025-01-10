@@ -1,8 +1,8 @@
-package org.jeecg.modules.system.security;
+package com.logiant.modules.system.security;
 
-import org.jeecg.common.constant.SymbolConstant;
-import org.jeecg.common.util.oConvertUtils;
-import org.jeecg.common.util.security.AbstractQueryBlackListHandler;
+import com.logiant.common.constant.SymbolConstant;
+import com.logiant.common.util.oConvertUtils;
+import com.logiant.common.util.security.AbstractQueryBlackListHandler;
 import org.springframework.stereotype.Component;
 
 import java.net.URLDecoder;

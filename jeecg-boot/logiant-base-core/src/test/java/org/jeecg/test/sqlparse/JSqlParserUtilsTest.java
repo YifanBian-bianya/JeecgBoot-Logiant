@@ -1,9 +1,9 @@
-package org.jeecg.test.sqlparse;
+package com.logiant.test.sqlparse;
 
 import net.sf.jsqlparser.JSQLParserException;
-import org.jeecg.common.util.oConvertUtils;
-import org.jeecg.common.util.sqlparse.JSqlParserUtils;
-import org.jeecg.common.util.sqlparse.vo.SelectSqlInfo;
+import com.logiant.common.util.oConvertUtils;
+import com.logiant.common.util.sqlparse.JSqlParserUtils;
+import com.logiant.common.util.sqlparse.vo.SelectSqlInfo;
 import org.junit.Test;
 
 import java.util.Map;

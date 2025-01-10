@@ -1,13 +1,13 @@
-package org.jeecg.modules.message.job;
+package com.logiant.modules.message.job;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import lombok.extern.slf4j.Slf4j;
-import org.jeecg.common.api.dto.message.MessageDTO;
-import org.jeecg.common.system.api.ISysBaseAPI;
-import org.jeecg.common.util.DateUtils;
-import org.jeecg.modules.message.entity.SysMessage;
-import org.jeecg.modules.message.handle.enums.SendMsgStatusEnum;
-import org.jeecg.modules.message.service.ISysMessageService;
+import com.logiant.common.api.dto.message.MessageDTO;
+import com.logiant.common.system.api.ISysBaseAPI;
+import com.logiant.common.util.DateUtils;
+import com.logiant.modules.message.entity.SysMessage;
+import com.logiant.modules.message.handle.enums.SendMsgStatusEnum;
+import com.logiant.modules.message.service.ISysMessageService;
 import org.quartz.Job;
 import org.quartz.JobExecutionContext;
 import org.quartz.JobExecutionException;

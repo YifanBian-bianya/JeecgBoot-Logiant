@@ -1,15 +1,15 @@
-package org.jeecg.modules.demo.test.service.impl;
+package com.logiant.modules.demo.test.service.impl;
 
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.apache.shiro.SecurityUtils;
 import org.jeecg.common.constant.CacheConstant;
-import org.jeecg.common.system.query.QueryGenerator;
-import org.jeecg.common.system.vo.LoginUser;
-import org.jeecg.modules.demo.test.entity.JeecgDemo;
-import org.jeecg.modules.demo.test.mapper.JeecgDemoMapper;
-import org.jeecg.modules.demo.test.service.IJeecgDemoService;
+import com.logiant.common.system.query.QueryGenerator;
+import com.logiant.common.system.vo.LoginUser;
+import com.logiant.modules.demo.test.entity.JeecgDemo;
+import com.logiant.modules.demo.test.mapper.JeecgDemoMapper;
+import com.logiant.modules.demo.test.service.IJeecgDemoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;

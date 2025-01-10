@@ -1,14 +1,14 @@
-package org.jeecg.modules.system.controller;
+package com.logiant.modules.system.controller;
 
 import lombok.extern.slf4j.Slf4j;
-import org.jeecg.common.api.vo.Result;
-import org.jeecg.common.constant.CommonConstant;
-import org.jeecg.common.constant.SymbolConstant;
-import org.jeecg.common.constant.enums.FileTypeEnum;
-import org.jeecg.common.exception.JeecgBootException;
-import org.jeecg.common.util.CommonUtils;
-import org.jeecg.common.util.filter.SsrfFileTypeFilter;
-import org.jeecg.common.util.oConvertUtils;
+import com.logiant.common.api.vo.Result;
+import com.logiant.common.constant.CommonConstant;
+import com.logiant.common.constant.SymbolConstant;
+import com.logiant.common.constant.enums.FileTypeEnum;
+import com.logiant.common.exception.JeecgBootException;
+import com.logiant.common.util.CommonUtils;
+import com.logiant.common.util.filter.SsrfFileTypeFilter;
+import com.logiant.common.util.oConvertUtils;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.util.AntPathMatcher;

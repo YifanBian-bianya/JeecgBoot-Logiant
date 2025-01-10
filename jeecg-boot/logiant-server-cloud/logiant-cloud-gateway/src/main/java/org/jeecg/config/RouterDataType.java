@@ -1,4 +1,4 @@
-package org.jeecg.config;
+package com.logiant.config;
 
 /**
  * nocos配置方式枚举

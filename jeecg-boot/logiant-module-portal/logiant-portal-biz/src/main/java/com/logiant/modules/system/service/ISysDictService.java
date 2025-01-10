@@ -1,13 +1,13 @@
-package org.jeecg.modules.system.service;
+package com.logiant.modules.system.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import org.jeecg.common.system.vo.DictModel;
-import org.jeecg.common.system.vo.DictQuery;
-import org.jeecg.modules.system.entity.SysDict;
-import org.jeecg.modules.system.entity.SysDictItem;
-import org.jeecg.modules.system.model.DuplicateCheckVo;
-import org.jeecg.modules.system.model.TreeSelectModel;
-import org.jeecg.modules.system.vo.lowapp.SysDictVo;
+import com.logiant.common.system.vo.DictModel;
+import com.logiant.common.system.vo.DictQuery;
+import com.logiant.modules.system.entity.SysDict;
+import com.logiant.modules.system.entity.SysDictItem;
+import com.logiant.modules.system.model.DuplicateCheckVo;
+import com.logiant.modules.system.model.TreeSelectModel;
+import com.logiant.modules.system.vo.lowapp.SysDictVo;
 
 import java.util.List;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package org.jeecg.modules.system.constant;
+package com.logiant.modules.system.constant;
 
 /**
  * 默认首页常量

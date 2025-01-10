@@ -1,9 +1,9 @@
-package org.jeecg.modules.system.service;
+package com.logiant.modules.system.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import org.jeecg.modules.system.entity.SysThirdAccount;
-import org.jeecg.modules.system.entity.SysUser;
-import org.jeecg.modules.system.model.ThirdLoginModel;
+import com.logiant.modules.system.entity.SysThirdAccount;
+import com.logiant.modules.system.entity.SysUser;
+import com.logiant.modules.system.model.ThirdLoginModel;
 
 import java.util.List;
 

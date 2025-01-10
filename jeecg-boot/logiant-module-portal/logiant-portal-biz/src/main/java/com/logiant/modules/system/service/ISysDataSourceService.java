@@ -1,8 +1,8 @@
-package org.jeecg.modules.system.service;
+package com.logiant.modules.system.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import org.jeecg.common.api.vo.Result;
-import org.jeecg.modules.system.entity.SysDataSource;
+import com.logiant.common.api.vo.Result;
+import com.logiant.modules.system.entity.SysDataSource;
 
 /**
  * @Description: 多数据源管理

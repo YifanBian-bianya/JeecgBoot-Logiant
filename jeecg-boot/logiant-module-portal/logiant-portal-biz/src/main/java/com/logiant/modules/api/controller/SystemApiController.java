@@ -1,15 +1,15 @@
-package org.jeecg.modules.api.controller;
+package com.logiant.modules.api.controller;
 
 import com.alibaba.fastjson.JSONObject;
 import lombok.extern.slf4j.Slf4j;
-import org.jeecg.common.api.dto.DataLogDTO;
-import org.jeecg.common.api.dto.OnlineAuthDTO;
-import org.jeecg.common.api.dto.message.*;
-import org.jeecg.common.api.vo.Result;
-import org.jeecg.common.desensitization.util.SensitiveInfoUtil;
-import org.jeecg.common.system.vo.*;
-import org.jeecg.modules.system.service.ISysUserService;
-import org.jeecg.modules.system.service.impl.SysBaseApiImpl;
+import com.logiant.common.api.dto.DataLogDTO;
+import com.logiant.common.api.dto.OnlineAuthDTO;
+import com.logiant.common.api.dto.message.*;
+import com.logiant.common.api.vo.Result;
+import com.logiant.common.desensitization.util.SensitiveInfoUtil;
+import com.logiant.common.system.vo.*;
+import com.logiant.modules.system.service.ISysUserService;
+import com.logiant.modules.system.service.impl.SysBaseApiImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

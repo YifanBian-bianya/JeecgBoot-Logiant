@@ -1,4 +1,4 @@
-package org.jeecg.modules.system.util;
+package com.logiant.modules.system.util;
 
 import org.springframework.web.util.HtmlUtils;
 

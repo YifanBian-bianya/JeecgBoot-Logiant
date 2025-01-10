@@ -1,6 +1,6 @@
-package org.jeecg.common.system.query;
+package com.logiant.common.system.query;
 
-import org.jeecg.common.util.oConvertUtils;
+import com.logiant.common.util.oConvertUtils;
 
 /**
  * 查询链接规则

@@ -1,4 +1,4 @@
-//package org.jeecg.config;
+//package com.logiant.config;
 //
 //import java.io.IOException;
 //import java.util.ArrayList;
@@ -9,12 +9,12 @@
 //import javax.servlet.http.HttpServletRequest;
 //
 //import org.jeecg.common.config.mqtoken.UserTokenContext;
-//import org.jeecg.common.constant.CommonConstant;
-//import org.jeecg.common.util.DateUtils;
-//import org.jeecg.common.util.PathMatcherUtil;
-//import org.jeecg.config.sign.interceptor.SignAuthConfiguration;
-//import org.jeecg.config.sign.util.HttpUtils;
-//import org.jeecg.config.sign.util.SignUtil;
+//import com.logiant.common.constant.CommonConstant;
+//import com.logiant.common.util.DateUtils;
+//import com.logiant.common.util.PathMatcherUtil;
+//import com.logiant.config.sign.interceptor.SignAuthConfiguration;
+//import com.logiant.config.sign.util.HttpUtils;
+//import com.logiant.config.sign.util.SignUtil;
 //import org.springframework.beans.factory.ObjectFactory;
 //import org.springframework.boot.autoconfigure.AutoConfigureBefore;
 //import org.springframework.boot.autoconfigure.condition.ConditionalOnClass;

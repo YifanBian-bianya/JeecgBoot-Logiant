@@ -1,4 +1,4 @@
-package org.jeecg.config.shiro;
+package com.logiant.config.shiro;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

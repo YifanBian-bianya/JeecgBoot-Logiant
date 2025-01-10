@@ -1,7 +1,7 @@
-package org.jeecg.common.aspect.annotation;
+package com.logiant.common.aspect.annotation;
 
-import org.jeecg.common.constant.CommonConstant;
-import org.jeecg.common.constant.enums.ModuleType;
+import com.logiant.common.constant.CommonConstant;
+import com.logiant.common.constant.enums.ModuleType;
 
 import java.lang.annotation.*;
 
