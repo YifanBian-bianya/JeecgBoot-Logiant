@@ -56,6 +56,22 @@ public class LicenseController {
         return response;
     }
 
+    /**
+     * 申请证书
+     *
+     http://localhost:8080/jeecg-boot/license/requestLicense 的测试用请求体
+     
+     {
+	"subject": "license_demo",
+    "issuedTime": "2022-04-10 00:00:01",
+	"expiryTime": "2030-12-31 15:45:00",
+	"consumerType": "User",
+	"consumerAmount": 1,
+	"description": "这是证书描述信息"
+ }
+
+     * 
+     */
     @PostMapping(value = "/requestLicense", produces = MediaType.APPLICATION_JSON_VALUE)
     public Map<String, Object> requestLicense(@RequestBody(required = true) LicenseCreatorParam param) throws Exception {
         Map<String, Object> response = new HashMap<>();
