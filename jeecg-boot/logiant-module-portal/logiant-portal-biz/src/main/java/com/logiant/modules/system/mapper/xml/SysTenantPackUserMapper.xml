@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="org.jeecg.modules.system.mapper.SysTenantPackUserMapper">
+<mapper namespace="com.logiant.modules.system.mapper.SysTenantPackUserMapper">
 
     <!-- 查询租户下 特定套餐角色的人员列表 -->
     <select id="queryTenantPackUserNameList" resultType="java.lang.String">

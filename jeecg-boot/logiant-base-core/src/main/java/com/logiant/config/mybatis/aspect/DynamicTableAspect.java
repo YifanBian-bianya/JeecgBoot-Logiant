@@ -28,7 +28,7 @@ public class DynamicTableAspect {
     /**
      * 定义切面拦截切入点
      */
-    @Pointcut("@annotation(org.jeecg.common.aspect.annotation.DynamicTable)")
+    @Pointcut("@annotation(com.logiant.common.aspect.annotation.DynamicTable)")
     public void dynamicTable() {
     }
 

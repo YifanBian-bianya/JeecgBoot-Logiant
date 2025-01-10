@@ -42,7 +42,7 @@ public class PermissionDataAspect {
 
     private static final String SPOT_DO = ".do";
 
-    @Pointcut("@annotation(org.jeecg.common.aspect.annotation.PermissionData)")
+    @Pointcut("@annotation(com.logiant.common.aspect.annotation.PermissionData)")
     public void pointCut() {
 
     }

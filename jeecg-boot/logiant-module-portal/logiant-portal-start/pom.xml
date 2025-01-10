@@ -62,12 +62,12 @@
                     <excludes>org.spring</excludes>
                     <cfgfiles>application-dev.yml</cfgfiles>
                     <libjars>
-                        jeecg-boot-base-core-3.7.2.jar,
+                        logiant-base-core-1.0.0.jar,
                         jeecg-boot-common-3.7.2.jar,
                         jeecg-boot-starter-chatgpt-3.7.2.jar,
-                        jeecg-module-demo-3.7.2.jar,
-                        jeecg-system-biz-3.7.2.jar,
-                        jeecg-system-local-api-3.7.2.jar
+                        logiant-module-demo-1.0.0.jar,
+                        logiant-portal-biz-1.0.0.jar,
+                        logiant-portal-local-api-1.0.0.jar
                     </libjars>
                 </configuration>
                 <executions>

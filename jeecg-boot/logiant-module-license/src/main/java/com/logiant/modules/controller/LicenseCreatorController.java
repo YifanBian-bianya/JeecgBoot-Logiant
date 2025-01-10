@@ -148,6 +148,8 @@ public class LicenseCreatorController {
             param.setPrivateKeysStorePath(licensePrivateKeysStorePath);
         }
 
+        // 这里把keyPass设置为StorePass，可以兼容java 8 之后的PKCS12版本，目前为JKS版本的密钥
+
         if(StringUtils.isBlank(param.getKeyPass())){
             param.setKeyPass(licenseKeyPass);
         }
@@ -212,6 +214,14 @@ public class LicenseCreatorController {
         return resultMap;
     }
 
+    /*这是java11版本的，可以使用PKCS12
+    * keytool -genkeypair -keysize 1024 -validity 3650 -alias "privateKey" -keystore "privateKeys.keystore" -storepass "public_password1234" -keypass "private_password1234" -dname "CN=localhost, OU=localhost, O=localhost, L=SH, ST=SH, C=CN" -storetype PKCS12
+     *keytool -exportcert -alias "privateKey" -keystore "privateKeys.keystore" -storepass "public_password1234" -file "certfile.cer"
+     *keytool -import -alias "publicCert" -file "certfile.cer" -keystore "publicCerts.keystore" -storepass "public_password1234"
+     *
+     *
+     *
+    *  */
     @RequestMapping("/encryptGenerateRequest")
     public Map<String,Object> EncryptGenerateRequest(@RequestBody String encryptedRequest) {
         Map<String,Object> resultMap = new HashMap<>(3);

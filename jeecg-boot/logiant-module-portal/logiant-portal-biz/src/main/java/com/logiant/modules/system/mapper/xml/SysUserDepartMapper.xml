@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="org.jeecg.modules.system.mapper.SysUserDepartMapper">
-    <select id="getUserDepartByUid" parameterType="String" resultType="org.jeecg.modules.system.entity.SysUserDepart">
+<mapper namespace="com.logiant.modules.system.mapper.SysUserDepartMapper">
+    <select id="getUserDepartByUid" parameterType="String" resultType="com.logiant.modules.system.entity.SysUserDepart">
 		SELECT *
 		FROM sys_user_depart
 		WHERE user_id = #{userId, jdbcType=VARCHAR}
     </select>
 
 	<!-- 查询指定部门下的用户 并且支持用户账号模糊查询 -->
-	<select id="queryDepartUserList" resultType="org.jeecg.modules.system.entity.SysUser">
+	<select id="queryDepartUserList" resultType="com.logiant.modules.system.entity.SysUser">
 		select a.* from sys_user a
 		join sys_user_depart b on b.user_id = a.id
 		join sys_depart c on b.dep_id = c.id
@@ -22,7 +22,7 @@
 	</select>
 
 	<!-- 根据部门查询部门用户 分页 -->
-	<select id="queryDepartUserPageList" resultType="org.jeecg.modules.system.entity.SysUser">
+	<select id="queryDepartUserPageList" resultType="com.logiant.modules.system.entity.SysUser">
 		<!-- update by wangshuai 2024-07-03【issues/6342】部门人员选择组件出现人员重复-->
 		select DISTINCT a.* from sys_user a
 		left join sys_user_depart b on b.user_id = a.id
@@ -40,7 +40,7 @@
 	</select>
 
     <!--获取用户信息（聊天专用）-->
-    <select id="getUserInformation" resultType="org.jeecg.modules.system.entity.SysUser">
+    <select id="getUserInformation" resultType="com.logiant.modules.system.entity.SysUser">
         select DISTINCT a.* from sys_user a
         left join sys_user_depart b on b.user_id = a.id
         left join sys_depart c on b.dep_id = c.id
@@ -57,7 +57,7 @@
     </select>
 
 	<!--获取用户信息（简版流程专用）-->
-	<select id="getProcessUserList" resultType="org.jeecg.modules.system.entity.SysUser">
+	<select id="getProcessUserList" resultType="com.logiant.modules.system.entity.SysUser">
 		select DISTINCT a.* from sys_user a
 		left join sys_user_depart b on b.user_id = a.id
 		left join sys_depart c on b.dep_id = c.id
@@ -96,7 +96,7 @@
 	</select>
 	
 	<!--根据当前租户和用户id查询用户部门数据-->
-	<select id="getTenantUserDepart" resultType="org.jeecg.modules.system.entity.SysUserDepart">
+	<select id="getTenantUserDepart" resultType="com.logiant.modules.system.entity.SysUserDepart">
 		select * from sys_user_depart
 		where
 		user_id = #{userId}
@@ -106,7 +106,7 @@
 	</select>
 
 	<!--通过部门id和租户id获取用户-->
-	<select id="getUsersByDepartTenantId" resultType="org.jeecg.modules.system.entity.SysUser">
+	<select id="getUsersByDepartTenantId" resultType="com.logiant.modules.system.entity.SysUser">
 		select su.id,su.realname from sys_user_depart sud
 		INNER JOIN sys_user su ON sud.user_id = su.id
 		INNER JOIN sys_user_tenant sut ON su.id = sut.user_id

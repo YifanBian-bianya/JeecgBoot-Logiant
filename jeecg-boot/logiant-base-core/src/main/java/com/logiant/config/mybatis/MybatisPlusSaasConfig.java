@@ -30,7 +30,7 @@ import net.sf.jsqlparser.expression.LongValue;
  *
  */
 @Configuration
-@MapperScan(value={"org.jeecg.**.mapper*"})
+@MapperScan(value={"com.logiant.**.mapper*"})
 public class MybatisPlusSaasConfig {
 
     /**

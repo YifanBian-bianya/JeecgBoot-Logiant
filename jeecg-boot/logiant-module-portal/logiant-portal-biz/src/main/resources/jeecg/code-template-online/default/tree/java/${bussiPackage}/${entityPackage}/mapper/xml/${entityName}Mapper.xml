@@ -27,7 +27,7 @@
 	</update>
 
   	<!-- 【vue3专用】 -->
-	<select id="queryListByPid" parameterType="java.lang.Object" resultType="org.jeecg.common.system.vo.SelectTreeModel">
+	<select id="queryListByPid" parameterType="java.lang.Object" resultType="com.logiant.common.system.vo.SelectTreeModel">
 		select
 		  id as "key",
 		  ${textDbFieldName} as "title",

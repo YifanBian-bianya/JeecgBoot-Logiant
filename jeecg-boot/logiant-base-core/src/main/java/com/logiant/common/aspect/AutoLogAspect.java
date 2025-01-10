@@ -46,7 +46,7 @@ public class AutoLogAspect {
     @Resource
     private BaseCommonService baseCommonService;
 
-    @Pointcut("@annotation(org.jeecg.common.aspect.annotation.AutoLog)")
+    @Pointcut("@annotation(com.logiant.common.aspect.annotation.AutoLog)")
     public void logPointCut() {
 
     }

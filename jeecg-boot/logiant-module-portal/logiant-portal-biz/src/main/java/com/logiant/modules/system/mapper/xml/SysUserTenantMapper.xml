@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="org.jeecg.modules.system.mapper.SysUserTenantMapper">
+<mapper namespace="com.logiant.modules.system.mapper.SysUserTenantMapper">
 
     <!-- 通过租户id获取数据 -->
-    <select id="getPageUserList" resultType="org.jeecg.modules.system.entity.SysUser">
+    <select id="getPageUserList" resultType="com.logiant.modules.system.entity.SysUser">
         SELECT su.id,su.username,su.realname,su.sex,su.phone FROM sys_user su
         JOIN sys_user_tenant str ON str.user_id = su.id and str.status = '1'
         WHERE su.del_flag = 0
@@ -38,7 +38,7 @@
     </select>
 
     <!--通过用户id获取租户列表-->
-    <select id="getTenantListByUserId" resultType="org.jeecg.modules.system.vo.SysUserTenantVo">
+    <select id="getTenantListByUserId" resultType="com.logiant.modules.system.vo.SysUserTenantVo">
         SELECT st.id as tenantUserId,st.name,st.trade,st.house_number,st.create_by,sut.status as userTenantStatus,sut.user_id as id
         FROM sys_user_tenant sut
         LEFT JOIN sys_tenant st ON sut.tenant_id = st.id
@@ -69,7 +69,7 @@
     </select>
     
     <!--联查用户和租户审核状态-->
-    <select id="getUserTenantPageList" resultType="org.jeecg.modules.system.vo.SysUserTenantVo">
+    <select id="getUserTenantPageList" resultType="com.logiant.modules.system.vo.SysUserTenantVo">
         SELECT su.id,su.realname,su.username,su.email,su.phone,su.avatar,su.work_no,su.org_code,sut.status,st.create_by
         FROM sys_user_tenant sut
         RIGHT JOIN sys_user su on sut.user_id = su.id and su.del_flag = 0
@@ -117,7 +117,7 @@
     </select>
     
     <!--查询未被注销的租户-->
-    <select id="getTenantNoCancel" resultType="org.jeecg.modules.system.entity.SysTenant">
+    <select id="getTenantNoCancel" resultType="com.logiant.modules.system.entity.SysTenant">
         SELECT st.id,st.name FROM sys_user_tenant sut
         JOIN sys_tenant st ON sut.tenant_id = st.id AND st.del_flag = 0 AND st.status = 1
         WHERE
@@ -137,7 +137,7 @@
 
 
     <!--根据用户id获取我的租户-->
-    <select id="getTenantPageListByUserId" resultType="org.jeecg.modules.system.entity.SysTenant">
+    <select id="getTenantPageListByUserId" resultType="com.logiant.modules.system.entity.SysTenant">
         SELECT st.id,st.name,st.status,st.trade,st.company_size,st.company_address,st.company_logo,st.house_number,st.work_place,st.position,st.department,st.create_by FROM sys_user_tenant sut
         JOIN sys_tenant st ON sut.tenant_id = st.id AND st.del_flag = 0 AND st.status = 1
         WHERE sut.user_id = #{userId}
@@ -173,7 +173,7 @@
     </select>
 
     <!--根据租户id和名称获取用户数据-->
-    <select id="getUsersByTenantIdAndName" resultType="org.jeecg.modules.system.vo.thirdapp.JwUserDepartVo">
+    <select id="getUsersByTenantIdAndName" resultType="com.logiant.modules.system.vo.thirdapp.JwUserDepartVo">
         SELECT su.id userId,su.realname,su.avatar
         FROM sys_user_tenant sut
         JOIN sys_tenant st ON sut.tenant_id = st.id and st.status = 1 and st.del_flag = 0

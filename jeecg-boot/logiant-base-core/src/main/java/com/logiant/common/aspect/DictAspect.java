@@ -53,8 +53,8 @@ public class DictAspect {
      * 定义切点Pointcut
      */
     @Pointcut("(@within(org.springframework.web.bind.annotation.RestController) || " +
-            "@within(org.springframework.stereotype.Controller) || @annotation(org.jeecg.common.aspect.annotation.AutoDict)) " +
-            "&& execution(public org.jeecg.common.api.vo.Result org.jeecg..*.*(..))")
+            "@within(org.springframework.stereotype.Controller) || @annotation(com.logiant.common.aspect.annotation.AutoDict)) " +
+            "&& execution(public com.logiant.common.api.vo.Result org.jeecg..*.*(..))")
     public void excudeService() {
     }
 

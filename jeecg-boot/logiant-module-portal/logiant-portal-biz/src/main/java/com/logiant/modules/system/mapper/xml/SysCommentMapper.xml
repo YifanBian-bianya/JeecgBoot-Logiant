@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="org.jeecg.modules.system.mapper.SysCommentMapper">
+<mapper namespace="com.logiant.modules.system.mapper.SysCommentMapper">
 
-    <resultMap id="commentResult" type="org.jeecg.modules.system.vo.SysCommentVO">
+    <resultMap id="commentResult" type="com.logiant.modules.system.vo.SysCommentVO">
         <id property="id" column="id" jdbcType="VARCHAR"/>
         <result property="tableName" column="table_name" jdbcType="VARCHAR"/>
         <result property="tableDataId" column="table_data_id" jdbcType="VARCHAR"/>
@@ -12,7 +12,7 @@
         <result property="toUserId" column="to_user_id" jdbcType="VARCHAR"/>
         <result property="commentId" column="comment_id" jdbcType="VARCHAR"/>
         <!-- 8+6 -->
-        <collection property="fileList" ofType="org.jeecg.modules.system.vo.SysCommentFileVo" javaType="java.util.List">
+        <collection property="fileList" ofType="com.logiant.modules.system.vo.SysCommentFileVo" javaType="java.util.List">
             <result property="sysFormFileId" column="sys_form_file_id" jdbcType="VARCHAR"/>
             <result property="fileId" column="file_id" jdbcType="VARCHAR"/>
             <result property="name" column="file_name" jdbcType="VARCHAR"/>
@@ -50,7 +50,7 @@
 	</select>
 
     <!-- 根据表名和数据id查询表单文件 -->
-    <select id="queryFormFileList" resultType="org.jeecg.modules.system.vo.SysCommentFileVo">
+    <select id="queryFormFileList" resultType="com.logiant.modules.system.vo.SysCommentFileVo">
 	   select
             b.id as sys_form_file_id,
             c.id as file_id,
@@ -69,7 +69,7 @@
 	</select>
 
     <!-- 根据用户名获取用户信息 -->
-    <select id="queryUserAvatarList" resultType="org.jeecg.modules.system.vo.UserAvatar">
+    <select id="queryUserAvatarList" resultType="com.logiant.modules.system.vo.UserAvatar">
 	   select id,  avatar, realname from sys_user
         WHERE id IN 
         <foreach item="id" collection="idSet"  open="(" separator="," close=")">

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="org.jeecg.modules.system.mapper.SysDepartMapper">
+<mapper namespace="com.logiant.modules.system.mapper.SysDepartMapper">
 
-	<select id="queryUserDeparts" parameterType="String" resultType="org.jeecg.modules.system.entity.SysDepart">
+	<select id="queryUserDeparts" parameterType="String" resultType="com.logiant.modules.system.entity.SysDepart">
 	   select * from sys_depart where id IN ( select dep_id from sys_user_depart where user_id = #{userId} )
 	</select>
 
     <!-- 根据username查询所拥有的部门 -->
-    <select id="queryDepartsByUsername" parameterType="String" resultType="org.jeecg.modules.system.entity.SysDepart">
+    <select id="queryDepartsByUsername" parameterType="String" resultType="com.logiant.modules.system.entity.SysDepart">
         SELECT *
         FROM sys_depart
         WHERE id IN (
@@ -45,7 +45,7 @@
         </foreach>
 	</select>
      <!--根据parent_id查询下级部门-->
-    <select id="queryTreeListByPid" parameterType="Object"  resultType="org.jeecg.modules.system.entity.SysDepart">
+    <select id="queryTreeListByPid" parameterType="Object"  resultType="com.logiant.modules.system.entity.SysDepart">
         SELECT * FROM  sys_depart where del_flag = '0'
         <choose>
             <when test="parentId != null and parentId != ''">
@@ -59,12 +59,12 @@
     </select>
 
     <!-- 根据OrgCod查询公司信息 -->
-    <select id="queryCompByOrgCode" resultType="org.jeecg.modules.system.entity.SysDepart">
+    <select id="queryCompByOrgCode" resultType="com.logiant.modules.system.entity.SysDepart">
 		select * from sys_depart where del_flag = '0' and org_category='1' and org_code= #{orgCode,jdbcType=VARCHAR}
 	</select>
     
     <!--通过父级id和租户id查询部门-->
-    <select id="queryBookDepTreeSync" resultType="org.jeecg.modules.system.entity.SysDepart">
+    <select id="queryBookDepTreeSync" resultType="com.logiant.modules.system.entity.SysDepart">
         SELECT * FROM sys_depart
         WHERE
         del_flag = '0'
@@ -89,7 +89,7 @@
     </select>
 
     <!--获取部门orgCode最大值的部门信息-->
-    <select id="getMaxCodeDepart" resultType="org.jeecg.modules.system.entity.SysDepart">
+    <select id="getMaxCodeDepart" resultType="com.logiant.modules.system.entity.SysDepart">
         SELECT * FROM sys_depart
         WHERE
         <choose>
@@ -104,7 +104,7 @@
     </select>
     
     <!--获取父级部门的数据-->
-    <select id="getDepartList" resultType="org.jeecg.modules.system.vo.lowapp.ExportDepartVo">
+    <select id="getDepartList" resultType="com.logiant.modules.system.vo.lowapp.ExportDepartVo">
         SELECT id,depart_name,parent_id FROM sys_depart
         WHERE
         tenant_id = #{tenantId}
@@ -121,7 +121,7 @@
     </select>
     
     <!--根据部门名称和租户id获取部门数据-->
-    <select id="getDepartByName" resultType="org.jeecg.modules.system.entity.SysDepart">
+    <select id="getDepartByName" resultType="com.logiant.modules.system.entity.SysDepart">
         SELECT id,depart_name,org_code,parent_id FROM sys_depart 
         where
         depart_name = #{departName}
@@ -135,7 +135,7 @@
     </select>
     
     <!--根据用户id获取用户id和部门名称-->
-    <select id="getUserDepartByTenantUserId" resultType="org.jeecg.modules.system.vo.SysUserDepVo">
+    <select id="getUserDepartByTenantUserId" resultType="com.logiant.modules.system.vo.SysUserDepVo">
         SELECT sd.depart_name, sud.user_id
         FROM sys_depart sd
         RIGHT JOIN sys_user_depart sud on sd.id = sud.dep_id and sd.del_flag = 0
@@ -148,7 +148,7 @@
     </select>
     
     <!--根据部门名称和租户id获取分页部门数据-->
-    <select id="getDepartPageByName" resultType="org.jeecg.modules.system.entity.SysDepart">
+    <select id="getDepartPageByName" resultType="com.logiant.modules.system.entity.SysDepart">
         SELECT id,depart_name,org_code,parent_id FROM sys_depart
         where
         depart_name = #{departName}
@@ -169,7 +169,7 @@
     </select>
     
     <!--系统后台导出，根据父级id和租户id查询部门数据-->
-    <select id="getSysDepartList" resultType="org.jeecg.modules.system.vo.SysDepartExportVo">
+    <select id="getSysDepartList" resultType="com.logiant.modules.system.vo.SysDepartExportVo">
         SELECT id,depart_name,parent_id,depart_name_en,depart_order,description,org_category,org_code,mobile,fax,address,memo FROM sys_depart
         WHERE
         1=1
